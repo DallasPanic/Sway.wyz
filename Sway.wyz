@@ -35,10 +35,10 @@ local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR, LUAOBFUSACTOR_KEY)
 	return TABLE_TableIndirection["obf_tableconcat%0"](TABLE_TableIndirection["result%0"]);
 end
 type_custom = typeof;
-if (not true or (4593 <= 2672)) then
+if not LPH_OBFUSCATED then
 	TABLE_TableIndirection["v556%0"] = 0 - 0;
 	while true do
-		if ((4029 <= 4853) and (TABLE_TableIndirection["v556%0"] == (7 - 5))) then
+		if ((4029 <= 4853) and ((TABLE_TableIndirection["v556%0"] == (7 - 5)) or (4593 <= 2672))) then
 			function LPH_ENCSTR(...)
 				return ...;
 			end
@@ -47,7 +47,7 @@ if (not true or (4593 <= 2672)) then
 			end
 			TABLE_TableIndirection["v556%0"] = 3;
 		end
-		if ((TABLE_TableIndirection["v556%0"] == 0) or (516 > 3434)) then
+		if ((TABLE_TableIndirection["v556%0"] == 0) or (1168 > 3156) or (516 > 3434)) then
 			function LPH_JIT(...)
 				return ...;
 			end
@@ -56,12 +56,12 @@ if (not true or (4593 <= 2672)) then
 			end
 			TABLE_TableIndirection["v556%0"] = 1;
 		end
-		if ((4046 >= 3033) and (TABLE_TableIndirection["v556%0"] == 3)) then
+		if ((TABLE_TableIndirection["v556%0"] == 3) or (572 > 4486)) then
 			function LPH_ENCFUNC(v871, v872, v873)
 				TABLE_TableIndirection["v874%0"] = 1199 - (1026 + 173);
 				while true do
-					if ((TABLE_TableIndirection["v874%0"] == (0 - 0)) or (2719 <= 1447)) then
-						if ((v872 ~= v873) or (1168 > 3156) or (4134 < 3926)) then
+					if (TABLE_TableIndirection["v874%0"] == (0 - 0)) then
+						if ((4046 >= 3033) and (1404 == 1404) and (v872 ~= v873)) then
 							return print(LUAOBFUSACTOR_DECRYPT_STR_0("\253\243\243\26\195\149\228\56\228\237\248\101\235\178\212\19\208\215\216\45", "\126\177\163\187\69\134\219\167"));
 						end
 						return v871;
@@ -73,8 +73,7 @@ if (not true or (4593 <= 2672)) then
 			end
 			break;
 		end
-		if (TABLE_TableIndirection["v556%0"] ~= (66 - (30 + 35))) then
-		else
+		if ((TABLE_TableIndirection["v556%0"] == (66 - (30 + 35))) or (3748 < 2212)) then
 			function LPH_NO_VIRTUALIZE(...)
 				return ...;
 			end
@@ -88,14 +87,14 @@ if (not true or (4593 <= 2672)) then
 	end
 end
 allowedGameIds = {[7333408316 - (1043 + 214)]=true,[4706284595 + 70770770]=true};
-if (not allowedGameIds[game[LUAOBFUSACTOR_DECRYPT_STR_0("\4\204\39\192\213\39", "\156\67\173\74\165")]] or (164 >= 2785)) then
+if (not allowedGameIds[game[LUAOBFUSACTOR_DECRYPT_STR_0("\4\204\39\192\213\39", "\156\67\173\74\165")]] or (2719 <= 1447)) then
 	warn(LUAOBFUSACTOR_DECRYPT_STR_0("\0\191\64\5\252\33\71\57\178\9\31\175\102\72\59\163\9\5\169\54\86\59\165\93\19\184", "\38\84\215\41\118\220\70"));
 	return;
 end
-if (not getgenv()[LUAOBFUSACTOR_DECRYPT_STR_0("\99\1\35\11", "\158\48\118\66\114")] or (525 == 2109)) then
+if (not getgenv()[LUAOBFUSACTOR_DECRYPT_STR_0("\99\1\35\11", "\158\48\118\66\114")] or (1180 == 2180)) then
 	getgenv()[LUAOBFUSACTOR_DECRYPT_STR_0("\152\51\17\47", "\155\203\68\112\86\19\197")] = {};
 end
-if ((33 == 33) and (getgenv()[LUAOBFUSACTOR_DECRYPT_STR_0("\117\202\55\229", "\152\38\189\86\156\32\24\133")][LUAOBFUSACTOR_DECRYPT_STR_0("\235\78\189\103\240\69\162\71\248\78\142\72\246\82\164\82\249\83", "\38\156\55\199")] or (572 > 4486))) then
+if ((4090 < 4653) and getgenv()[LUAOBFUSACTOR_DECRYPT_STR_0("\117\202\55\229", "\152\38\189\86\156\32\24\133")][LUAOBFUSACTOR_DECRYPT_STR_0("\235\78\189\103\240\69\162\71\248\78\142\72\246\82\164\82\249\83", "\38\156\55\199")]) then
 	warn(LUAOBFUSACTOR_DECRYPT_STR_0("\155\106\125\49\93\99\227\89\232\124\112\58\22\117\254\90\232\116\114\34\22\119\238\70\172", "\35\200\29\28\72\115\20\154"));
 	return;
 else
@@ -129,7 +128,7 @@ task.spawn(function()
 		else
 			Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\50\19\57\31\83\0\48\10\63\89", "\61\97\82\102\90")]:SetValue(TABLE_TableIndirection["v558%0"]);
 		end
-		if ((3054 <= 4015) and (1404 == 1404) and TABLE_TableIndirection["v1%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\32\167\68\198\83\27\13", "\105\204\78\203\43\167\55\126")]) then
+		if (TABLE_TableIndirection["v1%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\32\167\68\198\83\27\13", "\105\204\78\203\43\167\55\126")] or (2652 < 196) or (4134 < 3926)) then
 			break;
 		end
 	end
@@ -140,11 +139,10 @@ task.spawn(function()
 	while true do
 		task.wait(0.03 + 0);
 		TABLE_TableIndirection["v559%0"] = Options[LUAOBFUSACTOR_DECRYPT_STR_0("\197\12\94\247\216\192\151\34\228\8\77\237\240\231\155", "\78\136\109\57\158\187\130\226")]:GetState();
-		if (TABLE_TableIndirection["v559%0"] == Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\19\62\254\248\61\29\236\253\50\58\237\226", "\145\94\95\153")][LUAOBFUSACTOR_DECRYPT_STR_0("\203\204\24\192\75", "\215\157\173\116\181\46")]) then
-		else
+		if (TABLE_TableIndirection["v559%0"] ~= Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\19\62\254\248\61\29\236\253\50\58\237\226", "\145\94\95\153")][LUAOBFUSACTOR_DECRYPT_STR_0("\203\204\24\192\75", "\215\157\173\116\181\46")]) then
 			Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\24\181\140\251\217\23\161\135\254\223\33\167", "\186\85\212\235\146")]:SetValue(TABLE_TableIndirection["v559%0"]);
 		end
-		if ((1871 < 3382) and (TABLE_TableIndirection["v1%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\247\143\26\241\56\234\93\198", "\56\162\225\118\158\89\142")] or (3748 < 2212))) then
+		if ((4135 < 4817) and TABLE_TableIndirection["v1%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\247\143\26\241\56\234\93\198", "\56\162\225\118\158\89\142")]) then
 			break;
 		end
 	end
@@ -165,12 +163,11 @@ CombatOtherBox = Tabs[LUAOBFUSACTOR_DECRYPT_STR_0("\208\126\251\14\17\94", "\42\
 noRecoilEnabled = false;
 recoilModule = nil;
 function setupNoRecoil(v155)
-	if ((1293 <= 2166) and v155) then
+	if ((272 == 272) and v155) then
 		TABLE_TableIndirection["v632%0"] = 0;
 		while true do
-			if (TABLE_TableIndirection["v632%0"] ~= 0) then
-			else
-				if (not recoilModule or (1180 == 2180) or (2579 < 123)) then
+			if ((TABLE_TableIndirection["v632%0"] == 0) or (164 >= 2785)) then
+				if ((100 <= 3123) and not recoilModule) then
 					pcall(function()
 						recoilModule = require(TABLE_TableIndirection["v10%0"]:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\37\28\169", "\201\98\105\199\54\221\132\119")):WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\138\15\145\40\18\33\191", "\204\217\108\227\65\98\85")):WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\108\198\246\234\37\204\118\194\251\225\32\197\76", "\160\62\163\149\133\76")));
 					end);
@@ -178,20 +175,20 @@ function setupNoRecoil(v155)
 				if recoilModule then
 					TABLE_TableIndirection["v994%0"] = 0;
 					while true do
-						if ((TABLE_TableIndirection["v994%0"] == (0 + 0)) or (846 >= 2368)) then
-							if ((4090 < 4653) and not recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\233\175\31\38\196\223\174\12\35\252\216\165\21\59\240\194\165\29", "\163\182\192\109\79")]) then
+						if ((TABLE_TableIndirection["v994%0"] == (0 + 0)) or (525 == 2109)) then
+							if not recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\233\175\31\38\196\223\174\12\35\252\216\165\21\59\240\194\165\29", "\163\182\192\109\79")] then
 								recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\11\41\18\201\242\61\40\1\204\202\58\35\24\212\198\32\35\16", "\149\84\70\96\160")] = recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\54\3\21\249\11\18\8\253", "\141\88\102\109")];
 							end
-							if (not recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\140\92\216\121\29\52\91\192\191\108\217\117\14\15\80\194\188\90\198\93\15\49\65\200\163\95\195\117\8", "\161\211\51\170\16\122\93\53")] or (2652 < 196) or (4012 <= 3358)) then
+							if (not recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\140\92\216\121\29\52\91\192\191\108\217\117\14\15\80\194\188\90\198\93\15\49\65\200\163\95\195\117\8", "\161\211\51\170\16\122\93\53")] or (1369 > 4987)) then
 								recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\196\161\160\33\252\167\188\41\247\145\161\45\239\156\183\43\244\167\190\5\238\162\166\33\235\162\187\45\233", "\72\155\206\210")] = recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\85\127\64\60\54\69\117\93\2\30\83\118\64\7\35\74\115\81\28", "\83\38\26\52\110")];
 							end
 							TABLE_TableIndirection["v994%0"] = 1;
 						end
-						if ((4135 < 4817) and (TABLE_TableIndirection["v994%0"] == (979 - (553 + 424)))) then
+						if ((TABLE_TableIndirection["v994%0"] == (979 - (553 + 424))) or (863 >= 4584)) then
 							noRecoilEnabled = true;
 							break;
 						end
-						if ((1494 <= 3005) and (272 == 272) and (TABLE_TableIndirection["v994%0"] == (1 - 0))) then
+						if ((TABLE_TableIndirection["v994%0"] == (1 - 0)) or (724 >= 1668)) then
 							recoilModule.nextStep = function()
 							end;
 							recoilModule.setRecoilMultiplier = function()
@@ -205,15 +202,16 @@ function setupNoRecoil(v155)
 				break;
 			end
 		end
-	elseif (recoilModule or (3111 == 2134)) then
-		if ((100 <= 3123) and recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\204\224\74\223\34\95\253\238\84\233\43\83\235\251\107\194\32\70", "\54\147\143\56\182\69")]) then
+	elseif recoilModule then
+		if ((33 == 33) and recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\204\224\74\223\34\95\253\238\84\233\43\83\235\251\107\194\32\70", "\54\147\143\56\182\69")]) then
 			recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\216\132\231\93\236\194\132\239", "\191\182\225\159\41")] = recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\20\29\58\92\140\142\204\42\30\23\91\142\159\214\24\6\45\69", "\162\75\114\72\53\235\231")];
 			recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\179\51\86\235\84\11\130\61\72\221\93\7\148\40\119\246\86\18", "\98\236\92\36\130\51")] = nil;
 		end
-		if ((2355 == 2355) and (recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\155\22\30\179\66\161\187\49\168\38\31\191\81\154\176\51\171\16\0\151\80\164\161\57\180\21\5\191\87", "\80\196\121\108\218\37\200\213")] or (1369 > 4987))) then
+		if ((3054 <= 4015) and recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\155\22\30\179\66\161\187\49\168\38\31\191\81\154\176\51\171\16\0\151\80\164\161\57\180\21\5\191\87", "\80\196\121\108\218\37\200\213")]) then
 			TABLE_TableIndirection["v942%0"] = 0 + 0;
 			while true do
-				if ((TABLE_TableIndirection["v942%0"] == (0 + 0)) or (863 >= 4584) or (588 <= 432)) then
+				if (TABLE_TableIndirection["v942%0"] ~= (0 + 0)) then
+				else
 					recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\19\118\22\77\78\13\133\9\127\47\106\71\26\131\16\127\11\122\89", "\234\96\19\98\31\43\110")] = recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\57\16\64\206\171\123\133\7\19\109\212\169\102\185\3\28\93\206\160\95\158\10\11\91\215\160\123\142\20", "\235\102\127\50\167\204\18")];
 					recoilModule[LUAOBFUSACTOR_DECRYPT_STR_0("\111\174\231\42\67\39\94\160\249\28\87\43\68\147\240\32\75\39\92\140\224\47\80\39\64\173\252\38\86", "\78\48\193\149\67\36")] = nil;
 					break;
@@ -235,22 +233,20 @@ function setupNoSpread(v157)
 	TABLE_TableIndirection["v160%0"] = nil;
 	TABLE_TableIndirection["v161%0"] = nil;
 	while true do
-		if (TABLE_TableIndirection["v158%0"] ~= (2 + 0)) then
-		else
-			if ((4797 >= 3895) and TABLE_TableIndirection["v161%0"] and TABLE_TableIndirection["v161%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\173\243\134\99\60\237\133\21\146\245\146\98", "\118\224\156\226\22\80\136\214"))) then
+		if ((428 < 1804) and (TABLE_TableIndirection["v158%0"] == (2 + 0))) then
+			if (TABLE_TableIndirection["v161%0"] and TABLE_TableIndirection["v161%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\173\243\134\99\60\237\133\21\146\245\146\98", "\118\224\156\226\22\80\136\214"))) then
 				TABLE_TableIndirection["v876%0"] = 0 - 0;
 				TABLE_TableIndirection["v877%0"] = nil;
 				TABLE_TableIndirection["v878%0"] = nil;
 				while true do
-					if ((0 - 0) ~= TABLE_TableIndirection["v876%0"]) then
-					else
+					if (((0 - 0) == TABLE_TableIndirection["v876%0"]) or (3325 > 4613)) then
 						TABLE_TableIndirection["v877%0"], TABLE_TableIndirection["v878%0"] = pcall(require, TABLE_TableIndirection["v161%0"]);
-						if ((3577 == 3577) and TABLE_TableIndirection["v877%0"] and (type(TABLE_TableIndirection["v878%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\86\239\91\140\71", "\224\34\142\57")) and TABLE_TableIndirection["v878%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\203\183\193\220\103\244\110\30\204\162\196\217\94\228\81\26", "\110\190\199\165\189\19\145\61")]) then
-							if ((3794 > 3693) and v157) then
+						if ((1871 < 3382) and ((TABLE_TableIndirection["v877%0"] and (type(TABLE_TableIndirection["v878%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\86\239\91\140\71", "\224\34\142\57")) and TABLE_TableIndirection["v878%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\203\183\193\220\103\244\110\30\204\162\196\217\94\228\81\26", "\110\190\199\165\189\19\145\61")]) or (4950 <= 4553))) then
+							if v157 then
 								TABLE_TableIndirection["v1115%0"] = 0;
 								while true do
-									if ((TABLE_TableIndirection["v1115%0"] == (0 - 0)) or (724 >= 1668) or (1275 == 4100)) then
-										if ((428 < 1804) and not spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\207\251\115\233\159\194\233\251\101\237\138\195\247\254\123\252", "\167\186\139\23\136\235")]) then
+									if ((1293 <= 2166) and (2665 <= 3933) and (TABLE_TableIndirection["v1115%0"] == (0 - 0))) then
+										if ((3273 == 3273) and not spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\207\251\115\233\159\194\233\251\101\237\138\195\247\254\123\252", "\167\186\139\23\136\235")]) then
 											spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\15\165\140\12\14\176\187\29\8\176\137\9\55\160\132\25", "\109\122\213\232")] = TABLE_TableIndirection["v878%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\251\231\166\49\250\242\145\32\252\242\163\52\195\226\174\36", "\80\142\151\194")];
 										end
 										TABLE_TableIndirection["v878%0"].updateSpreadMult = function(...)
@@ -259,7 +255,7 @@ function setupNoSpread(v157)
 										break;
 									end
 								end
-							elseif (spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\22\214\115\77\23\195\68\92\17\195\118\72\46\211\123\88", "\44\99\166\23")] or (1591 >= 3580)) then
+							elseif (((3824 > 409) and spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\22\214\115\77\23\195\68\92\17\195\118\72\46\211\123\88", "\44\99\166\23")]) or (2579 < 123)) then
 								TABLE_TableIndirection["v878%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\105\231\45\55\39\161\79\231\59\51\50\160\81\226\37\34", "\196\28\151\73\86\83")] = spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\230\19\45\17\150\93\43\102\225\6\40\20\175\77\20\98", "\22\147\99\73\112\226\56\120")];
 							end
 						end
@@ -270,31 +266,29 @@ function setupNoSpread(v157)
 			noSpreadEnabled = v157;
 			break;
 		end
-		if ((983 <= 1808) and (TABLE_TableIndirection["v158%0"] == (0 - 0))) then
+		if ((TABLE_TableIndirection["v158%0"] == (0 - 0)) or (846 >= 2368)) then
 			TABLE_TableIndirection["v159%0"] = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\138\112\242\249\132\187\116\246\240\137\139\97\237\231\140\191\112", "\237\216\21\130\149"));
 			TABLE_TableIndirection["v160%0"] = TABLE_TableIndirection["v159%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\183\90\86\83\163", "\62\226\46\63\63\208\169"));
 			TABLE_TableIndirection["v158%0"] = 754 - (239 + 514);
 		end
-		if (TABLE_TableIndirection["v158%0"] ~= 1) then
-		else
-			if ((TABLE_TableIndirection["v160%0"] and TABLE_TableIndirection["v160%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\200\22\81\150\19\8\28\93\247\16\69\151", "\62\133\121\53\227\127\109\79"))) or (3325 > 4613)) then
+		if (((2087 == 2087) and (TABLE_TableIndirection["v158%0"] == 1)) or (4012 <= 3358)) then
+			if ((1494 <= 3005) and TABLE_TableIndirection["v160%0"] and TABLE_TableIndirection["v160%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\200\22\81\150\19\8\28\93\247\16\69\151", "\62\133\121\53\227\127\109\79"))) then
 				TABLE_TableIndirection["v879%0"] = 0;
 				TABLE_TableIndirection["v880%0"] = nil;
 				TABLE_TableIndirection["v881%0"] = nil;
 				while true do
-					if ((TABLE_TableIndirection["v879%0"] == (0 + 0)) or (4950 <= 4553) or (2150 <= 1197)) then
+					if ((TABLE_TableIndirection["v879%0"] == (0 + 0)) or (3404 > 4503)) then
 						TABLE_TableIndirection["v880%0"], TABLE_TableIndirection["v881%0"] = pcall(require, TABLE_TableIndirection["v160%0"]);
-						if ((2665 <= 3933) and TABLE_TableIndirection["v880%0"] and (type(TABLE_TableIndirection["v881%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\4\21\48\249\211", "\194\112\116\82\149\182\206")) and TABLE_TableIndirection["v881%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\56\184\92\20\217\209\30\43\173\77\28\244\237\42\48\186\73\27\212\235\1\55", "\110\89\200\44\120\160\130")]) then
-							if ((3273 == 3273) and v157) then
-								if ((3769 >= 1173) and (3824 > 409) and not spreadPatched) then
+						if ((TABLE_TableIndirection["v880%0"] and (type(TABLE_TableIndirection["v881%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\4\21\48\249\211", "\194\112\116\82\149\182\206")) and TABLE_TableIndirection["v881%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\56\184\92\20\217\209\30\43\173\77\28\244\237\42\48\186\73\27\212\235\1\55", "\110\89\200\44\120\160\130")]) or (3506 <= 1309) or (3111 == 2134)) then
+							if v157 then
+								if ((2355 == 2355) and (2955 == 2955) and not spreadPatched) then
 									TABLE_TableIndirection["v1126%0"] = 1329 - (797 + 532);
 									while true do
-										if (TABLE_TableIndirection["v1126%0"] ~= (1 + 0)) then
-										else
+										if ((TABLE_TableIndirection["v1126%0"] == (1 + 0)) or (2903 == 1495) or (588 <= 432)) then
 											spreadPatched = true;
 											break;
 										end
-										if ((1485 == 1485) and (TABLE_TableIndirection["v1126%0"] == (0 + 0))) then
+										if ((4797 >= 3895) and (4546 >= 2275) and (TABLE_TableIndirection["v1126%0"] == (0 + 0))) then
 											spreadOldFuncs[LUAOBFUSACTOR_DECRYPT_STR_0("\170\211\91\74\90\121\43\95\174\194\79\114\76\110\50\95\174\192\95\79\76\68", "\45\203\163\43\38\35\42\91")] = TABLE_TableIndirection["v881%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\211\149\204\47\158\154\68\192\128\221\39\179\166\112\219\151\217\32\147\160\91\220", "\52\178\229\188\67\231\201")];
 											TABLE_TableIndirection["v881%0"].applySpreadToDirection = function(v1183, ...)
 												return v1183;
@@ -342,12 +336,12 @@ local function lockAtHeight()
 	end);
 end
 local function stopLock()
-	if ((2087 == 2087) and TABLE_TableIndirection["conn%0"]) then
+	if ((819 >= 22) and TABLE_TableIndirection["conn%0"]) then
 		TABLE_TableIndirection["conn%0"]:Disconnect();
 		TABLE_TableIndirection["conn%0"] = nil;
 	end
 	TABLE_TableIndirection["root%0"] = getRoot();
-	if ((TABLE_TableIndirection["root%0"] and TABLE_TableIndirection["groundY%0"]) or (3315 <= 2782)) then
+	if (TABLE_TableIndirection["root%0"] and TABLE_TableIndirection["groundY%0"]) then
 		TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\198\255\26\50\43\224", "\70\133\185\104\83")] = CFrame.new(TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\74\87\35\221\13\74\74", "\169\100\37\36\74")].X, TABLE_TableIndirection["groundY%0"], TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\48\136\177\89\20\142\173\94", "\48\96\231\194")].Z);
 		TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\254\95\2\34\26\209\187\154", "\227\168\58\110\77\121\184\207")] = Vector3.new(0, 0, 0);
 	end
@@ -355,9 +349,9 @@ end
 CombatOtherBox:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\79\44\143\76\176\194\116\183", "\197\27\92\223\32\209\187\17"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\55\90\219\239", "\155\99\63\163")]=LUAOBFUSACTOR_DECRYPT_STR_0("\182\193\225\189\181\133\155\212\179", "\228\226\177\193\237\217"),[LUAOBFUSACTOR_DECRYPT_STR_0("\16\181\37\231\33\188\55", "\134\84\208\67")]=false}):AddKeyPicker(LUAOBFUSACTOR_DECRYPT_STR_0("\39\188\182\80\18\181\131\78\56\169\159", "\60\115\204\230"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\195\63\237\113\242\54\255", "\16\135\90\139")]="V",[LUAOBFUSACTOR_DECRYPT_STR_0("\103\109\8\48\122\91\127\83\120\3\0\90\85\108\81", "\24\52\20\102\83\46\52")]=true,[LUAOBFUSACTOR_DECRYPT_STR_0("\233\32\37\33", "\111\164\79\65\68")]=LUAOBFUSACTOR_DECRYPT_STR_0("\242\214\132\217\34\239", "\138\166\185\227\190\78"),[LUAOBFUSACTOR_DECRYPT_STR_0("\255\113\221\35", "\121\171\20\165\87\50\67")]=LUAOBFUSACTOR_DECRYPT_STR_0("\242\40\249\6\181\3\223\61\171\118\146\7\223", "\98\166\88\217\86\217"),[LUAOBFUSACTOR_DECRYPT_STR_0("\216\249\76\40", "\188\150\150\25\97\230")]=false});
 CombatOtherBox:AddSlider(LUAOBFUSACTOR_DECRYPT_STR_0("\245\143\89\17\9\249", "\141\186\233\63\98\108"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\197\239\52\162", "\69\145\138\76\214")]=LUAOBFUSACTOR_DECRYPT_STR_0("\95\201\143\154\186\2", "\118\16\175\233\233\223"),[LUAOBFUSACTOR_DECRYPT_STR_0("\166\141\59", "\29\235\228\85\219\142\235")]=20,[LUAOBFUSACTOR_DECRYPT_STR_0("\16\213\162", "\50\93\180\218\189\23\46\71")]=80,[LUAOBFUSACTOR_DECRYPT_STR_0("\250\161\93\77\81\208\92", "\40\190\196\59\44\36\188")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\14\74\201\186\254\116\3\59", "\109\92\37\188\212\154\29")]=0,[LUAOBFUSACTOR_DECRYPT_STR_0("\55\250\162\197\56\66", "\58\100\143\196\163\81")]=LUAOBFUSACTOR_DECRYPT_STR_0("\90\81\55\182\59\90", "\110\122\34\67\195\95\41\133")});
 Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\65\161\107\70\215\108\180\73", "\182\21\209\59\42")]:OnChanged(function(state)
-	if state then
+	if ((3162 == 3162) and state) then
 		TABLE_TableIndirection["root%0"] = getRoot();
-		if (TABLE_TableIndirection["root%0"] or (3404 > 4503) or (876 >= 2964)) then
+		if (TABLE_TableIndirection["root%0"] or (2369 > 4429)) then
 			TABLE_TableIndirection["groundY%0"] = TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\135\88\214\20\53\183\184\89", "\222\215\55\165\125\65")]['Y'];
 			TABLE_TableIndirection["targetY%0"] = Options[LUAOBFUSACTOR_DECRYPT_STR_0("\3\215\192\9\247\213", "\42\76\177\166\122\146\161\141")][LUAOBFUSACTOR_DECRYPT_STR_0("\147\139\9\219\124", "\22\197\234\101\174\25")];
 			lockAtHeight();
@@ -368,16 +362,16 @@ Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\65\161\107\70\215\108\180\73", "\182\21\20
 end);
 Options[LUAOBFUSACTOR_DECRYPT_STR_0("\2\50\163\207\115\187", "\230\77\84\197\188\22\207\183")]:OnChanged(function(value)
 	TABLE_TableIndirection["targetY%0"] = value;
-	if Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\205\4\246\240\141\184\245\39", "\85\153\116\166\156\236\193\144")][LUAOBFUSACTOR_DECRYPT_STR_0("\146\225\65\166\225", "\96\196\128\45\211\132")] then
+	if ((3577 == 3577) and (4095 >= 3183) and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\205\4\246\240\141\184\245\39", "\85\153\116\166\156\236\193\144")][LUAOBFUSACTOR_DECRYPT_STR_0("\146\225\65\166\225", "\96\196\128\45\211\132")]) then
 		stopLock();
 		lockAtHeight();
 	end
 end);
 TABLE_TableIndirection["v5%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\22\133\122\77\211\172\160\221\39\172\127\91\215\171", "\184\85\237\27\63\178\207\212")]:Connect(function()
-	if (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\60\73\57\83\9\64\12\77", "\63\104\57\105")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\63\151\148\72\10\158\161\86", "\36\107\231\196")][LUAOBFUSACTOR_DECRYPT_STR_0("\107\180\174\146\88", "\231\61\213\194")]) then
+	if ((3794 > 3693) and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\60\73\57\83\9\64\12\77", "\63\104\57\105")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\63\151\148\72\10\158\161\86", "\36\107\231\196")][LUAOBFUSACTOR_DECRYPT_STR_0("\107\180\174\146\88", "\231\61\213\194")]) then
 		task.wait();
 		TABLE_TableIndirection["root%0"] = getRoot();
-		if (TABLE_TableIndirection["root%0"] or (3506 <= 1309)) then
+		if TABLE_TableIndirection["root%0"] then
 			TABLE_TableIndirection["groundY%0"] = TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\57\162\46\122\29\164\50\125", "\19\105\205\93")]['Y'];
 			TABLE_TableIndirection["targetY%0"] = Options[LUAOBFUSACTOR_DECRYPT_STR_0("\134\14\216\146\58\189", "\95\201\104\190\225")][LUAOBFUSACTOR_DECRYPT_STR_0("\153\202\205\219\170", "\174\207\171\161")];
 			lockAtHeight();
@@ -390,7 +384,7 @@ Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\79\13\250\56\82\24\82\6\248\57\90\6", "\11
 	TABLE_TableIndirection["InstantEquip%0"] = v;
 end);
 game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\207\51\11\33\12\50\235\47\6\23", "\64\157\70\101\114\105"))[LUAOBFUSACTOR_DECRYPT_STR_0("\104\173\166\241\4\66\173\166\247", "\112\32\200\199\131")]:Connect(function()
-	if (((2955 == 2955) and TABLE_TableIndirection["InstantEquip%0"] and player[LUAOBFUSACTOR_DECRYPT_STR_0("\15\88\93\170\194\168\54\41\66", "\66\76\48\60\216\163\203")] and player[LUAOBFUSACTOR_DECRYPT_STR_0("\152\135\122\248\79\207\39\177", "\68\218\230\25\147\63\174")]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\153\37\92\64", "\214\205\74\51\44"))) or (2232 > 2497)) then
+	if ((TABLE_TableIndirection["InstantEquip%0"] and player[LUAOBFUSACTOR_DECRYPT_STR_0("\15\88\93\170\194\168\54\41\66", "\66\76\48\60\216\163\203")] and player[LUAOBFUSACTOR_DECRYPT_STR_0("\152\135\122\248\79\207\39\177", "\68\218\230\25\147\63\174")]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\153\37\92\64", "\214\205\74\51\44"))) or (3711 < 1008) or (1275 == 4100)) then
 		player[LUAOBFUSACTOR_DECRYPT_STR_0("\217\68\227\238\118\249\88\231\238", "\23\154\44\130\156")][LUAOBFUSACTOR_DECRYPT_STR_0("\57\179\160\175\56\28\24\162", "\115\113\198\205\206\86")]:EquipTool(player[LUAOBFUSACTOR_DECRYPT_STR_0("\166\86\253\81\148\86\253\81", "\58\228\55\158")]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\128\134\223\34", "\85\212\233\176\78\92\205")));
 	end
 end);
@@ -399,28 +393,28 @@ TABLE_TableIndirection["LocalPlayer%0"] = TABLE_TableIndirection["Players%0"][LU
 TABLE_TableIndirection["AntiRadEnabled%0"] = false;
 local function DeleteRadiationFolder()
 	TABLE_TableIndirection["ps%0"] = TABLE_TableIndirection["LocalPlayer%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\26\36\160\90\115\56\27\162\81\127\58\60\178", "\22\74\72\193\35"));
-	if (TABLE_TableIndirection["ps%0"] or (2903 == 1495) or (2110 <= 332)) then
+	if (TABLE_TableIndirection["ps%0"] or (1591 >= 3580)) then
 		TABLE_TableIndirection["folder%0"] = TABLE_TableIndirection["ps%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\30\120\224\81\45\109\237\87\34\67\235\86\41\106", "\56\76\25\132"));
-		if ((4546 >= 2275) and TABLE_TableIndirection["folder%0"]) then
+		if TABLE_TableIndirection["folder%0"] then
 			TABLE_TableIndirection["folder%0"]:Destroy();
 		end
 	end
 end
 task.spawn(function()
 	while task.wait(0.5) do
-		if ((819 >= 22) and TABLE_TableIndirection["AntiRadEnabled%0"]) then
+		if TABLE_TableIndirection["AntiRadEnabled%0"] then
 			DeleteRadiationFolder();
 		end
 	end
 end);
 CombatOtherBox:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\95\207\191\47\221\95\197\162\39\219\87\206\165", "\175\62\161\203\70"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\8\216\219\7", "\85\92\189\163\115")]=LUAOBFUSACTOR_DECRYPT_STR_0("\8\162\36\49\100\158\49\60\32\173\36\49\38\162", "\88\73\204\80"),[LUAOBFUSACTOR_DECRYPT_STR_0("\10\134\22\71\60\214\58", "\186\78\227\112\38\73")]=false}):OnChanged(function(v)
 	TABLE_TableIndirection["AntiRadEnabled%0"] = v;
-	if ((3686 > 3172) and (3162 == 3162) and v) then
+	if ((983 <= 1808) and (v or (1049 <= 906))) then
 		DeleteRadiationFolder();
 	end
 end);
 TABLE_TableIndirection["LocalPlayer%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\223\95\252\71\82\121\232\82\239\116\87\126\249\83", "\26\156\55\157\53\51")]:Connect(function()
-	if (TABLE_TableIndirection["AntiRadEnabled%0"] or (2369 > 4429) or (4474 < 820)) then
+	if TABLE_TableIndirection["AntiRadEnabled%0"] then
 		task.wait(0.5);
 		DeleteRadiationFolder();
 	end
@@ -436,15 +430,15 @@ TABLE_TableIndirection["LocalPlayer%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\245\125\40
 	TABLE_TableIndirection["hum%0"] = char:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\32\41\23\65\10\2\244\12", "\157\104\92\122\32\100\109"));
 	TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\150\181\202\224\40\42\157\155\172\177\202\216", "\203\195\198\175\170\93\71\237")] = true;
 	TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\4\94\51\197\97\30\235\43\89", "\156\78\43\94\181\49\113")] = 50;
-	if ((4095 >= 3183) and TABLE_TableIndirection["NoJumpCD%0"]) then
+	if (((4513 > 2726) and TABLE_TableIndirection["NoJumpCD%0"]) or (2150 <= 1197)) then
 		game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\71\251\193\177\34\77\105\103\252\247\166\25\85\112\113\237", "\25\18\136\164\195\107\35"))[LUAOBFUSACTOR_DECRYPT_STR_0("\194\56\164\95\64\185\208\173\237\62\189", "\216\136\77\201\47\18\220\161")]:Connect(function()
 			TABLE_TableIndirection["root%0"] = char:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\5\249\38\219\6\211\139\41\222\36\213\28\236\131\63\248", "\226\77\140\75\186\104\188"));
 			TABLE_TableIndirection["humanoid%0"] = char:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\145\219\221\62\65\182\199\212", "\47\217\174\176\95"));
-			if not (TABLE_TableIndirection["root%0"] and TABLE_TableIndirection["humanoid%0"]) then
+			if (not (TABLE_TableIndirection["root%0"] and TABLE_TableIndirection["humanoid%0"]) or (1481 >= 2658)) then
 				return;
 			end
 			TABLE_TableIndirection["ray%0"] = workspace:Raycast(TABLE_TableIndirection["root%0"].Position, Vector3.new(0, -6, 0));
-			if (TABLE_TableIndirection["ray%0"] or (3711 < 1008)) then
+			if ((3769 >= 1173) and TABLE_TableIndirection["ray%0"]) then
 				TABLE_TableIndirection["humanoid%0"]:ChangeState(Enum[LUAOBFUSACTOR_DECRYPT_STR_0("\144\200\123\3\188\91\113\34\139\201\119\22\183\96\97\54\189", "\70\216\189\22\98\210\52\24")].Jumping);
 			end
 		end);
@@ -520,16 +514,16 @@ TABLE_TableIndirection["v18%0"]:AddSlider(LUAOBFUSACTOR_DECRYPT_STR_0("\208\79\5
 end);
 terrain = TABLE_TableIndirection["v11%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\176\127\208\31\133\115\204", "\109\228\26\162"));
 defaultGrass = nil;
-if ((terrain and sethiddenproperty) or (1049 <= 906)) then
+if ((1485 == 1485) and terrain and sethiddenproperty) then
 	defaultGrass = (gethiddenproperty and gethiddenproperty(terrain, LUAOBFUSACTOR_DECRYPT_STR_0("\122\224\254\119\242\231\74\236\242\118", "\134\62\133\157\24\128"))) or false;
 end
 TABLE_TableIndirection["v18%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\41\170\61\203\46\162\197", "\182\103\197\122\185\79\209"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\199\130\249\99", "\40\147\231\129\23\96")]=LUAOBFUSACTOR_DECRYPT_STR_0("\91\247\204\98\169\173\207\102", "\188\21\152\236\37\219\204"),[LUAOBFUSACTOR_DECRYPT_STR_0("\100\236\49\13\85\229\35", "\108\32\137\87")]=false}):OnChanged(function(v224)
-	if ((4279 >= 2882) and terrain and sethiddenproperty) then
+	if ((terrain and sethiddenproperty) or (3315 <= 2782)) then
 		TABLE_TableIndirection["v634%0"] = 0;
 		while true do
-			if ((TABLE_TableIndirection["v634%0"] == (0 - 0)) or (2029 >= 3521)) then
+			if ((TABLE_TableIndirection["v634%0"] == (0 - 0)) or (3220 == 1364)) then
 				sethiddenproperty(terrain, LUAOBFUSACTOR_DECRYPT_STR_0("\142\237\3\169\61\248\95\80\165\230", "\57\202\136\96\198\79\153\43"), (not v224 and defaultGrass) or false);
-				if _G[LUAOBFUSACTOR_DECRYPT_STR_0("\136\44\164\180\130\171\253\135\44\173\180", "\152\203\67\202\199\237\199")] then
+				if (_G[LUAOBFUSACTOR_DECRYPT_STR_0("\136\44\164\180\130\171\253\135\44\173\180", "\152\203\67\202\199\237\199")] or (876 >= 2964)) then
 					warn((v224 and LUAOBFUSACTOR_DECRYPT_STR_0("\222\70\163\0\13\116\109\239\245\77\179\79\59\124\106\231\248\79\165\11", "\134\154\35\192\111\127\21\25")) or LUAOBFUSACTOR_DECRYPT_STR_0("\156\35\10\5\50\211\172\47\6\4\51\146\157\40\8\8\44\215\188", "\178\216\70\105\106\64"));
 				end
 				break;
@@ -542,10 +536,10 @@ end);
 v9 = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\39\211\223\32\80\165\120\12", "\22\107\186\184\72\36\204"));
 originalAtmosphere = v9:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\198\169\41\65\29\247\181\33\92\11", "\110\135\221\68\46"));
 savedAtmosphereProps = nil;
-if ((4513 > 2726) and originalAtmosphere) then
+if (originalAtmosphere or (1054 > 3392)) then
 	TABLE_TableIndirection["v561%0"] = 1227 - (322 + 905);
 	while true do
-		if ((TABLE_TableIndirection["v561%0"] == (611 - (602 + 9))) or (1481 >= 2658) or (2037 >= 4642)) then
+		if ((TABLE_TableIndirection["v561%0"] == (611 - (602 + 9))) or (2232 > 2497)) then
 			savedAtmosphereProps = {};
 			for v889, v890 in ipairs({LUAOBFUSACTOR_DECRYPT_STR_0("\199\51\2\248\199\167\34", "\91\131\86\108\139\174\211"),LUAOBFUSACTOR_DECRYPT_STR_0("\212\45\190\4\88\239", "\61\155\75\216\119"),LUAOBFUSACTOR_DECRYPT_STR_0("\39\164\190\51\74", "\189\100\203\210\92\56\105"),LUAOBFUSACTOR_DECRYPT_STR_0("\11\84\254\41\54", "\72\79\49\157"),LUAOBFUSACTOR_DECRYPT_STR_0("\175\188\48\174\141", "\220\232\208\81"),LUAOBFUSACTOR_DECRYPT_STR_0("\221\191\255\53", "\193\149\222\133\80\76\58")}) do
 				savedAtmosphereProps[v890] = originalAtmosphere[v890];
@@ -559,14 +553,13 @@ TABLE_TableIndirection["v18%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\232\82\1
 	TABLE_TableIndirection["v226%0"] = 440 - (382 + 58);
 	TABLE_TableIndirection["v227%0"] = nil;
 	while true do
-		if (TABLE_TableIndirection["v226%0"] ~= 0) then
-		else
+		if (TABLE_TableIndirection["v226%0"] == 0) then
 			TABLE_TableIndirection["v227%0"] = v9:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\24\242\75\160\40\41\238\67\189\62", "\91\89\134\38\207"));
-			if ((1720 < 4458) and (v225 or (3220 == 1364))) then
-				if TABLE_TableIndirection["v227%0"] then
+			if (v225 or (2110 <= 332)) then
+				if ((3686 > 3172) and TABLE_TableIndirection["v227%0"]) then
 					TABLE_TableIndirection["v227%0"]:Destroy();
 				end
-			elseif (not v9:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\101\250\197\57\0\192\47\65\252\205", "\71\36\142\168\86\115\176")) and savedAtmosphereProps) then
+			elseif ((not v9:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\101\250\197\57\0\192\47\65\252\205", "\71\36\142\168\86\115\176")) and savedAtmosphereProps) or (676 >= 1642)) then
 				TABLE_TableIndirection["v996%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\254\181\127\176\16\174\94\76\205\164", "\41\191\193\18\223\99\222\54"));
 				for v1014, v1015 in pairs(savedAtmosphereProps) do
 					TABLE_TableIndirection["v996%0"][v1014] = v1015;
@@ -578,14 +571,14 @@ TABLE_TableIndirection["v18%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\232\82\1
 	end
 end);
 TABLE_TableIndirection["v18%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\2\14\239\59\112\40\14\203", "\17\76\97\188\83"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\177\34\193\35", "\195\229\71\185\87\80\227\43")]=LUAOBFUSACTOR_DECRYPT_STR_0("\206\243\64\99\231\225\248\15\71", "\143\128\156\96\48"),[LUAOBFUSACTOR_DECRYPT_STR_0("\156\212\246\19\2\180\197", "\119\216\177\144\114")]=false}):OnChanged(function(v228)
-	if v228 then
-		if (not TABLE_TableIndirection["v21%0"] or (1054 > 3392)) then
+	if (v228 or (4474 < 820)) then
+		if ((4279 >= 2882) and not TABLE_TableIndirection["v21%0"]) then
 			TABLE_TableIndirection["v21%0"] = TABLE_TableIndirection["v7%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\251\44\247\70\204\59\202\86\204\57\233\71\205", "\34\169\73\153")]:Connect(function()
 				v9[LUAOBFUSACTOR_DECRYPT_STR_0("\141\224\4\137\171\224\56\131\171\232\4\156\185", "\235\202\140\107")] = false;
 			end);
 		end
 	else
-		if (TABLE_TableIndirection["v21%0"] or (676 >= 1642)) then
+		if (TABLE_TableIndirection["v21%0"] or (2029 >= 3521)) then
 			TABLE_TableIndirection["v21%0"]:Disconnect();
 			TABLE_TableIndirection["v21%0"] = nil;
 		end
@@ -595,11 +588,11 @@ end);
 ambientColor = v9[LUAOBFUSACTOR_DECRYPT_STR_0("\91\185\41\129\127\186\63", "\232\26\212\75")];
 TABLE_TableIndirection["v18%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\22\68\112\225\242\57\93\87\230\246\53\69\119\236", "\151\87\41\18\136"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\111\170\210\196", "\158\59\207\170\176")]=LUAOBFUSACTOR_DECRYPT_STR_0("\110\83\49\64\137\65\74", "\236\47\62\83\41"),[LUAOBFUSACTOR_DECRYPT_STR_0("\222\172\38\58\191\142\238", "\226\154\201\64\91\202")]=false}):AddColorPicker(LUAOBFUSACTOR_DECRYPT_STR_0("\224\68\31\17\79\178\213\106\18\20\69\174\241\64\30\19\79\174", "\220\161\41\125\120\42"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\152\116\166\15\169\125\180", "\110\220\17\192")]=ambientColor,[LUAOBFUSACTOR_DECRYPT_STR_0("\64\112\32\22\238", "\199\20\25\84\122\139\87\145")]=LUAOBFUSACTOR_DECRYPT_STR_0("\102\4\223\167\30\228\83\73\254\161\23\229\85", "\138\39\105\189\206\123"),[LUAOBFUSACTOR_DECRYPT_STR_0("\60\6\133\33\241\248\204\244", "\159\127\103\233\77\147\153\175")]=function(v229)
 	ambientColor = v229;
-	if ((4136 > 2397) and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\38\253\230\163\69\197\19\213\234\171\66\199\2\244", "\171\103\144\132\202\32")][LUAOBFUSACTOR_DECRYPT_STR_0("\38\46\229\25\21", "\108\112\79\137")]) then
+	if (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\38\253\230\163\69\197\19\213\234\171\66\199\2\244", "\171\103\144\132\202\32")][LUAOBFUSACTOR_DECRYPT_STR_0("\38\46\229\25\21", "\108\112\79\137")] or (2037 >= 4642)) then
 		v9[LUAOBFUSACTOR_DECRYPT_STR_0("\30\207\118\33\168\15\253", "\85\95\162\20\72\205\97\137")] = ambientColor;
 	end
 end}):OnChanged(function(v230)
-	if (v230 or (4334 == 4245)) then
+	if ((1720 < 4458) and (4136 > 2397) and v230) then
 		v9[LUAOBFUSACTOR_DECRYPT_STR_0("\214\240\40\213\8\246\217", "\173\151\157\74\188\109\152")] = ambientColor;
 	else
 		v9[LUAOBFUSACTOR_DECRYPT_STR_0("\5\5\58\212\217\90\193", "\147\68\104\88\189\188\52\181")] = Color3.fromRGB(127, 127, 407 - 280);
@@ -616,24 +609,24 @@ end
 TABLE_TableIndirection["v65%0"] = {[LUAOBFUSACTOR_DECRYPT_STR_0("\38\243\212\248\15\248\209", "\154\99\157\181")]=false,[LUAOBFUSACTOR_DECRYPT_STR_0("\174\7\227\169\239\136", "\140\237\111\140\192")]=LUAOBFUSACTOR_DECRYPT_STR_0("\40\22\115\29", "\120\102\121\29"),[LUAOBFUSACTOR_DECRYPT_STR_0("\141\240\170\62\184\202\189", "\91\204\131\217")]="",[LUAOBFUSACTOR_DECRYPT_STR_0("\248\240\89\193\190\216", "\158\174\159\53\180\211\189")]=1,[LUAOBFUSACTOR_DECRYPT_STR_0("\125\239\228\218\126\187\83\241\222\210\98\187\86\238", "\213\50\157\141\189\23")]={}};
 local function v66(v334)
 	TABLE_TableIndirection["v335%0"] = v334[LUAOBFUSACTOR_DECRYPT_STR_0("\206\39\150\165\124\176", "\196\158\70\228\192\18")];
-	if (not TABLE_TableIndirection["v335%0"] or (TABLE_TableIndirection["v335%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\100\94\28\75", "\185\42\63\113\46")] ~= LUAOBFUSACTOR_DECRYPT_STR_0("\246\210\37\32\58\192\201\32\58\19", "\123\180\189\65\89")) or (4276 <= 3031) or (436 > 3021)) then
+	if (not TABLE_TableIndirection["v335%0"] or (TABLE_TableIndirection["v335%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\100\94\28\75", "\185\42\63\113\46")] ~= LUAOBFUSACTOR_DECRYPT_STR_0("\246\210\37\32\58\192\201\32\58\19", "\123\180\189\65\89")) or (4334 == 4245)) then
 		return false;
 	end
-	if ((713 <= 847) and ((v334[LUAOBFUSACTOR_DECRYPT_STR_0("\236\141\253\225", "\233\162\236\144\132")] == LUAOBFUSACTOR_DECRYPT_STR_0("\154\205\234\57\181\255\90\188\208", "\63\210\164\158\122\217\150")) or (v334[LUAOBFUSACTOR_DECRYPT_STR_0("\29\202\251\233", "\152\83\171\150\140\41")] == LUAOBFUSACTOR_DECRYPT_STR_0("\170\224\130\55\231\19\7\150\198\143\58\209\21\28", "\104\226\133\227\83\180\123")) or (v334[LUAOBFUSACTOR_DECRYPT_STR_0("\45\10\46\85", "\48\99\107\67")] == LUAOBFUSACTOR_DECRYPT_STR_0("\246\175\105\243\37\122\204\167\126\196\40\105\253\170\116\213\35\111", "\27\190\198\29\176\77")))) then
+	if ((v334[LUAOBFUSACTOR_DECRYPT_STR_0("\236\141\253\225", "\233\162\236\144\132")] == LUAOBFUSACTOR_DECRYPT_STR_0("\154\205\234\57\181\255\90\188\208", "\63\210\164\158\122\217\150")) or (v334[LUAOBFUSACTOR_DECRYPT_STR_0("\29\202\251\233", "\152\83\171\150\140\41")] == LUAOBFUSACTOR_DECRYPT_STR_0("\170\224\130\55\231\19\7\150\198\143\58\209\21\28", "\104\226\133\227\83\180\123")) or (v334[LUAOBFUSACTOR_DECRYPT_STR_0("\45\10\46\85", "\48\99\107\67")] == LUAOBFUSACTOR_DECRYPT_STR_0("\246\175\105\243\37\122\204\167\126\196\40\105\253\170\116\213\35\111", "\27\190\198\29\176\77")) or (436 > 3021)) then
 		TABLE_TableIndirection["v642%0"] = 406 - (183 + 223);
 		TABLE_TableIndirection["v643%0"] = nil;
 		TABLE_TableIndirection["v644%0"] = nil;
 		while true do
-			if ((2154 <= 4031) and ((1 - 0) == TABLE_TableIndirection["v642%0"])) then
+			if ((713 <= 847) and ((1 - 0) == TABLE_TableIndirection["v642%0"])) then
 				TABLE_TableIndirection["v644%0"] = TABLE_TableIndirection["v643%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\223\74\239\49\167\90", "\46\143\43\157\84\201")];
-				if (not TABLE_TableIndirection["v644%0"] or not TABLE_TableIndirection["v644%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\122\119\82\199\83", "\168\55\24\54\162\63\115"))) then
+				if ((2154 <= 4031) and (not TABLE_TableIndirection["v644%0"] or not TABLE_TableIndirection["v644%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\122\119\82\199\83", "\168\55\24\54\162\63\115")) or (4276 <= 3031))) then
 					return false;
 				end
 				TABLE_TableIndirection["v642%0"] = 2 + 0;
 			end
-			if ((TABLE_TableIndirection["v642%0"] == (0 + 0)) or (4782 <= 1199)) then
+			if ((4615 == 4615) and (TABLE_TableIndirection["v642%0"] == (0 + 0))) then
 				TABLE_TableIndirection["v643%0"] = TABLE_TableIndirection["v335%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\39\251\50\133\220\218", "\174\119\154\64\224\178")];
-				if ((4615 == 4615) and (not TABLE_TableIndirection["v643%0"] or not TABLE_TableIndirection["v643%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\30\113\202\119", "\132\74\30\165\27\101\199\122")))) then
+				if (not TABLE_TableIndirection["v643%0"] or not TABLE_TableIndirection["v643%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\30\113\202\119", "\132\74\30\165\27\101\199\122")) or (4782 <= 1199)) then
 					return false;
 				end
 				TABLE_TableIndirection["v642%0"] = 338 - (10 + 327);
@@ -649,8 +642,7 @@ local function v67(v336, v337)
 	TABLE_TableIndirection["v338%0"] = 0;
 	TABLE_TableIndirection["v339%0"] = nil;
 	while true do
-		if (TABLE_TableIndirection["v338%0"] ~= (338 - (118 + 220))) then
-		else
+		if ((4839 >= 3700) and (TABLE_TableIndirection["v338%0"] == (338 - (118 + 220)))) then
 			TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\88\179\166\66\72\254\28", "\120\25\192\213\39\60\183")] = v336;
 			TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\46\79\51\93\21\69", "\40\120\32\95")] = v337;
 			TABLE_TableIndirection["v338%0"] = 1 + 0;
@@ -658,25 +650,26 @@ local function v67(v336, v337)
 		if ((450 - (108 + 341)) ~= TABLE_TableIndirection["v338%0"]) then
 		else
 			TABLE_TableIndirection["v339%0"] = TABLE_TableIndirection["v5%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\25\163\56\104\174\28\46\174\43", "\127\90\203\89\26\207")];
-			if ((4839 >= 3700) and TABLE_TableIndirection["v339%0"] and TABLE_TableIndirection["v339%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\240\58\171\206\5", "\157\189\85\207\171\105"))) then
+			if ((89 < 221) and TABLE_TableIndirection["v339%0"] and TABLE_TableIndirection["v339%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\240\58\171\206\5", "\157\189\85\207\171\105"))) then
 				for v947, v948 in ipairs(TABLE_TableIndirection["v339%0"]:GetChildren()) do
-					if ((89 < 221) and v948:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\242\174\215\185", "\99\166\193\184\213"))) then
+					if ((2054 >= 1421) and v948:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\242\174\215\185", "\99\166\193\184\213"))) then
 						TABLE_TableIndirection["v1017%0"] = v948:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\244\184\132\162\45\158\194\182\131\179", "\234\182\215\224\219\108"));
-						if (TABLE_TableIndirection["v1017%0"] or (1075 > 1918)) then
+						if ((692 < 3058) and TABLE_TableIndirection["v1017%0"]) then
 							TABLE_TableIndirection["v1064%0"] = {LUAOBFUSACTOR_DECRYPT_STR_0("\232\136\175\22\204\136\190\59\212", "\85\160\225\219"),LUAOBFUSACTOR_DECRYPT_STR_0("\116\0\130\205\5\212\68\72\38\143\192\51\210\95", "\43\60\101\227\169\86\188"),LUAOBFUSACTOR_DECRYPT_STR_0("\88\193\197\156\82\205\171\54\115\220\212\173\121\192\176\50\126\220", "\87\16\168\177\223\58\172\217")};
 							for v1070, v1071 in ipairs(TABLE_TableIndirection["v1064%0"]) do
 								TABLE_TableIndirection["v1072%0"] = TABLE_TableIndirection["v1017%0"]:FindFirstChild(v1071);
-								if ((2054 >= 1421) and TABLE_TableIndirection["v1072%0"] and TABLE_TableIndirection["v1072%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\7\194\76\211\63", "\91\84\173\57\189"))) then
+								if ((TABLE_TableIndirection["v1072%0"] and TABLE_TableIndirection["v1072%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\7\194\76\211\63", "\91\84\173\57\189"))) or (1075 > 1918) or (3254 == 1655)) then
 									TABLE_TableIndirection["v1121%0"] = 1493 - (711 + 782);
 									while true do
-										if ((692 < 3058) and (396 <= 3804) and (TABLE_TableIndirection["v1121%0"] == (0 - 0))) then
-											if (not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\63\171\5\251\169\216\17\181\63\243\181\216\20\170", "\182\112\217\108\156\192")][TABLE_TableIndirection["v1072%0"]] or (3254 == 1655)) then
+										if (TABLE_TableIndirection["v1121%0"] ~= (0 - 0)) then
+										else
+											if (not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\63\171\5\251\169\216\17\181\63\243\181\216\20\170", "\182\112\217\108\156\192")][TABLE_TableIndirection["v1072%0"]] or (1296 == 4910)) then
 												TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\133\26\65\232\130\164\9\68\220\132\191\6\76\252", "\235\202\104\40\143")][TABLE_TableIndirection["v1072%0"]] = {[LUAOBFUSACTOR_DECRYPT_STR_0("\62\132\14\183\9\162\31", "\217\109\235\123")]=TABLE_TableIndirection["v1072%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\20\134\107\88\116\249\201", "\221\71\233\30\54\16\176\173")],[LUAOBFUSACTOR_DECRYPT_STR_0("\2\243\82\170\57\249", "\223\84\156\62")]=TABLE_TableIndirection["v1072%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\224\243\238\200\186\62", "\91\182\156\130\189\215")]};
 											end
 											TABLE_TableIndirection["v1072%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\77\124\185\91\122\90\168", "\53\30\19\204")] = ((v336 ~= "") and v336) or TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\214\242\121\131\174\247\225\124\183\168\236\238\116\151", "\199\153\128\16\228")][TABLE_TableIndirection["v1072%0"]][LUAOBFUSACTOR_DECRYPT_STR_0("\226\37\240\23\163\248\46", "\199\177\74\133\121")];
 											TABLE_TableIndirection["v1121%0"] = 470 - (270 + 199);
 										end
-										if ((TABLE_TableIndirection["v1121%0"] == (1 + 0)) or (4169 == 2187) or (1296 == 4910)) then
+										if ((3368 == 3368) and (TABLE_TableIndirection["v1121%0"] == (1 + 0))) then
 											TABLE_TableIndirection["v1072%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\142\198\176\235\58\195", "\74\216\169\220\158\87\166")] = v337;
 											break;
 										end
@@ -703,7 +696,7 @@ local function v68()
 end
 TABLE_TableIndirection["v62%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\63\5\196\193\238\2\2\212\215\239\22\14\220\247\229", "\129\119\108\176\146"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\8\202\31\217", "\124\92\175\103\173\69\110")]=LUAOBFUSACTOR_DECRYPT_STR_0("\233\49\23\119\242\55\22\57\197\120\38\57\192\58\15\50\197", "\87\161\88\99"),[LUAOBFUSACTOR_DECRYPT_STR_0("\54\252\233\205\162\220\55", "\67\114\153\143\172\215\176")]=false}):OnChanged(function(v342)
 	TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\155\172\239\12\178\167\234", "\110\222\194\142")] = v342;
-	if ((1406 == 1406) and v342) then
+	if ((396 <= 3804) and v342) then
 		TABLE_TableIndirection["v645%0"] = TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\209\20\160\81\164", "\193\119\185\123\201\50")] or LUAOBFUSACTOR_DECRYPT_STR_0("\89\7\247\35", "\127\23\104\153\70\111\25");
 		TABLE_TableIndirection["v646%0"] = TABLE_TableIndirection["v63%0"][TABLE_TableIndirection["v645%0"]] or "";
 		v67(TABLE_TableIndirection["v646%0"], TABLE_TableIndirection["v65%0"].Volume);
@@ -713,7 +706,7 @@ TABLE_TableIndirection["v62%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\63\5\196
 end);
 TABLE_TableIndirection["v62%0"]:AddDropdown(LUAOBFUSACTOR_DECRYPT_STR_0("\33\14\178\156\36\57\185\183\42\15\169\166\40\41", "\211\105\103\198\207\75\76\215"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\250\162\168\251", "\214\174\199\208\143\30\108\218")]=LUAOBFUSACTOR_DECRYPT_STR_0("\57\141\31\234\150\89\205\71\21", "\41\113\228\107\202\197\54\184"),[LUAOBFUSACTOR_DECRYPT_STR_0("\76\140\52\73\127\158", "\60\26\237\88")]=TABLE_TableIndirection["v64%0"],[LUAOBFUSACTOR_DECRYPT_STR_0("\252\47\114\231\187\212\62", "\206\184\74\20\134")]=(1820 - (580 + 1239)),[LUAOBFUSACTOR_DECRYPT_STR_0("\21\241\226\165\250", "\172\88\132\142\209\147\42\88")]=false}):OnChanged(function(v344)
 	TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\164\130\195\4\53\240", "\222\231\234\172\109\86\149")] = v344;
-	if ((3368 == 3368) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\200\225\193\26\225\234\196", "\120\141\143\160")]) then
+	if ((2643 < 3815) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\200\225\193\26\225\234\196", "\120\141\143\160")]) then
 		TABLE_TableIndirection["v647%0"] = TABLE_TableIndirection["v63%0"][v344] or "";
 		v67(TABLE_TableIndirection["v647%0"], TABLE_TableIndirection["v65%0"].Volume);
 	end
@@ -721,11 +714,11 @@ end);
 TABLE_TableIndirection["v62%0"]:AddSlider(LUAOBFUSACTOR_DECRYPT_STR_0("\104\165\162\97\79\185\184\86\118\163\186\71\77\169", "\50\32\204\214"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\178\66\45\109", "\113\230\39\85\25\211")]=LUAOBFUSACTOR_DECRYPT_STR_0("\232\180\10\253\42\206", "\43\190\219\102\136\71\171\203"),[LUAOBFUSACTOR_DECRYPT_STR_0("\15\119\62", "\57\66\30\80")]=(0 - 0),[LUAOBFUSACTOR_DECRYPT_STR_0("\4\217\184", "\228\73\184\192\117\228\89\148")]=(96 + 4),[LUAOBFUSACTOR_DECRYPT_STR_0("\235\140\115\21\218\133\97", "\116\175\233\21")]=100,[LUAOBFUSACTOR_DECRYPT_STR_0("\204\247\171\72\223\56\49\249", "\95\158\152\222\38\187\81")]=(0 + 0)}):OnChanged(function(v346)
 	TABLE_TableIndirection["v347%0"] = v346 / 100;
 	TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\206\178\57\167\174\205", "\168\152\221\85\210\195")] = TABLE_TableIndirection["v347%0"];
-	if ((2643 < 3815) and (1531 < 4271) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\142\208\244\133\167\219\241", "\231\203\190\149")]) then
+	if ((1913 > 493) and (TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\142\208\244\133\167\219\241", "\231\203\190\149")] or (4169 == 2187))) then
 		TABLE_TableIndirection["v648%0"] = 0 + 0;
 		TABLE_TableIndirection["v649%0"] = nil;
 		while true do
-			if ((635 == 635) and (TABLE_TableIndirection["v648%0"] == (0 - 0))) then
+			if ((4755 > 3428) and (TABLE_TableIndirection["v648%0"] == (0 - 0))) then
 				TABLE_TableIndirection["v649%0"] = TABLE_TableIndirection["v63%0"][TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\238\53\236\248\191\240", "\123\173\93\131\145\220\149")]] or "";
 				v67(TABLE_TableIndirection["v649%0"], TABLE_TableIndirection["v347%0"]);
 				break;
@@ -738,38 +731,36 @@ local function v69(v349)
 	TABLE_TableIndirection["v351%0"] = nil;
 	TABLE_TableIndirection["v352%0"] = nil;
 	while true do
-		if ((1913 > 493) and (0 == TABLE_TableIndirection["v350%0"])) then
+		if ((1381 <= 2369) and (1406 == 1406) and (0 == TABLE_TableIndirection["v350%0"])) then
 			TABLE_TableIndirection["v351%0"] = TABLE_TableIndirection["v5%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\53\204\236\51\117\250\2\193\255", "\153\118\164\141\65\20")];
-			if ((3373 <= 3556) and (not TABLE_TableIndirection["v351%0"] or (v349[LUAOBFUSACTOR_DECRYPT_STR_0("\222\51\148\231\249\20", "\96\142\82\230\130\151")] ~= TABLE_TableIndirection["v351%0"]))) then
+			if ((1531 < 4271) and (not TABLE_TableIndirection["v351%0"] or (v349[LUAOBFUSACTOR_DECRYPT_STR_0("\222\51\148\231\249\20", "\96\142\82\230\130\151")] ~= TABLE_TableIndirection["v351%0"]))) then
 				return;
 			end
 			TABLE_TableIndirection["v350%0"] = 1 + 0;
 		end
-		if ((4755 > 3428) and (TABLE_TableIndirection["v350%0"] == 1)) then
+		if ((635 == 635) and (TABLE_TableIndirection["v350%0"] == 1)) then
 			TABLE_TableIndirection["v352%0"] = v349:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\109\191\75\91\197\250\91\177\76\74", "\142\47\208\47\34\132"));
-			if TABLE_TableIndirection["v352%0"] then
+			if (((3373 <= 3556) and TABLE_TableIndirection["v352%0"]) or (4843 == 4084)) then
 				TABLE_TableIndirection["v904%0"] = 1167 - (645 + 522);
 				TABLE_TableIndirection["v905%0"] = nil;
 				while true do
-					if ((1381 <= 2369) and ((TABLE_TableIndirection["v904%0"] == (1790 - (1010 + 780))) or (3291 < 3280))) then
+					if ((4669 > 363) and (TABLE_TableIndirection["v904%0"] == (1790 - (1010 + 780)))) then
 						TABLE_TableIndirection["v905%0"] = {LUAOBFUSACTOR_DECRYPT_STR_0("\222\183\16\33\87\85\243\176\16", "\60\150\222\100\98\59"),LUAOBFUSACTOR_DECRYPT_STR_0("\109\57\86\82\232\178\62\81\31\91\95\222\180\37", "\81\37\92\55\54\187\218"),LUAOBFUSACTOR_DECRYPT_STR_0("\40\77\185\20\137\1\86\172\52\149\5\86\142\59\136\5\74\185", "\225\96\36\205\87")};
 						for v1038, v1039 in ipairs(TABLE_TableIndirection["v905%0"]) do
 							TABLE_TableIndirection["v1040%0"] = TABLE_TableIndirection["v352%0"]:FindFirstChild(v1039);
-							if (TABLE_TableIndirection["v1040%0"] and TABLE_TableIndirection["v1040%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\218\169\87\119\120", "\105\137\198\34\25\28\47")) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\167\64\116\204\20\173", "\160\113\201\33\22")]) then
+							if ((TABLE_TableIndirection["v1040%0"] and TABLE_TableIndirection["v1040%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\218\169\87\119\120", "\105\137\198\34\25\28\47")) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\167\64\116\204\20\173", "\160\113\201\33\22")]) or (3291 < 3280)) then
 								TABLE_TableIndirection["v1073%0"] = 0 - 0;
 								TABLE_TableIndirection["v1074%0"] = nil;
 								while true do
-									if ((2 - 1) ~= TABLE_TableIndirection["v1073%0"]) then
-									else
-										if (((4386 >= 873) and (TABLE_TableIndirection["v1074%0"] ~= "")) or (4843 == 4084)) then
+									if ((4386 >= 873) and ((2 - 1) == TABLE_TableIndirection["v1073%0"])) then
+										if ((TABLE_TableIndirection["v1074%0"] ~= "") or (1877 >= 3138)) then
 											TABLE_TableIndirection["v1040%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\231\87\185\169\173\132\208", "\205\180\56\204\199\201")] = TABLE_TableIndirection["v1074%0"];
 										end
 										TABLE_TableIndirection["v1040%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\181\209\48\13\142\219", "\120\227\190\92")] = TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\11\83\19\110\46\89", "\130\93\60\127\27\67\60\185")];
 										break;
 									end
-									if (TABLE_TableIndirection["v1073%0"] ~= (1836 - (1045 + 791))) then
-									else
-										if ((4669 > 363) and (921 <= 1102) and not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\103\32\49\73\233\77\124\68\1\55\91\238\71\110", "\29\40\82\88\46\128\35")][TABLE_TableIndirection["v1040%0"]]) then
+									if ((921 <= 1102) and (TABLE_TableIndirection["v1073%0"] == (1836 - (1045 + 791)))) then
+										if not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\103\32\49\73\233\77\124\68\1\55\91\238\71\110", "\29\40\82\88\46\128\35")][TABLE_TableIndirection["v1040%0"]] then
 											TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\20\87\221\26\8\182\58\73\231\18\20\182\63\86", "\216\91\37\180\125\97")][TABLE_TableIndirection["v1040%0"]] = {[LUAOBFUSACTOR_DECRYPT_STR_0("\22\121\9\205\83\12\114", "\55\69\22\124\163")]=TABLE_TableIndirection["v1040%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\75\220\73\230\219\88\84", "\148\24\179\60\136\191\17\48")],[LUAOBFUSACTOR_DECRYPT_STR_0("\132\37\245\181\251\183", "\150\210\74\153\192")]=TABLE_TableIndirection["v1040%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\213\199\52\159\120\127", "\212\131\168\88\234\21\26")]};
 										end
 										TABLE_TableIndirection["v1074%0"] = TABLE_TableIndirection["v63%0"][TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\102\124\134\133\59\34", "\71\37\20\233\236\88")]] or "";
@@ -787,29 +778,30 @@ local function v69(v349)
 	end
 end
 local function v70(v353)
-	if ((4706 >= 963) and v66(v353) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\232\72\177\20\76\233\72", "\60\173\38\208\118\32\140\44")]) then
-		if (not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\110\32\232\212\41\193\64\62\210\220\53\193\69\33", "\175\33\82\129\179\64")][v353] or (960 <= 876) or (1877 >= 3138)) then
+	if (v66(v353) and TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\232\72\177\20\76\233\72", "\60\173\38\208\118\32\140\44")]) then
+		if ((4706 >= 963) and not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\110\32\232\212\41\193\64\62\210\220\53\193\69\33", "\175\33\82\129\179\64")][v353]) then
 			TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\193\253\57\200\53\188\239\227\3\192\41\188\234\252", "\210\142\143\80\175\92")][v353] = {[LUAOBFUSACTOR_DECRYPT_STR_0("\138\230\230\200\189\192\247", "\166\217\137\147")]=v353[LUAOBFUSACTOR_DECRYPT_STR_0("\208\172\103\168\245\111\231", "\38\131\195\18\198\145")],[LUAOBFUSACTOR_DECRYPT_STR_0("\101\217\54\254\53\81", "\52\51\182\90\139\88")]=v353[LUAOBFUSACTOR_DECRYPT_STR_0("\192\182\220\242\78\243", "\35\150\217\176\135")]};
 		end
 		TABLE_TableIndirection["v650%0"] = TABLE_TableIndirection["v63%0"][TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\218\88\4\5\116\70", "\22\153\48\107\108\23\35")]] or "";
-		if ((4742 >= 3626) and (TABLE_TableIndirection["v650%0"] ~= "")) then
+		if (TABLE_TableIndirection["v650%0"] == "") then
+		else
 			v353[LUAOBFUSACTOR_DECRYPT_STR_0("\61\138\174\20\123\92\69", "\137\110\229\219\122\31\21\33")] = TABLE_TableIndirection["v650%0"];
 		end
 		v353[LUAOBFUSACTOR_DECRYPT_STR_0("\44\178\52\110\59\78", "\30\122\221\88\27\86\43\68")] = TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\14\39\231\147\53\45", "\230\88\72\139")];
 	end
 end
 TABLE_TableIndirection["v11%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\86\177\5\24\6\6\92\115\186\2\58\7\12\93\118", "\56\18\212\118\123\99\104")]:Connect(function(v354)
-	if (not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\59\231\249\209\211\219\26", "\190\126\137\152\179\191")] or (2066 == 932)) then
+	if not TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\59\231\249\209\211\219\26", "\190\126\137\152\179\191")] then
 		return;
 	end
-	if ((4825 < 4843) and v354:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\28\13\125\199", "\32\72\98\18\171\202"))) then
+	if ((4742 >= 3626) and v354:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\28\13\125\199", "\32\72\98\18\171\202"))) then
 		v69(v354);
-	elseif v354:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\55\135\39\122\243", "\151\100\232\82\20")) then
+	elseif (v354:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\55\135\39\122\243", "\151\100\232\82\20")) or (960 <= 876) or (4540 == 916)) then
 		v70(v354);
 	end
 end);
 TABLE_TableIndirection["v5%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\92\209\247\26\126\218\226\13\109\248\242\12\122\221", "\104\31\185\150")]:Connect(function(v355)
-	if TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\249\183\242\245\235\201\228", "\160\188\217\147\151\135\172\128")] then
+	if (TABLE_TableIndirection["v65%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\249\183\242\245\235\201\228", "\160\188\217\147\151\135\172\128")] or (2066 == 932) or (1156 > 4345)) then
 		TABLE_TableIndirection["v653%0"] = 0;
 		TABLE_TableIndirection["v654%0"] = nil;
 		while true do
@@ -882,7 +874,7 @@ lines = {};
 dot = nil;
 textObj = nil;
 function getCenter()
-	if ((CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\120\71\35\252\153\66\119\219", "\181\40\40\80\149\237\43\24")] == LUAOBFUSACTOR_DECRYPT_STR_0("\54\179\40\55\168\75", "\114\117\210\69\82\218\42")) or (3877 >= 4537) or (4540 == 916)) then
+	if ((2237 < 4249) and (4825 < 4843) and (CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\120\71\35\252\153\66\119\219", "\181\40\40\80\149\237\43\24")] == LUAOBFUSACTOR_DECRYPT_STR_0("\54\179\40\55\168\75", "\114\117\210\69\82\218\42"))) then
 		TABLE_TableIndirection["v655%0"] = v11[LUAOBFUSACTOR_DECRYPT_STR_0("\103\195\74\97\169\74\194\123\114\161\65\196\89", "\204\36\182\56\19")];
 		TABLE_TableIndirection["v656%0"] = TABLE_TableIndirection["v655%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\223\66\217\148\109\55\0\253\120\213\153\120", "\114\137\43\188\227\29\88")] / (6 - 4);
 		return TABLE_TableIndirection["v656%0"]['X'], TABLE_TableIndirection["v656%0"]['Y'];
@@ -895,7 +887,7 @@ function getGlobalRainbowColor()
 	TABLE_TableIndirection["v390%0"] = 0;
 	TABLE_TableIndirection["v391%0"] = nil;
 	while true do
-		if ((TABLE_TableIndirection["v390%0"] == (0 + 0)) or (1156 > 4345)) then
+		if ((TABLE_TableIndirection["v390%0"] == (0 + 0)) or (3877 >= 4537)) then
 			TABLE_TableIndirection["v391%0"] = tick() * (0.7 + 0);
 			return Color3.fromHSV(TABLE_TableIndirection["v391%0"] % (1 + 0), 3 - 2, 1995 - (109 + 1885));
 		end
@@ -904,7 +896,7 @@ end
 math_sin, math_cos, math_atan, math_rad, math_deg = math[LUAOBFUSACTOR_DECRYPT_STR_0("\247\20\166", "\112\132\125\200")], math[LUAOBFUSACTOR_DECRYPT_STR_0("\254\183\224", "\149\157\216\147\19\58")], math[LUAOBFUSACTOR_DECRYPT_STR_0("\200\146\25\198", "\168\169\230\120")], math[LUAOBFUSACTOR_DECRYPT_STR_0("\238\140\128", "\119\156\237\228")], math[LUAOBFUSACTOR_DECRYPT_STR_0("\199\212\7", "\30\163\177\96")];
 function drawCross(v392, v393, v394, v395, v396, v397, v398)
 	for v576 = 1470 - (1269 + 200), 7 - 3 do
-		if not lines[v576] then
+		if (not lines[v576] or (4315 < 1726) or (2683 < 23)) then
 			lines[v576] = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\54\41\91\140", "\180\122\64\53\233\93\75"));
 		end
 	end
@@ -926,14 +918,14 @@ function drawCross(v392, v393, v394, v395, v396, v397, v398)
 		lines[v577][LUAOBFUSACTOR_DECRYPT_STR_0("\195\93\70\58\116\230", "\176\153\20\40\94\17\158")] = 2;
 	end
 	for v593 = 2 + 3, #lines do
-		if ((2237 < 4249) and lines[v593]) then
+		if (lines[v593] or (3679 < 625)) then
 			lines[v593][LUAOBFUSACTOR_DECRYPT_STR_0("\158\58\168\90\199\164\54", "\165\200\83\219\51")] = false;
 		end
 	end
 end
 function drawSwastika(v400, v401, v402, v403, v404, v405, v406)
 	for v594 = 1, 8 do
-		if (not lines[v594] or (2683 < 23)) then
+		if ((697 <= 826) and (not lines[v594] or (4625 < 632))) then
 			lines[v594] = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\235\227\122\126", "\132\167\138\20\27\177\213\220"));
 		end
 	end
@@ -949,27 +941,26 @@ function drawSwastika(v400, v401, v402, v403, v404, v405, v406)
 		TABLE_TableIndirection["v599%0"] = nil;
 		TABLE_TableIndirection["v600%0"] = nil;
 		while true do
-			if ((697 <= 826) and (TABLE_TableIndirection["v596%0"] == (0 + 0))) then
+			if ((1105 <= 1176) and ((TABLE_TableIndirection["v596%0"] == (0 + 0)) or (83 > 1780))) then
 				TABLE_TableIndirection["v597%0"] = TABLE_TableIndirection["v407%0"] * math_sin(TABLE_TableIndirection["v410%0"](TABLE_TableIndirection["v409%0"] + (v595 * 90)));
 				TABLE_TableIndirection["v598%0"] = TABLE_TableIndirection["v407%0"] * math_cos(TABLE_TableIndirection["v410%0"](TABLE_TableIndirection["v409%0"] + (v595 * 90)));
 				TABLE_TableIndirection["v599%0"] = (TABLE_TableIndirection["v407%0"] / math_cos(TABLE_TableIndirection["v408%0"])) * math_sin(TABLE_TableIndirection["v410%0"](TABLE_TableIndirection["v409%0"] + (v595 * (75 + 15)) + TABLE_TableIndirection["v411%0"](TABLE_TableIndirection["v408%0"])));
 				TABLE_TableIndirection["v600%0"] = (TABLE_TableIndirection["v407%0"] / math_cos(TABLE_TableIndirection["v408%0"])) * math_cos(TABLE_TableIndirection["v410%0"](TABLE_TableIndirection["v409%0"] + (v595 * (66 + 24)) + TABLE_TableIndirection["v411%0"](TABLE_TableIndirection["v408%0"])));
 				TABLE_TableIndirection["v596%0"] = 1 + 0;
 			end
-			if ((TABLE_TableIndirection["v596%0"] == (1437 - (797 + 636))) or (4315 < 1726)) then
+			if ((3379 <= 3812) and (546 <= 1077) and (TABLE_TableIndirection["v596%0"] == (1437 - (797 + 636)))) then
 				lines[v595 + 4][LUAOBFUSACTOR_DECRYPT_STR_0("\198\221\234\79\55\252\208\240\95", "\92\146\181\131\44")] = v406;
 				lines[v595 + (19 - 15)][LUAOBFUSACTOR_DECRYPT_STR_0("\113\215\79\130\187\88", "\189\43\158\33\230\222\32\119")] = 1621 - (1427 + 192);
 				break;
 			end
-			if (TABLE_TableIndirection["v596%0"] ~= (1 + 0)) then
-			else
+			if ((TABLE_TableIndirection["v596%0"] == (1 + 0)) or (996 > 4301)) then
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\120\210\66\92", "\232\62\160\45\49")] = Vector2.new(v400, v401);
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\64\220", "\193\20\179\149\204")] = Vector2.new(v400 + TABLE_TableIndirection["v597%0"], v401 - TABLE_TableIndirection["v598%0"]);
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\244\14\141\205\197", "\162\183\97\225")] = v405;
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\31\204\247\254\30\238\164", "\193\73\165\132\151\124\130")] = true;
 				TABLE_TableIndirection["v596%0"] = 4 - 2;
 			end
-			if ((TABLE_TableIndirection["v596%0"] == (2 + 0)) or (3679 < 625)) then
+			if ((4070 > 687) and (TABLE_TableIndirection["v596%0"] == (2 + 0))) then
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\249\208\168\85\165\166\204\208\172\85\181\175", "\214\173\162\201\59\214")] = 1 + 0;
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\23\113\163\66\220\46\38\106\185", "\64\67\25\202\33\183")] = v406;
 				lines[v595][LUAOBFUSACTOR_DECRYPT_STR_0("\211\199\127\184\43\202", "\35\137\142\17\220\78\178")] = 2;
@@ -987,7 +978,7 @@ function drawSwastika(v400, v401, v402, v403, v404, v405, v406)
 		end
 	end
 	for v601 = 41 - 32, #lines do
-		if (lines[v601] or (4625 < 632)) then
+		if (lines[v601] or (656 >= 3330)) then
 			lines[v601][LUAOBFUSACTOR_DECRYPT_STR_0("\251\210\40\12\201\40\200", "\68\173\187\91\101\171")] = false;
 		end
 	end
@@ -999,10 +990,10 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\206\10\28\195\76\144\78\205\249\31\2\194\77", "
 	if dot then
 		dot[LUAOBFUSACTOR_DECRYPT_STR_0("\247\223\63\34\69\204\204", "\169\161\182\76\75\39\160")] = false;
 	end
-	if ((1105 <= 1176) and textObj) then
+	if (textObj or (2492 <= 335)) then
 		textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\239\91\164\130\25\46\173", "\200\185\50\215\235\123\66")] = false;
 	end
-	if not CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\215\143\216\224\134\115\30", "\122\146\225\185\130\234\22")] then
+	if (not CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\215\143\216\224\134\115\30", "\122\146\225\185\130\234\22")] or (788 >= 1616)) then
 		return;
 	end
 	local v412, v413 = getCenter();
@@ -1015,30 +1006,28 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\206\10\28\195\76\144\78\205\249\31\2\194\77", "
 	TABLE_TableIndirection["v419%0"] = (TABLE_TableIndirection["v416%0"] and ((TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\255\196\12\91\7", "\79\188\182\99\40\116\208\201")) or (TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\78\212\43\82\55\54\118\194", "\95\29\163\74\33\67"))) and ((tick() * TABLE_TableIndirection["v417%0"] * 65) % (249 - 159))) or 0;
 	TABLE_TableIndirection["v420%0"] = (CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\78\51\73\57\125\133\19", "\100\28\82\32\87\31\234")] and getGlobalRainbowColor()) or CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\18\93\236\126\233", "\94\81\50\128\17\155\182\136")];
 	TABLE_TableIndirection["v421%0"] = CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\191\52\237\58\233\186\25\148\152", "\231\235\92\132\89\130\212\124")];
-	if ((3379 <= 3812) and ((TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\218\187\224", "\37\158\212\148\95\177")) or (83 > 1780))) then
+	if (TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\218\187\224", "\37\158\212\148\95\177")) then
 		TABLE_TableIndirection["v660%0"] = 0;
 		while true do
-			if (((327 - (45 + 280)) == TABLE_TableIndirection["v660%0"]) or (788 >= 1616)) then
+			if ((1854 <= 3379) and (4322 >= 2562) and ((327 - (45 + 280)) == TABLE_TableIndirection["v660%0"])) then
 				dot[LUAOBFUSACTOR_DECRYPT_STR_0("\66\21\183\142\15\120\25", "\109\20\124\196\231")] = true;
 				dot[LUAOBFUSACTOR_DECRYPT_STR_0("\148\175\117\171\34\48\161\175\113\171\50\57", "\64\192\221\20\197\81")] = 1;
 				TABLE_TableIndirection["v660%0"] = 3 + 0;
 			end
-			if ((1854 <= 3379) and (TABLE_TableIndirection["v660%0"] == (3 + 0))) then
+			if ((4549 == 4549) and (TABLE_TableIndirection["v660%0"] == (3 + 0))) then
 				dot[LUAOBFUSACTOR_DECRYPT_STR_0("\155\254\235\161\172\161\243\241\177", "\199\207\150\130\194")] = TABLE_TableIndirection["v421%0"];
 				break;
 			end
-			if ((4549 == 4549) and (546 <= 1077) and ((1 + 0) == TABLE_TableIndirection["v660%0"])) then
+			if (((1 + 0) == TABLE_TableIndirection["v660%0"]) or (3022 >= 3024)) then
 				dot[LUAOBFUSACTOR_DECRYPT_STR_0("\135\75\127\225\86\166", "\35\213\42\27\136")] = TABLE_TableIndirection["v414%0"] / 2;
 				dot[LUAOBFUSACTOR_DECRYPT_STR_0("\131\136\55\176\202", "\146\192\231\91\223\184")] = TABLE_TableIndirection["v420%0"];
 				TABLE_TableIndirection["v660%0"] = 2 + 0;
 			end
-			if (TABLE_TableIndirection["v660%0"] ~= (0 + 0)) then
-			else
-				if (not dot or (996 > 4301) or (3022 >= 3024)) then
+			if ((4820 > 2198) and (TABLE_TableIndirection["v660%0"] == (0 + 0))) then
+				if (not dot or (1061 >= 4891)) then
 					TABLE_TableIndirection["v1003%0"] = 0;
 					while true do
-						if (TABLE_TableIndirection["v1003%0"] ~= 0) then
-						else
+						if ((1364 <= 4473) and ((TABLE_TableIndirection["v1003%0"] == 0) or (3637 >= 3770))) then
 							dot = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\121\248\228\42\221\177", "\110\58\145\150\73\177\212\103"));
 							dot[LUAOBFUSACTOR_DECRYPT_STR_0("\210\61\198\254\78\207", "\137\148\84\170\146\43\171")] = true;
 							break;
@@ -1049,40 +1038,37 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\206\10\28\195\76\144\78\205\249\31\2\194\77", "
 				TABLE_TableIndirection["v660%0"] = 1;
 			end
 		end
-	elseif ((4820 > 2198) and (4070 > 687) and (TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\165\144\8\22\206", "\82\230\226\103\101\189"))) then
+	elseif (TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\165\144\8\22\206", "\82\230\226\103\101\189")) then
 		drawCross(v412, v413, TABLE_TableIndirection["v414%0"], TABLE_TableIndirection["v415%0"], TABLE_TableIndirection["v419%0"], TABLE_TableIndirection["v420%0"], TABLE_TableIndirection["v421%0"]);
-	elseif ((TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\184\61\178\162\0\130\33\178", "\116\235\74\211\209")) or (1061 >= 4891)) then
+	elseif ((TABLE_TableIndirection["v418%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\184\61\178\162\0\130\33\178", "\116\235\74\211\209")) or (2379 > 4578)) then
 		drawSwastika(v412, v413, TABLE_TableIndirection["v414%0"], TABLE_TableIndirection["v415%0"], TABLE_TableIndirection["v419%0"], TABLE_TableIndirection["v420%0"], TABLE_TableIndirection["v421%0"]);
 	end
-	if CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\28\57\198\49\13\50\223\39\36\57\218", "\69\72\92\190")] then
+	if (CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\28\57\198\49\13\50\223\39\36\57\218", "\69\72\92\190")] or (483 > 743) or (3595 <= 3)) then
 		TABLE_TableIndirection["v661%0"] = 0 - 0;
 		while true do
-			if ((1364 <= 4473) and (TABLE_TableIndirection["v661%0"] == (1911 - (340 + 1571)))) then
+			if ((TABLE_TableIndirection["v661%0"] == (1911 - (340 + 1571))) or (4672 == 3852)) then
 				if not textObj then
 					textObj = Drawing.new(LUAOBFUSACTOR_DECRYPT_STR_0("\2\62\252\192", "\215\86\91\132\180\203\200\118"));
 				end
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\16\235\136\199\54\252", "\179\83\142\230")] = true;
 				TABLE_TableIndirection["v661%0"] = 1 + 0;
 			end
-			if ((TABLE_TableIndirection["v661%0"] == (1773 - (1733 + 39))) or (3595 <= 3)) then
+			if ((2454 > 578) and (TABLE_TableIndirection["v661%0"] == (1773 - (1733 + 39)))) then
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\238\42\229\33", "\191\186\79\157\85\89\127\151")] = CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\194\127\188\218", "\37\150\26\196\174\228")];
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\250\249\168\80", "\233\169\144\210\53\87")] = CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\22\67\245\200\17\79\247\217", "\188\66\38\141")];
 				TABLE_TableIndirection["v661%0"] = 5 - 3;
 			end
-			if (TABLE_TableIndirection["v661%0"] ~= 3) then
-			else
+			if ((930 < 4458) and (TABLE_TableIndirection["v661%0"] == 3)) then
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\194\95\1\62\97", "\168\129\48\109\81\19\34\104")] = (CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\69\21\5\62\221\42\172\205\114\12\24", "\153\23\116\108\80\191\69\219")] and getGlobalRainbowColor()) or CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\125\26\229\204\219\132\122\70\13", "\22\41\127\157\184\152\235")];
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\35\213\224\196\4\215\224\216\18\201\226\211", "\170\119\167\129")] = 1035 - (125 + 909);
 				TABLE_TableIndirection["v661%0"] = 4;
 			end
-			if (TABLE_TableIndirection["v661%0"] ~= (1950 - (1096 + 852))) then
-			else
+			if (TABLE_TableIndirection["v661%0"] == (1950 - (1096 + 852))) then
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\234\255\175\122\151\87\213\254", "\62\186\144\220\19\227")] = Vector2.new(v412, v413 + TABLE_TableIndirection["v414%0"] + 18);
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\151\245\255\223\163\240\233", "\182\193\156\140")] = true;
 				TABLE_TableIndirection["v661%0"] = 2 + 1;
 			end
-			if (TABLE_TableIndirection["v661%0"] ~= (5 - 1)) then
-			else
+			if (TABLE_TableIndirection["v661%0"] == (5 - 1)) then
 				textObj[LUAOBFUSACTOR_DECRYPT_STR_0("\238\89\2\190\239\49\196", "\95\161\44\118\210\134")] = CrosshairSettings[LUAOBFUSACTOR_DECRYPT_STR_0("\210\69\11\25\85\195\241\162\239\78\22", "\206\134\32\115\109\26\182\133")];
 				break;
 			end
@@ -1098,13 +1084,13 @@ local function getHumanoid()
 	return TABLE_TableIndirection["v422%0"] and TABLE_TableIndirection["v422%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\102\29\137\174\242\142\71\12", "\225\46\104\228\207\156"));
 end
 local function applyForceWalk()
-	if (TABLE_TableIndirection["v76%0"] or (656 >= 3330) or (4672 == 3852)) then
+	if ((1559 == 1559) and (662 <= 972) and TABLE_TableIndirection["v76%0"]) then
 		TABLE_TableIndirection["v76%0"]:Disconnect();
 		TABLE_TableIndirection["v76%0"] = nil;
 	end
 	TABLE_TableIndirection["player%0"] = TABLE_TableIndirection["v4%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\134\207\176\79\59\99\190\190\179\197\161", "\223\202\160\211\46\87\51\210")];
 	TABLE_TableIndirection["hum%0"] = getHumanoid();
-	if not TABLE_TableIndirection["hum%0"] then
+	if (not TABLE_TableIndirection["hum%0"] or (1752 <= 788)) then
 		return;
 	end
 	TABLE_TableIndirection["player%0"]:SetAttribute(LUAOBFUSACTOR_DECRYPT_STR_0("\253\196\37\89\44\238\214\42\88\44\239\204\40\75\62\230\204\63\80", "\109\182\137\122\20"), FORCE_WALK_SPEED);
@@ -1120,22 +1106,22 @@ local function applyForceWalk()
 	TABLE_TableIndirection["lastJump%0"] = 0;
 	TABLE_TableIndirection["v76%0"] = v7[LUAOBFUSACTOR_DECRYPT_STR_0("\162\62\135\155\158\57\131\136\158", "\233\234\91\230")]:Connect(function()
 		TABLE_TableIndirection["h%0"] = getHumanoid();
-		if ((1559 == 1559) and not TABLE_TableIndirection["h%0"]) then
+		if ((4370 == 4370) and not TABLE_TableIndirection["h%0"]) then
 			return;
 		end
 		TABLE_TableIndirection["r%0"] = TABLE_TableIndirection["h%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\97\64\144\118\169\69", "\199\49\33\226\19")]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\122\78\78\30\201\93\82\71\45\200\93\79\115\30\213\70", "\167\50\59\35\127"));
-		if (not TABLE_TableIndirection["r%0"] or (2492 <= 335)) then
+		if (not TABLE_TableIndirection["r%0"] or (4762 <= 861)) then
 			return;
 		end
 		TABLE_TableIndirection["body%0"] = TABLE_TableIndirection["r%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\106\28\86\245\158\77\31\93\239\161\92\10", "\200\40\115\50\140"));
-		if (not TABLE_TableIndirection["body%0"] or (1752 <= 788)) then
+		if (not TABLE_TableIndirection["body%0"] or (1412 == 4264) or (3907 == 177)) then
 			return;
 		end
 		TABLE_TableIndirection["move%0"] = TABLE_TableIndirection["h%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\222\34\97\26\215\36\101\26\240\57\126\16\253", "\127\147\77\23")] * FORCE_WALK_SPEED;
 		TABLE_TableIndirection["body%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\189\227\249\123\115\130\242\236", "\16\235\134\149\20")] = Vector3.new(TABLE_TableIndirection["move%0"].X, TABLE_TableIndirection["body%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\236\78\66\169\15\142\24\195", "\108\186\43\46\198\108\231")].Y, TABLE_TableIndirection["move%0"].Z);
-		if (TABLE_TableIndirection["h%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\24\170\248\17", "\28\82\223\149\97")] or (3907 == 177)) then
+		if (TABLE_TableIndirection["h%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\24\170\248\17", "\28\82\223\149\97")] or (3168 < 2153)) then
 			TABLE_TableIndirection["now%0"] = tick();
-			if (TABLE_TableIndirection["now%0"] < (TABLE_TableIndirection["lastJump%0"] + TABLE_TableIndirection["JUMP_COOLDOWN%0"])) then
+			if ((TABLE_TableIndirection["now%0"] < (TABLE_TableIndirection["lastJump%0"] + TABLE_TableIndirection["JUMP_COOLDOWN%0"])) or (4976 < 1332)) then
 				TABLE_TableIndirection["h%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\135\32\64\78", "\62\205\85\45")] = false;
 			else
 				TABLE_TableIndirection["lastJump%0"] = TABLE_TableIndirection["now%0"];
@@ -1144,17 +1130,17 @@ local function applyForceWalk()
 	end);
 end
 local function removeForceWalk()
-	if ((4322 >= 2562) and TABLE_TableIndirection["v76%0"]) then
+	if ((4628 == 4628) and TABLE_TableIndirection["v76%0"]) then
 		TABLE_TableIndirection["v76%0"]:Disconnect();
 		TABLE_TableIndirection["v76%0"] = nil;
 	end
 	TABLE_TableIndirection["player%0"] = TABLE_TableIndirection["v4%1"][LUAOBFUSACTOR_DECRYPT_STR_0("\89\3\162\168\14\185\5\116\21\164\187", "\105\21\108\193\201\98\233")];
 	TABLE_TableIndirection["hum%0"] = getHumanoid();
-	if ((TABLE_TableIndirection["hum%0"] and TABLE_TableIndirection["v77%0"]) or (3637 >= 3770)) then
+	if ((3470 > 555) and TABLE_TableIndirection["hum%0"] and TABLE_TableIndirection["v77%0"]) then
 		TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\119\132\23\245\240\46\223\69\129", "\186\32\229\123\158\163\94")] = TABLE_TableIndirection["v77%0"];
 	end
 	TABLE_TableIndirection["root%0"] = TABLE_TableIndirection["hum%0"] and TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\34\99\207\23\177", "\87\100\67\17\170\121\197")]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\198\158\183\129\89\186\231\143\136\143\88\161\222\138\168\148", "\213\142\235\218\224\55"));
-	if ((3470 > 555) and TABLE_TableIndirection["root%0"]) then
+	if TABLE_TableIndirection["root%0"] then
 		TABLE_TableIndirection["bv%0"] = TABLE_TableIndirection["root%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\42\173\253\220\62\167\245\202\11\171\237\220", "\165\104\194\153"));
 		if (TABLE_TableIndirection["bv%0"] or (972 == 645)) then
 			TABLE_TableIndirection["bv%0"]:Destroy();
@@ -1173,10 +1159,10 @@ local function scanAndPatchModules()
 	TABLE_TableIndirection["originalCanFires%0"] = {};
 	local function scan(parent)
 		for _, obj in ipairs(parent:GetDescendants()) do
-			if (obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\136\63\132\103\73\160\3\131\96\76\181\36", "\37\197\80\224\18")) or (2379 > 4578)) then
+			if ((3182 >= 2115) and (obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\136\63\132\103\73\160\3\131\96\76\181\36", "\37\197\80\224\18")) or (54 == 395))) then
 				local success, mod = pcall(require, obj);
-				if ((3182 >= 2115) and ((success and (type(mod) == LUAOBFUSACTOR_DECRYPT_STR_0("\13\67\78\74\177", "\212\121\34\44\38")) and (type(mod.canFire) == LUAOBFUSACTOR_DECRYPT_STR_0("\188\175\36\6\106\164\253\80", "\62\218\218\74\101\30\205\146"))) or (483 > 743))) then
-					if ((3893 < 4429) and not TABLE_TableIndirection["originalCanFires%0"][obj]) then
+				if (success and (type(mod) == LUAOBFUSACTOR_DECRYPT_STR_0("\13\67\78\74\177", "\212\121\34\44\38")) and (type(mod.canFire) == LUAOBFUSACTOR_DECRYPT_STR_0("\188\175\36\6\106\164\253\80", "\62\218\218\74\101\30\205\146"))) then
+					if ((3893 < 4429) and (82 == 82) and not TABLE_TableIndirection["originalCanFires%0"][obj]) then
 						TABLE_TableIndirection["originalCanFires%0"][obj] = mod[LUAOBFUSACTOR_DECRYPT_STR_0("\65\168\119\215\212\44\65", "\79\34\201\25\145\189\94\36")];
 						mod.canFire = function()
 							return true;
@@ -1193,18 +1179,18 @@ local function scanAndPatchModules()
 end
 local function patchJumpShoot(enable)
 	if (enable or (2867 < 1905)) then
-		if ((2454 > 578) and TABLE_TableIndirection["jumpShootPatched%0"]) then
+		if (TABLE_TableIndirection["jumpShootPatched%0"] or (581 < 282) or (1796 >= 4051)) then
 			return;
 		end
 		scanAndPatchModules();
 		TABLE_TableIndirection["jumpShootPatched%0"] = true;
 	else
-		if ((930 < 4458) and not TABLE_TableIndirection["jumpShootPatched%0"]) then
+		if not TABLE_TableIndirection["jumpShootPatched%0"] then
 			return;
 		end
 		for obj, original in pairs(TABLE_TableIndirection["originalCanFires%0"]) do
 			local success, mod = pcall(require, obj);
-			if ((662 <= 972) and success and (type(mod) == LUAOBFUSACTOR_DECRYPT_STR_0("\172\251\50\202\127", "\26\216\154\80\166"))) then
+			if ((success and (type(mod) == LUAOBFUSACTOR_DECRYPT_STR_0("\172\251\50\202\127", "\26\216\154\80\166"))) or (4609 < 2495)) then
 				mod[LUAOBFUSACTOR_DECRYPT_STR_0("\207\200\227\101\116\62\201", "\76\172\169\141\35\29")] = original;
 			end
 		end
@@ -1223,7 +1209,7 @@ TABLE_TableIndirection["v78%0"]:AddToggle(LUAOBFUSACTOR_DECRYPT_STR_0("\35\248\1
 end);
 TABLE_TableIndirection["v78%0"]:AddSlider(LUAOBFUSACTOR_DECRYPT_STR_0("\244\138\101\27\192\231\179\26\217\182\103\29\192\212", "\118\178\229\23\120\165\176\210"), {[LUAOBFUSACTOR_DECRYPT_STR_0("\49\217\84\29", "\221\101\188\44\105\108\207\65")]=LUAOBFUSACTOR_DECRYPT_STR_0("\112\63\5\161\215\22\7\22\174\217\22\3\7\167\215\82", "\178\54\80\119\194"),[LUAOBFUSACTOR_DECRYPT_STR_0("\25\6\79", "\162\84\111\33\162\143\153\217")]=16,[LUAOBFUSACTOR_DECRYPT_STR_0("\10\218\5", "\234\71\187\125")]=60,[LUAOBFUSACTOR_DECRYPT_STR_0("\53\57\87\90\235\29\40", "\158\113\92\49\59")]=50,[LUAOBFUSACTOR_DECRYPT_STR_0("\222\127\84\126\250\15\212\0", "\103\140\16\33\16\158\102\186")]=0}):OnChanged(function(v426)
 	FORCE_WALK_SPEED = v426;
-	if ((4370 == 4370) and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\225\130\175\118\6\11\198\129\182\80\13\61\197\129\184\113", "\92\167\237\221\21\99")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\217\47\63\37\250\23\44\42\244\5\35\39\253\44\40\34", "\70\159\64\77")][LUAOBFUSACTOR_DECRYPT_STR_0("\225\78\94\234\31", "\122\183\47\50\159")]) then
+	if (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\225\130\175\118\6\11\198\129\182\80\13\61\197\129\184\113", "\92\167\237\221\21\99")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\217\47\63\37\250\23\44\42\244\5\35\39\253\44\40\34", "\70\159\64\77")][LUAOBFUSACTOR_DECRYPT_STR_0("\225\78\94\234\31", "\122\183\47\50\159")]) then
 		removeForceWalk();
 		applyForceWalk();
 	end
@@ -1232,30 +1218,30 @@ jumpShootPatched = false;
 patchedModules = {};
 originalCanFires = {};
 local function v14(v163)
-	if (v163 or (1796 >= 4051)) then
-		if ((1619 <= 3756) and (not jumpShootPatched or (4762 <= 861))) then
+	if v163 then
+		if not jumpShootPatched then
 			TABLE_TableIndirection["v753%0"] = 0;
 			while true do
-				if ((604 == 604) and ((TABLE_TableIndirection["v753%0"] == 2) or (1412 == 4264))) then
+				if (TABLE_TableIndirection["v753%0"] ~= 2) then
+				else
 					if (#patchedModules == (731 - (476 + 255))) then
 					else
 					end
 					break;
 				end
-				if ((TABLE_TableIndirection["v753%0"] == (1131 - (369 + 761))) or (3168 < 2153)) then
+				if ((1152 == 1152) and (TABLE_TableIndirection["v753%0"] == (1131 - (369 + 761)))) then
 					for v1010, v1011 in ipairs(TABLE_TableIndirection["v10%0"]:GetDescendants()) do
-						if ((v1011:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\239\62\163\90\140\199\2\164\93\137\210\37", "\224\162\81\199\47")) and (v1011[LUAOBFUSACTOR_DECRYPT_STR_0("\198\68\62\56", "\227\136\37\83\93")]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\122\161\1\113\87\185", "\20\57\205\104")) or v1011[LUAOBFUSACTOR_DECRYPT_STR_0("\6\170\21\188", "\83\72\203\120\217\122\58")]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\155\252\181", "\223\220\137\219\195\207\221")))) or (4976 < 1332)) then
+						if ((1619 <= 3756) and v1011:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\239\62\163\90\140\199\2\164\93\137\210\37", "\224\162\81\199\47")) and (v1011[LUAOBFUSACTOR_DECRYPT_STR_0("\198\68\62\56", "\227\136\37\83\93")]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\122\161\1\113\87\185", "\20\57\205\104")) or v1011[LUAOBFUSACTOR_DECRYPT_STR_0("\6\170\21\188", "\83\72\203\120\217\122\58")]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\155\252\181", "\223\220\137\219\195\207\221")))) then
 							local v1062, v1063 = pcall(require, v1011);
-							if ((v1062 and (type(v1063) == LUAOBFUSACTOR_DECRYPT_STR_0("\7\73\93\238\41", "\76\115\40\63\130")) and (type(v1063.canFire) == LUAOBFUSACTOR_DECRYPT_STR_0("\129\15\35\174\162\216\136\20", "\177\231\122\77\205\214"))) or (4484 == 900)) then
+							if ((604 == 604) and v1062 and (type(v1063) == LUAOBFUSACTOR_DECRYPT_STR_0("\7\73\93\238\41", "\76\115\40\63\130")) and (type(v1063.canFire) == LUAOBFUSACTOR_DECRYPT_STR_0("\129\15\35\174\162\216\136\20", "\177\231\122\77\205\214"))) then
 								TABLE_TableIndirection["v1116%0"] = 0 + 0;
 								while true do
-									if ((TABLE_TableIndirection["v1116%0"] == (1 - 0)) or (4459 <= 1113)) then
+									if (((1896 <= 3422) and (TABLE_TableIndirection["v1116%0"] == (1 - 0))) or (4484 == 900)) then
 										table.insert(patchedModules, v1011:GetFullName());
 										break;
 									end
-									if (TABLE_TableIndirection["v1116%0"] ~= (0 - 0)) then
-									else
-										if ((3632 > 3398) and (4628 == 4628) and not originalCanFires[v1011]) then
+									if ((TABLE_TableIndirection["v1116%0"] == (0 - 0)) or (990 > 1620) or (4459 <= 1113)) then
+										if (not originalCanFires[v1011] or (877 > 4695)) then
 											originalCanFires[v1011] = v1063[LUAOBFUSACTOR_DECRYPT_STR_0("\71\18\79\102\160\78\65", "\60\36\115\33\32\201")];
 										end
 										v1063.canFire = function(v1145, ...)
@@ -1270,18 +1256,17 @@ local function v14(v163)
 					jumpShootPatched = true;
 					TABLE_TableIndirection["v753%0"] = 1 + 1;
 				end
-				if (TABLE_TableIndirection["v753%0"] ~= 0) then
-				else
+				if ((3632 > 3398) and (TABLE_TableIndirection["v753%0"] == 0)) then
 					patchedModules = {};
 					originalCanFires = {};
 					TABLE_TableIndirection["v753%0"] = 1 - 0;
 				end
 			end
 		end
-	elseif ((4082 <= 4917) and (jumpShootPatched or (54 == 395))) then
+	elseif ((4082 <= 4917) and jumpShootPatched) then
 		for v882, v883 in pairs(originalCanFires) do
 			local v884, v885 = pcall(require, v882);
-			if (v884 and (type(v885) == LUAOBFUSACTOR_DECRYPT_STR_0("\163\119\85\74\73", "\193\215\22\55\38\44\62\93")) and (type(v883) == LUAOBFUSACTOR_DECRYPT_STR_0("\41\7\0\204\193\242\32\28", "\155\79\114\110\175\181"))) then
+			if ((2691 >= 1851) and v884 and (type(v885) == LUAOBFUSACTOR_DECRYPT_STR_0("\163\119\85\74\73", "\193\215\22\55\38\44\62\93")) and (type(v883) == LUAOBFUSACTOR_DECRYPT_STR_0("\41\7\0\204\193\242\32\28", "\155\79\114\110\175\181"))) then
 				v885[LUAOBFUSACTOR_DECRYPT_STR_0("\91\85\215\194\184\158\208", "\181\56\52\185\132\209\236")] = v883;
 			end
 		end
@@ -1299,7 +1284,7 @@ task.spawn(function()
 	while true do
 		task.wait(0.03 + 0);
 		TABLE_TableIndirection["v608%0"] = Options[LUAOBFUSACTOR_DECRYPT_STR_0("\251\41\99\60\209\64\220\45\114\61\232\118\213", "\19\172\72\23\89\163")]:GetState();
-		if ((82 == 82) and (TABLE_TableIndirection["v608%0"] ~= Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\0\93\219\224\39\97\181\50\89\203\192\59\83\167\59\89\203", "\197\87\60\175\133\85\50")][LUAOBFUSACTOR_DECRYPT_STR_0("\34\127\216\198\17", "\179\116\30\180")])) then
+		if ((TABLE_TableIndirection["v608%0"] ~= Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\0\93\219\224\39\97\181\50\89\203\192\59\83\167\59\89\203", "\197\87\60\175\133\85\50")][LUAOBFUSACTOR_DECRYPT_STR_0("\34\127\216\198\17", "\179\116\30\180")]) or (2985 >= 4856)) then
 			Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\220\199\249\132\249\245\253\132\238\194\200\143\234\196\225\132\239", "\225\139\166\141")]:SetValue(TABLE_TableIndirection["v608%0"]);
 		end
 		if TABLE_TableIndirection["v1%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\120\133\248\47\76\143\241\36", "\64\45\235\148")] then
@@ -1317,34 +1302,35 @@ v7 = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\222\32\170\178\39\149\22\50\2
 applyForceName = LUAOBFUSACTOR_DECRYPT_STR_0("\4\185\163\180\89\0\175\190\188\125\54\180\184\178\66\39\161", "\43\83\216\215\209");
 waterSpeedConnection = nil;
 Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\124\166\164\14\60\120\183\181\14\42\110\169\177\9\34\78\163", "\78\43\199\208\107")]:OnChanged(function(v432)
-	if waterSpeedConnection then
+	if ((4832 >= 1386) and waterSpeedConnection) then
 		waterSpeedConnection:Disconnect();
 		waterSpeedConnection = nil;
 	end
-	if ((4832 >= 1386) and (v432 or (581 < 282))) then
+	if ((137 == 137) and (4276 >= 1195) and v432) then
 		waterSpeedConnection = v7[LUAOBFUSACTOR_DECRYPT_STR_0("\64\141\14\26\190\40\246\194\119\152\16\27\191", "\182\18\232\96\126\219\90\165")]:Connect(function(v737)
 			TABLE_TableIndirection["v738%0"] = 0;
 			TABLE_TableIndirection["v739%0"] = nil;
 			TABLE_TableIndirection["v740%0"] = nil;
 			TABLE_TableIndirection["v741%0"] = nil;
 			while true do
-				if ((137 == 137) and ((TABLE_TableIndirection["v738%0"] == (524 - (303 + 221))) or (4609 < 2495))) then
+				if ((TABLE_TableIndirection["v738%0"] == (524 - (303 + 221))) or (1570 >= 4332)) then
 					TABLE_TableIndirection["v739%0"] = v5[LUAOBFUSACTOR_DECRYPT_STR_0("\30\86\38\186\60\93\51\173\47", "\200\93\62\71")];
-					if not TABLE_TableIndirection["v739%0"] then
+					if (not TABLE_TableIndirection["v739%0"] or (4064 <= 1819)) then
 						return;
 					end
 					TABLE_TableIndirection["v738%0"] = 1270 - (231 + 1038);
 				end
-				if ((TABLE_TableIndirection["v738%0"] == (1 + 0)) or (1570 >= 4332)) then
+				if ((TABLE_TableIndirection["v738%0"] == (1 + 0)) or (4986 < 1574)) then
 					TABLE_TableIndirection["v740%0"] = TABLE_TableIndirection["v739%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\110\88\67\219\202\189\7\66", "\110\38\45\46\186\164\210"));
 					TABLE_TableIndirection["v741%0"] = TABLE_TableIndirection["v739%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\80\171\165\23\48\119\183\172\36\49\119\170\152\23\44\108", "\94\24\222\200\118"));
 					TABLE_TableIndirection["v738%0"] = 1164 - (171 + 991);
 				end
-				if ((1152 == 1152) and (TABLE_TableIndirection["v738%0"] == (8 - 6))) then
-					if (not TABLE_TableIndirection["v740%0"] or not TABLE_TableIndirection["v741%0"]) then
+				if (TABLE_TableIndirection["v738%0"] ~= (8 - 6)) then
+				else
+					if ((4426 > 172) and (3232 <= 4690) and (not TABLE_TableIndirection["v740%0"] or not TABLE_TableIndirection["v741%0"])) then
 						return;
 					end
-					if (TABLE_TableIndirection["v740%0"]:GetState() == Enum[LUAOBFUSACTOR_DECRYPT_STR_0("\53\213\43\24\19\207\47\29\46\212\39\13\24\244\63\9\24", "\121\125\160\70")][LUAOBFUSACTOR_DECRYPT_STR_0("\192\253\50\191\254\227\53\181", "\210\147\138\91")]) then
+					if ((586 > 455) and (TABLE_TableIndirection["v740%0"]:GetState() == Enum[LUAOBFUSACTOR_DECRYPT_STR_0("\53\213\43\24\19\207\47\29\46\212\39\13\24\244\63\9\24", "\121\125\160\70")][LUAOBFUSACTOR_DECRYPT_STR_0("\192\253\50\191\254\227\53\181", "\210\147\138\91")])) then
 						TABLE_TableIndirection["v1018%0"] = TABLE_TableIndirection["v741%0"]:FindFirstChild(applyForceName);
 						if not TABLE_TableIndirection["v1018%0"] then
 							TABLE_TableIndirection["v1018%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\23\242\204\82\6\22\57\242\203\66\36\10", "\115\85\157\168\43\80"));
@@ -1357,10 +1343,9 @@ Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\124\166\164\14\60\120\183\181\14\42\110\16
 						TABLE_TableIndirection["v1020%0"] = 0 - 0;
 						TABLE_TableIndirection["v1021%0"] = nil;
 						while true do
-							if (TABLE_TableIndirection["v1020%0"] ~= (0 - 0)) then
-							else
+							if ((TABLE_TableIndirection["v1020%0"] == (0 - 0)) or (896 >= 3146)) then
 								TABLE_TableIndirection["v1021%0"] = TABLE_TableIndirection["v741%0"]:FindFirstChild(applyForceName);
-								if (TABLE_TableIndirection["v1021%0"] or (4064 <= 1819)) then
+								if TABLE_TableIndirection["v1021%0"] then
 									TABLE_TableIndirection["v1021%0"]:Destroy();
 								end
 								break;
@@ -1373,16 +1358,15 @@ Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\124\166\164\14\60\120\183\181\14\42\110\16
 		end);
 	else
 		TABLE_TableIndirection["v666%0"] = v5[LUAOBFUSACTOR_DECRYPT_STR_0("\45\173\80\165\11\119\201\85\28", "\48\110\197\49\215\106\20\189")];
-		if (((1896 <= 3422) and TABLE_TableIndirection["v666%0"]) or (4986 < 1574)) then
+		if ((826 == 826) and TABLE_TableIndirection["v666%0"]) then
 			TABLE_TableIndirection["v827%0"] = TABLE_TableIndirection["v666%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\53\7\69\173\206\36\79\8\47\29\71\184\240\42\84\24", "\108\125\114\40\204\160\75\38"));
-			if ((4426 > 172) and (TABLE_TableIndirection["v827%0"] or (990 > 1620))) then
+			if ((3061 >= 2958) and TABLE_TableIndirection["v827%0"]) then
 				TABLE_TableIndirection["v950%0"] = 0;
 				TABLE_TableIndirection["v951%0"] = nil;
 				while true do
-					if (TABLE_TableIndirection["v950%0"] ~= (0 - 0)) then
-					else
+					if ((3187 >= 644) and (TABLE_TableIndirection["v950%0"] == (0 - 0))) then
 						TABLE_TableIndirection["v951%0"] = TABLE_TableIndirection["v827%0"]:FindFirstChild(applyForceName);
-						if TABLE_TableIndirection["v951%0"] then
+						if ((644 <= 704) and TABLE_TableIndirection["v951%0"]) then
 							TABLE_TableIndirection["v951%0"]:Destroy();
 						end
 						break;
@@ -1400,7 +1384,7 @@ function UpdateWaterMark()
 	TABLE_TableIndirection["v433%0"] = tick();
 	TABLE_TableIndirection["v434%0"] = 0 - 0;
 	TABLE_TableIndirection["v435%0"] = 1308 - (111 + 1137);
-	if (WaterMarkConnection or (877 > 4695)) then
+	if ((958 > 947) and WaterMarkConnection) then
 		WaterMarkConnection:Disconnect();
 		WaterMarkConnection = nil;
 	end
@@ -1411,13 +1395,13 @@ function UpdateWaterMark()
 		TABLE_TableIndirection["v612%0"] = nil;
 		TABLE_TableIndirection["v613%0"] = nil;
 		while true do
-			if ((2691 >= 1851) and (2 == TABLE_TableIndirection["v609%0"])) then
+			if ((2 == TABLE_TableIndirection["v609%0"]) or (4019 > 4441)) then
 				TABLE_TableIndirection["v611%0"] = string.format(LUAOBFUSACTOR_DECRYPT_STR_0("\184\169\165\228\179\188\167\178\249\183\178\176\175\253", "\128\157\153\151"), TABLE_TableIndirection["v610%0"].day, TABLE_TableIndirection["v610%0"].month, TABLE_TableIndirection["v610%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\111\112\141\59", "\19\22\21\236\73\117")] % (297 - 197));
 				TABLE_TableIndirection["v612%0"] = string.format(LUAOBFUSACTOR_DECRYPT_STR_0("\50\149\240\173\173\248\125\164\115\159\231\249\165\185", "\150\23\165\194\201\151\221\77"), TABLE_TableIndirection["v610%0"].hour, TABLE_TableIndirection["v610%0"].min, TABLE_TableIndirection["v610%0"].sec);
 				TABLE_TableIndirection["v609%0"] = 3;
 			end
-			if ((586 > 455) and (TABLE_TableIndirection["v609%0"] == (1 + 0))) then
-				if (((tick() - TABLE_TableIndirection["v433%0"]) >= (524 - (423 + 100))) or (2985 >= 4856)) then
+			if ((4492 >= 2654) and (TABLE_TableIndirection["v609%0"] == (1 + 0))) then
+				if ((2017 < 4261) and (3442 >= 1503) and ((tick() - TABLE_TableIndirection["v433%0"]) >= (524 - (423 + 100)))) then
 					TABLE_TableIndirection["v435%0"] = TABLE_TableIndirection["v434%0"];
 					TABLE_TableIndirection["v433%0"] = tick();
 					TABLE_TableIndirection["v434%0"] = 0 + 0;
@@ -1425,11 +1409,11 @@ function UpdateWaterMark()
 				TABLE_TableIndirection["v610%0"] = os.date(LUAOBFUSACTOR_DECRYPT_STR_0("\52\47", "\122\30\91\136"));
 				TABLE_TableIndirection["v609%0"] = 5 - 3;
 			end
-			if ((4276 >= 1195) and (TABLE_TableIndirection["v609%0"] == (0 + 0))) then
-				if ((3232 <= 4690) and not (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\136\165\241\181\159\146\165\247\187\168\177\165\231\188\136\187", "\237\223\196\133\208")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\235\9\215\187\76\215\221\26\200\155\80\251\222\4\198\186", "\154\188\104\163\222\62")][LUAOBFUSACTOR_DECRYPT_STR_0("\3\236\33\238\21", "\162\85\141\77\155\112\47")])) then
+			if ((4716 > 80) and (TABLE_TableIndirection["v609%0"] == (0 + 0))) then
+				if not (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\136\165\241\181\159\146\165\247\187\168\177\165\231\188\136\187", "\237\223\196\133\208")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\235\9\215\187\76\215\221\26\200\155\80\251\222\4\198\186", "\154\188\104\163\222\62")][LUAOBFUSACTOR_DECRYPT_STR_0("\3\236\33\238\21", "\162\85\141\77\155\112\47")]) then
 					TABLE_TableIndirection["v952%0"] = 771 - (326 + 445);
 					while true do
-						if ((TABLE_TableIndirection["v952%0"] == (0 - 0)) or (896 >= 3146)) then
+						if ((TABLE_TableIndirection["v952%0"] == (0 - 0)) or (3507 == 3272)) then
 							TABLE_TableIndirection["v1%0"]:SetWatermarkVisibility(false);
 							return;
 						end
@@ -1438,12 +1422,12 @@ function UpdateWaterMark()
 				TABLE_TableIndirection["v434%0"] += 1
 				TABLE_TableIndirection["v609%0"] = 2 - 1;
 			end
-			if ((826 == 826) and (3061 >= 2958) and (TABLE_TableIndirection["v609%0"] == (6 - 3))) then
+			if ((TABLE_TableIndirection["v609%0"] == (6 - 3)) or (3170 <= 1464) or (876 >= 3075)) then
 				TABLE_TableIndirection["v613%0"] = math.floor(game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\33\61\167\90\1", "\46\114\73\198"))[LUAOBFUSACTOR_DECRYPT_STR_0("\139\123\98\248\33\88\174", "\42\197\30\22\143\78")][LUAOBFUSACTOR_DECRYPT_STR_0("\64\64\77\41\118\87\108\43\114\81\76\22\103\64\82", "\95\19\37\63")][LUAOBFUSACTOR_DECRYPT_STR_0("\85\45\179\253\49\55\120\34\160", "\103\17\76\199\156\17")]:GetValue());
 				TABLE_TableIndirection["v1%0"]:SetWatermark(string.format(LUAOBFUSACTOR_DECRYPT_STR_0("\128\61\132\241\18\7\160\224\243\12\151\237\89\80\165\186\246\57\197\244\28\85\170\186\175\106\192\251\28\22\169\233\243\54\197\173\79\80\180\233", "\154\211\74\229\136\60\112\217"), TABLE_TableIndirection["v611%0"], TABLE_TableIndirection["v612%0"], math.floor(TABLE_TableIndirection["v435%0"]), TABLE_TableIndirection["v613%0"]));
 				TABLE_TableIndirection["v609%0"] = 4;
 			end
-			if ((TABLE_TableIndirection["v609%0"] == (715 - (530 + 181))) or (4019 > 4441)) then
+			if ((4352 > 2554) and ((TABLE_TableIndirection["v609%0"] == (715 - (530 + 181))) or (4797 == 4388))) then
 				TABLE_TableIndirection["v1%0"]:SetWatermarkVisibility(true);
 				break;
 			end
@@ -1451,11 +1435,10 @@ function UpdateWaterMark()
 	end);
 end
 Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\152\29\254\200\23\106\174\14\225\232\11\70\173\16\239\201", "\39\207\124\138\173\101")]:OnChanged(function(v436)
-	if ((2017 < 4261) and v436) then
+	if v436 then
 		TABLE_TableIndirection["v667%0"] = 881 - (614 + 267);
 		while true do
-			if (0 ~= TABLE_TableIndirection["v667%0"]) then
-			else
+			if ((551 <= 681) and (0 == TABLE_TableIndirection["v667%0"])) then
 				TABLE_TableIndirection["v1%0"]:SetWatermarkVisibility(true);
 				UpdateWaterMark();
 				break;
@@ -1464,24 +1447,24 @@ Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\152\29\254\200\23\106\174\14\225\232\11\70
 	else
 		TABLE_TableIndirection["v668%0"] = 32 - (19 + 13);
 		while true do
-			if ((4716 > 80) and (TABLE_TableIndirection["v668%0"] == 0)) then
+			if ((3277 > 407) and (TABLE_TableIndirection["v668%0"] == 0)) then
 				TABLE_TableIndirection["v1%0"]:SetWatermarkVisibility(false);
-				if ((3187 >= 644) and WaterMarkConnection) then
+				if (WaterMarkConnection or (4406 < 4043)) then
 					WaterMarkConnection:Disconnect();
 				end
 				TABLE_TableIndirection["v668%0"] = 1 - 0;
 			end
-			if (((2 - 1) == TABLE_TableIndirection["v668%0"]) or (3507 == 3272)) then
+			if (((2 - 1) == TABLE_TableIndirection["v668%0"]) or (1889 >= 3383)) then
 				WaterMarkConnection = nil;
 				break;
 			end
 		end
 	end
 end);
-if (Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\249\0\87\197\176\227\0\81\203\135\192\0\65\204\167\202", "\194\174\97\35\160")][LUAOBFUSACTOR_DECRYPT_STR_0("\201\33\49\23\250", "\98\159\64\93")] or (876 >= 3075)) then
+if Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\249\0\87\197\176\227\0\81\203\135\192\0\65\204\167\202", "\194\174\97\35\160")][LUAOBFUSACTOR_DECRYPT_STR_0("\201\33\49\23\250", "\98\159\64\93")] then
 	TABLE_TableIndirection["v614%0"] = 0;
 	while true do
-		if ((4352 > 2554) and (TABLE_TableIndirection["v614%0"] == (0 - 0))) then
+		if ((1892 <= 2734) and (TABLE_TableIndirection["v614%0"] == (0 - 0))) then
 			TABLE_TableIndirection["v1%0"]:SetWatermarkVisibility(true);
 			UpdateWaterMark();
 			break;
@@ -1508,24 +1491,25 @@ function GetHealth(v439)
 	TABLE_TableIndirection["v442%0"] = nil;
 	TABLE_TableIndirection["v443%0"] = nil;
 	while true do
-		if ((644 <= 704) and (TABLE_TableIndirection["v440%0"] == (0 + 0))) then
+		if (TABLE_TableIndirection["v440%0"] ~= (0 + 0)) then
+		else
 			TABLE_TableIndirection["v441%0"] = v439:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\170\100\10\74\67\16\143\134", "\230\226\17\103\43\45\127"));
-			if TABLE_TableIndirection["v441%0"] then
+			if ((1923 < 2218) and (4695 >= 1415) and TABLE_TableIndirection["v441%0"]) then
 				return TABLE_TableIndirection["v441%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\248\73\197\71\147\216", "\231\176\44\164\43")], TABLE_TableIndirection["v441%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\140\199\60\129\171\141\173\210\44", "\236\193\166\68\201\206")];
 			end
 			TABLE_TableIndirection["v440%0"] = 1;
 		end
-		if (((958 > 947) and (TABLE_TableIndirection["v440%0"] == (1 - 0))) or (4406 < 4043)) then
+		if ((2173 > 379) and ((TABLE_TableIndirection["v440%0"] == (1 - 0)) or (3212 <= 944))) then
 			TABLE_TableIndirection["v442%0"] = v439:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\44\62\201\125\16\51", "\17\100\91\168"));
 			TABLE_TableIndirection["v443%0"] = v439:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\119\167\148\196\182\34\119\78\174", "\27\58\198\236\140\211\67"));
 			TABLE_TableIndirection["v440%0"] = 3 - 1;
 		end
-		if ((TABLE_TableIndirection["v440%0"] == 2) or (1889 >= 3383)) then
-			if ((1892 <= 2734) and TABLE_TableIndirection["v442%0"] and (TABLE_TableIndirection["v442%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\8\195\216\124\136\231\52\200", "\139\65\173\172\42\233")) or TABLE_TableIndirection["v442%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\169\67\124\218\193\101\214\73\139\67\116", "\40\231\54\17\184\164\23\128")))) then
+		if ((TABLE_TableIndirection["v440%0"] == 2) or (3096 <= 1798)) then
+			if (((3537 == 3537) and TABLE_TableIndirection["v442%0"] and (TABLE_TableIndirection["v442%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\8\195\216\124\136\231\52\200", "\139\65\173\172\42\233")) or TABLE_TableIndirection["v442%0"]:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\169\67\124\218\193\101\214\73\139\67\116", "\40\231\54\17\184\164\23\128")))) or (2591 == 3409)) then
 				TABLE_TableIndirection["v924%0"] = 1812 - (1293 + 519);
 				TABLE_TableIndirection["v925%0"] = nil;
 				while true do
-					if ((1923 < 2218) and (TABLE_TableIndirection["v924%0"] == (0 - 0))) then
+					if ((3837 >= 1570) and (TABLE_TableIndirection["v924%0"] == (0 - 0))) then
 						TABLE_TableIndirection["v925%0"] = (TABLE_TableIndirection["v443%0"] and TABLE_TableIndirection["v443%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\178\200\115\237\128", "\138\228\169\31\152\229")]) or (261 - 161);
 						return TABLE_TableIndirection["v442%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\250\13\78\32\229", "\163\172\108\34\85\128")], TABLE_TableIndirection["v925%0"];
 					end
@@ -1538,31 +1522,30 @@ end
 function GetEquippedWeapon(v444)
 	TABLE_TableIndirection["v445%0"] = 0 - 0;
 	while true do
-		if ((2173 > 379) and (TABLE_TableIndirection["v445%0"] == (4 - 3))) then
+		if ((4514 > 3324) and (TABLE_TableIndirection["v445%0"] == (4 - 3))) then
 			return LUAOBFUSACTOR_DECRYPT_STR_0("\9\30\249\130", "\52\71\113\151\231\187\36\232");
 		end
-		if ((4492 >= 2654) and (TABLE_TableIndirection["v445%0"] == 0)) then
+		if ((TABLE_TableIndirection["v445%0"] == 0) or (208 >= 4828)) then
 			for v828, v829 in ipairs(v444:GetChildren()) do
-				if (((3442 >= 1503) and v829:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\66\130\119\161", "\205\22\237\24"))) or (2591 == 3409)) then
+				if (v829:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\66\130\119\161", "\205\22\237\24")) or (1583 > 3567)) then
 					TABLE_TableIndirection["v953%0"] = v829[LUAOBFUSACTOR_DECRYPT_STR_0("\144\121\126\205", "\89\222\24\19\168")];
 					TABLE_TableIndirection["v954%0"] = 1;
-					if (v829[LUAOBFUSACTOR_DECRYPT_STR_0("\193\86\92\187\37\252\73", "\113\149\57\51\215")] or (3170 <= 1464)) then
+					if (v829[LUAOBFUSACTOR_DECRYPT_STR_0("\193\86\92\187\37\252\73", "\113\149\57\51\215")] or (1313 == 794)) then
 						TABLE_TableIndirection["v1022%0"] = 0 - 0;
 						TABLE_TableIndirection["v1023%0"] = nil;
 						while true do
-							if (TABLE_TableIndirection["v1022%0"] ~= (0 + 0)) then
-							else
+							if ((3174 > 2902) and ((TABLE_TableIndirection["v1022%0"] == (0 + 0)) or (2950 == 3812))) then
 								TABLE_TableIndirection["v1023%0"] = tostring(v829.ToolTip):match(LUAOBFUSACTOR_DECRYPT_STR_0("\60\116\128", "\160\25\16\171\214\130"));
-								if ((4514 > 3324) and (TABLE_TableIndirection["v1023%0"] or (4797 == 4388))) then
+								if ((4120 <= 4260) and TABLE_TableIndirection["v1023%0"]) then
 									TABLE_TableIndirection["v954%0"] = tonumber(TABLE_TableIndirection["v1023%0"]);
 								end
 								break;
 							end
 						end
 					end
-					if ((551 <= 681) and (TABLE_TableIndirection["v954%0"] == (1 + 0))) then
+					if ((4723 >= 2318) and (TABLE_TableIndirection["v954%0"] == (1 + 0))) then
 						return TABLE_TableIndirection["v953%0"];
-					elseif (TABLE_TableIndirection["v954%0"] > (2 - 1)) then
+					elseif ((TABLE_TableIndirection["v954%0"] > (2 - 1)) or (2027 > 2852)) then
 						return TABLE_TableIndirection["v953%0"] .. LUAOBFUSACTOR_DECRYPT_STR_0("\49\192", "\235\17\184\87\29\29\178") .. tostring(TABLE_TableIndirection["v954%0"]);
 					else
 						return TABLE_TableIndirection["v953%0"];
@@ -1570,34 +1553,33 @@ function GetEquippedWeapon(v444)
 				end
 			end
 			for v830, v831 in ipairs(v444:GetChildren()) do
-				if (((3277 > 407) and v831:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\135\166\125\253\252", "\144\202\201\25\152")) and (v831[LUAOBFUSACTOR_DECRYPT_STR_0("\23\218\9\123", "\96\89\187\100\30\155\42\135")] ~= LUAOBFUSACTOR_DECRYPT_STR_0("\12\221\19\79\123\111\44\195\0\79", "\29\77\173\99\42\26"))) or (208 >= 4828)) then
+				if ((v831:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\135\166\125\253\252", "\144\202\201\25\152")) and (v831[LUAOBFUSACTOR_DECRYPT_STR_0("\23\218\9\123", "\96\89\187\100\30\155\42\135")] ~= LUAOBFUSACTOR_DECRYPT_STR_0("\12\221\19\79\123\111\44\195\0\79", "\29\77\173\99\42\26"))) or (883 > 4778)) then
 					TABLE_TableIndirection["v955%0"] = 0 + 0;
 					TABLE_TableIndirection["v956%0"] = nil;
 					TABLE_TableIndirection["v957%0"] = nil;
 					while true do
-						if ((TABLE_TableIndirection["v955%0"] == (0 + 0)) or (1583 > 3567)) then
+						if ((TABLE_TableIndirection["v955%0"] == (0 + 0)) or (3620 >= 4891)) then
 							TABLE_TableIndirection["v956%0"] = v831[LUAOBFUSACTOR_DECRYPT_STR_0("\170\227\10\127", "\109\228\130\103\26\59\143\151")];
 							TABLE_TableIndirection["v957%0"] = 1 + 0;
 							TABLE_TableIndirection["v955%0"] = 1097 - (709 + 387);
 						end
-						if ((TABLE_TableIndirection["v955%0"] == (1859 - (673 + 1185))) or (1313 == 794)) then
+						if ((4258 > 937) and ((TABLE_TableIndirection["v955%0"] == (1859 - (673 + 1185))) or (1136 > 4317))) then
 							if v831[LUAOBFUSACTOR_DECRYPT_STR_0("\183\119\161\213\10\67\63", "\228\227\24\206\185\94\42\79")] then
 								TABLE_TableIndirection["v1075%0"] = 0;
 								TABLE_TableIndirection["v1076%0"] = nil;
 								while true do
-									if ((0 - 0) ~= TABLE_TableIndirection["v1075%0"]) then
-									else
+									if (((0 - 0) == TABLE_TableIndirection["v1075%0"]) or (4869 < 906)) then
 										TABLE_TableIndirection["v1076%0"] = tostring(v831.ToolTip):match(LUAOBFUSACTOR_DECRYPT_STR_0("\139\38\124", "\80\174\66\87\200\212\123"));
-										if ((3174 > 2902) and TABLE_TableIndirection["v1076%0"]) then
+										if TABLE_TableIndirection["v1076%0"] then
 											TABLE_TableIndirection["v957%0"] = tonumber(TABLE_TableIndirection["v1076%0"]);
 										end
 										break;
 									end
 								end
 							end
-							if ((4120 <= 4260) and (4695 >= 1415) and (TABLE_TableIndirection["v957%0"] == 1)) then
+							if (TABLE_TableIndirection["v957%0"] == 1) then
 								return TABLE_TableIndirection["v956%0"];
-							elseif ((TABLE_TableIndirection["v957%0"] > 1) or (883 > 4778)) then
+							elseif ((4748 == 4748) and (TABLE_TableIndirection["v957%0"] > 1)) then
 								return TABLE_TableIndirection["v956%0"] .. LUAOBFUSACTOR_DECRYPT_STR_0("\139\97", "\115\171\25\94\168\151") .. tostring(TABLE_TableIndirection["v957%0"]);
 							else
 								return TABLE_TableIndirection["v956%0"];
@@ -1616,9 +1598,9 @@ function GetDist(v446, v447)
 end
 function GetHealthColor(v448, v449)
 	TABLE_TableIndirection["v450%0"] = v448 / v449;
-	if (TABLE_TableIndirection["v450%0"] > (0.65 - 0)) then
+	if (((3736 <= 4740) and (TABLE_TableIndirection["v450%0"] > (0.65 - 0))) or (1225 > 4228)) then
 		return Color3.fromRGB(29 + 11, 255, 40);
-	elseif ((TABLE_TableIndirection["v450%0"] > (0.35 + 0)) or (3212 <= 944) or (3620 >= 4891)) then
+	elseif (TABLE_TableIndirection["v450%0"] > (0.35 + 0)) then
 		return Color3.fromRGB(343 - 88, 200, 0 + 0);
 	else
 		return Color3.fromRGB(255, 40, 79 - 39);
@@ -1629,15 +1611,14 @@ function StaticBoxParts(v451)
 	local v453, v454, v455, v456 = math[LUAOBFUSACTOR_DECRYPT_STR_0("\90\27\202\173", "\172\50\110\173\200\90\180")], math[LUAOBFUSACTOR_DECRYPT_STR_0("\243\175\243\73", "\44\155\218\148")], -math[LUAOBFUSACTOR_DECRYPT_STR_0("\229\238\43\62", "\209\141\155\76\91\180\71")], -math[LUAOBFUSACTOR_DECRYPT_STR_0("\251\104\216\78", "\122\147\29\191\43")];
 	TABLE_TableIndirection["v457%0"] = false;
 	for v615, v616 in ipairs(v451:GetChildren()) do
-		if (v616:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\158\209\77\12\234\254\158\106", "\30\220\176\62\105\186\159\236")) or (3096 <= 1798)) then
+		if v616:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\158\209\77\12\234\254\158\106", "\30\220\176\62\105\186\159\236")) then
 			TABLE_TableIndirection["v742%0"] = 0 - 0;
 			TABLE_TableIndirection["v743%0"] = nil;
 			TABLE_TableIndirection["v744%0"] = nil;
 			while true do
-				if (TABLE_TableIndirection["v742%0"] ~= (1880 - (446 + 1434))) then
-				else
+				if ((3328 > 2238) and ((TABLE_TableIndirection["v742%0"] == (1880 - (446 + 1434))) or (3390 <= 3060))) then
 					TABLE_TableIndirection["v743%0"], TABLE_TableIndirection["v744%0"] = TABLE_TableIndirection["v452%0"]:WorldToViewportPoint(v616.Position);
-					if ((4258 > 937) and TABLE_TableIndirection["v744%0"]) then
+					if ((3839 > 1405) and TABLE_TableIndirection["v744%0"]) then
 						v453 = math.min(v453, TABLE_TableIndirection["v743%0"].X);
 						v455 = math.max(v455, TABLE_TableIndirection["v743%0"].X);
 						v454 = math.min(v454, TABLE_TableIndirection["v743%0"].Y);
@@ -1649,7 +1630,7 @@ function StaticBoxParts(v451)
 			end
 		end
 	end
-	if ((3537 == 3537) and not TABLE_TableIndirection["v457%0"]) then
+	if (not TABLE_TableIndirection["v457%0"] or (999 > 2693) or (1293 <= 507)) then
 		return;
 	end
 	TABLE_TableIndirection["v458%0"] = Vector2.new(v453, v454);
@@ -1670,38 +1651,39 @@ end
 function getClosestPlayer()
 	local v472, v473;
 	for v622, v623 in next, GetPlayers(v4) do
-		if (((3837 >= 1570) and (v623 == v5)) or (4869 < 906)) then
+		if (((463 < 601) and (v623 == v5)) or (2896 < 805)) then
 			continue;
 		end
 		TABLE_TableIndirection["v624%0"] = v623[LUAOBFUSACTOR_DECRYPT_STR_0("\230\195\48\161\196\200\37\182\215", "\211\165\171\81")];
-		if (not TABLE_TableIndirection["v624%0"] or (2950 == 3812) or (1225 > 4228)) then
+		if ((2316 == 2316) and (not TABLE_TableIndirection["v624%0"] or (2183 < 687))) then
 			continue;
 		end
 		TABLE_TableIndirection["v625%0"] = FindFirstChild(TABLE_TableIndirection["v624%0"], TABLE_TableIndirection["v13%0"].TargetPart);
 		TABLE_TableIndirection["v626%0"] = FindFirstChild(TABLE_TableIndirection["v624%0"], LUAOBFUSACTOR_DECRYPT_STR_0("\44\96\223\203\217\211\13\113", "\188\100\21\178\170\183"));
-		if ((3328 > 2238) and (not TABLE_TableIndirection["v625%0"] or not TABLE_TableIndirection["v626%0"] or (TABLE_TableIndirection["v626%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\86\18\81\191\166\197", "\173\30\119\48\211\210")] <= (0 - 0)))) then
+		if (not TABLE_TableIndirection["v625%0"] or not TABLE_TableIndirection["v626%0"] or (TABLE_TableIndirection["v626%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\86\18\81\191\166\197", "\173\30\119\48\211\210")] <= (0 - 0)) or (2570 == 1533)) then
 			continue;
 		end
 		local v627, v628 = getPositionOnScreen(TABLE_TableIndirection["v625%0"].Position);
-		if not v628 then
+		if (((4549 == 4549) and not v628) or (883 == 1460)) then
 			continue;
 		end
 		TABLE_TableIndirection["v629%0"] = (getMousePosition() - v627)[LUAOBFUSACTOR_DECRYPT_STR_0("\118\216\62\52\82\205\44\62\94", "\90\59\185\89")];
-		if ((3839 > 1405) and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\117\227\95\105\20\75", "\29\32\144\58\47\91")]) then
-			if (((4723 >= 2318) and (TABLE_TableIndirection["v629%0"] <= (v473 or TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\53\26\71\143\64\165\26\32\98", "\193\115\85\17\221\33")]))) or (1293 <= 507)) then
+		if (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\117\227\95\105\20\75", "\29\32\144\58\47\91")] or (4619 <= 999)) then
+			if ((TABLE_TableIndirection["v629%0"] <= (v473 or TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\53\26\71\143\64\165\26\32\98", "\193\115\85\17\221\33")])) or (3410 > 4116)) then
 				TABLE_TableIndirection["v930%0"] = 0 + 0;
 				while true do
-					if ((TABLE_TableIndirection["v930%0"] == (0 - 0)) or (2027 > 2852) or (2896 < 805)) then
+					if ((TABLE_TableIndirection["v930%0"] == (0 - 0)) or (903 >= 3059)) then
 						v472 = TABLE_TableIndirection["v625%0"];
 						v473 = TABLE_TableIndirection["v629%0"];
 						break;
 					end
 				end
 			end
-		elseif ((2316 == 2316) and ((v473 == nil) or (TABLE_TableIndirection["v629%0"] < v473))) then
+		elseif (((4672 == 4672) and ((v473 == nil) or (TABLE_TableIndirection["v629%0"] < v473))) or (3976 < 2857)) then
 			TABLE_TableIndirection["v931%0"] = 0;
 			while true do
-				if ((TABLE_TableIndirection["v931%0"] == (0 + 0)) or (1136 > 4317) or (2570 == 1533)) then
+				if (TABLE_TableIndirection["v931%0"] ~= (0 + 0)) then
+				else
 					v472 = TABLE_TableIndirection["v625%0"];
 					v473 = TABLE_TableIndirection["v629%0"];
 					break;
@@ -1739,14 +1721,14 @@ snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\25\116\166\136\40", "\231\90\27\202")] = 
 snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\44\144\183\41\113\77", "\53\118\217\217\77\20")] = 897 + 102;
 snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\157\13\229\208\60\185\30\246\219\33\170\6", "\79\201\127\132\190")] = 1 + 0;
 v7[LUAOBFUSACTOR_DECRYPT_STR_0("\26\17\231\205\45\6\218\221\45\4\249\204\44", "\169\72\116\137")]:Connect(function()
-	if (((4748 == 4748) and not TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\92\116\200\164\117\127\205", "\198\25\26\169")]) or (883 == 1460)) then
+	if ((4930 > 2307) and (not TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\92\116\200\164\117\127\205", "\198\25\26\169")] or (3668 < 395))) then
 		TABLE_TableIndirection["v669%0"] = 0;
 		while true do
-			if ((TABLE_TableIndirection["v669%0"] == 1) or (4619 <= 999)) then
+			if ((TABLE_TableIndirection["v669%0"] == 1) or (4166 == 455) or (4046 < 1291)) then
 				fov_fill[LUAOBFUSACTOR_DECRYPT_STR_0("\127\122\206\47\133\93\126", "\31\41\19\189\70\231\49\27")] = false;
 				return;
 			end
-			if (((3736 <= 4740) and (TABLE_TableIndirection["v669%0"] == (0 + 0))) or (3410 > 4116)) then
+			if ((TABLE_TableIndirection["v669%0"] == (0 + 0)) or (4241 == 3545)) then
 				fov_circle[LUAOBFUSACTOR_DECRYPT_STR_0("\129\218\66\239\181\223\84", "\134\215\179\49")] = false;
 				snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\215\253\69\239\87\31\228", "\115\129\148\54\134\53")] = false;
 				TABLE_TableIndirection["v669%0"] = 1 + 0;
@@ -1756,7 +1738,7 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\26\17\231\205\45\6\218\221\45\4\249\204\44", "\
 	fov_circle[LUAOBFUSACTOR_DECRYPT_STR_0("\217\136\67\66\204\1\28\231", "\115\137\231\48\43\184\104")] = getMousePosition();
 	fov_circle[LUAOBFUSACTOR_DECRYPT_STR_0("\235\232\30\234\188\179", "\95\185\137\122\131\201\192")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\80\25\241\33\36\114\63\210\0", "\69\22\86\167\115")];
 	TABLE_TableIndirection["v479%0"] = (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\109\151\66\167\106\17", "\71\56\228\39\225\37")] and getClosestPlayer()) or nil;
-	if (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\133\242\225\15\213\219", "\66\208\129\132\73\154\141")] or (3390 <= 3060)) then
+	if (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\133\242\225\15\213\219", "\66\208\129\132\73\154\141")] or (4449 == 2663)) then
 		if TABLE_TableIndirection["v479%0"] then
 			fov_circle[LUAOBFUSACTOR_DECRYPT_STR_0("\105\80\218\242\88", "\157\42\63\182")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\253\17\31\223\192\215\49\59\211\193\239\63\59\251\202\207", "\175\187\94\73\156")];
 		else
@@ -1771,24 +1753,24 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\26\17\231\205\45\6\218\221\45\4\249\204\44", "\
 	fov_fill[LUAOBFUSACTOR_DECRYPT_STR_0("\106\228\117\34\183", "\67\41\139\25\77\197\228")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\206\129\248\12\95\228\228\141\193\38\89\250", "\136\136\206\174\74\54")];
 	fov_fill[LUAOBFUSACTOR_DECRYPT_STR_0("\16\225\135\139\64\180\186\54\246\136\134\74", "\219\68\147\230\229\51\196")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\90\97\192\198\15\75\23\72\92\247\238\21", "\123\28\46\150\128\102\39")];
 	fov_fill[LUAOBFUSACTOR_DECRYPT_STR_0("\51\64\14\94\25\133\62", "\21\101\41\125\55\123\233\91")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\183\248\171\213\35\4", "\82\226\139\206\147\108")] and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\215\41\123\151\197\253\10", "\172\145\102\45\209")];
-	if TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\199\3\13\80\135\119\250\8", "\30\148\109\108\32\235")] then
+	if (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\199\3\13\80\135\119\250\8", "\30\148\109\108\32\235")] or (4277 < 2989)) then
 		TABLE_TableIndirection["v672%0"] = getClosestPlayer();
-		if (TABLE_TableIndirection["v672%0"] or (903 >= 3059)) then
+		if (TABLE_TableIndirection["v672%0"] or (870 >= 4149)) then
 			local v843, v844 = TABLE_TableIndirection["v6%0"]:WorldToViewportPoint(TABLE_TableIndirection["v672%0"].Position);
-			if (v844 or (3976 < 2857)) then
+			if v844 then
 				TABLE_TableIndirection["v958%0"] = 0 + 0;
 				while true do
-					if ((TABLE_TableIndirection["v958%0"] == (0 - 0)) or (999 > 2693)) then
+					if (((2212 < 3183) and (TABLE_TableIndirection["v958%0"] == (0 - 0))) or (4048 > 4232)) then
 						snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\34\78\2\86\22\75\20", "\63\116\39\113")] = true;
 						snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\30\66\200\225", "\200\88\48\167\140\112\72")] = getMousePosition();
 						TABLE_TableIndirection["v958%0"] = 1 + 0;
 					end
-					if ((463 < 601) and ((668 - (89 + 578)) == TABLE_TableIndirection["v958%0"])) then
+					if (((668 - (89 + 578)) == TABLE_TableIndirection["v958%0"]) or (1750 >= 3473)) then
 						snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\246\81", "\130\162\62\72\203")] = Vector2.new(v843.X, v843.Y);
 						snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\128\184\177\127\149", "\157\195\215\221\16\231\224\143")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\76\215\10\156\239\118\215\14\175\236\115\214\25", "\131\31\185\107\236")];
 						TABLE_TableIndirection["v958%0"] = 2 + 0;
 					end
-					if ((4930 > 2307) and ((TABLE_TableIndirection["v958%0"] == 2) or (2183 < 687))) then
+					if ((3166 == 3166) and (TABLE_TableIndirection["v958%0"] == 2)) then
 						snapline[LUAOBFUSACTOR_DECRYPT_STR_0("\159\163\67\39\160\165\79\55\184", "\68\203\203\42")] = TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\112\89\116\201\79\94\123\220\119\95\124\218\72\89\112\202\80", "\185\35\55\21")];
 						break;
 					end
@@ -1804,7 +1786,7 @@ v7[LUAOBFUSACTOR_DECRYPT_STR_0("\26\17\231\205\45\6\218\221\45\4\249\204\44", "\
 	end
 end);
 function createBulletTrace(v489, v490)
-	if (not TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\210\175\117\249\251\164\112", "\155\151\193\20")] or (4046 < 1291)) then
+	if ((1763 < 3724) and not TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\210\175\117\249\251\164\112", "\155\151\193\20")]) then
 		return;
 	end
 	TABLE_TableIndirection["v491%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\30\165\18\90", "\27\78\196\96\46"));
@@ -1820,7 +1802,7 @@ function createBulletTrace(v489, v490)
 	TABLE_TableIndirection["v501%0"] = TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\106\187\63\83", "\88\39\212\91\54\203\51\124")];
 	TABLE_TableIndirection["v502%0"] = TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\15\163\184\133\105", "\168\76\204\212\234\27\174")];
 	TABLE_TableIndirection["v503%0"] = TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\184\22\50\74\26\246\79\158\1\61\71\16", "\46\236\100\83\36\105\134")] or (0 + 0);
-	if ((4549 == 4549) and (TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\29\255\129\129\148\3\45", "\111\89\154\231\224\225"))) then
+	if ((4646 > 2992) and (TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\29\255\129\129\148\3\45", "\111\89\154\231\224\225"))) then
 		TABLE_TableIndirection["v674%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\223\223\7\168", "\177\157\186\102\197\76\153\188"));
 		TABLE_TableIndirection["v674%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\131\170\52\174\161\182\45\170\172\170\112", "\207\194\222\64")] = TABLE_TableIndirection["v497%0"];
 		TABLE_TableIndirection["v674%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\58\97\195\65\139\219\22\112\217\84\217", "\179\123\21\183\32\232")] = TABLE_TableIndirection["v499%0"];
@@ -1834,7 +1816,7 @@ function createBulletTrace(v489, v490)
 		TABLE_TableIndirection["v674%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\141\198\7\63\5\157\218\15\44\81", "\96\206\179\117\73")] = 0 + 0;
 		TABLE_TableIndirection["v674%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\173\42\112\45\149\6\122\44\146\48\126\42\143", "\69\225\67\23")] = 0;
 		TABLE_TableIndirection["v674%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\244\128\33\176\210\151", "\27\164\225\83\213\188\227\185")] = TABLE_TableIndirection["v491%0"];
-	elseif ((TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\166\10\141\240", "\167\232\111\226\158")) or (4241 == 3545)) then
+	elseif ((57 <= 2723) and (TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\166\10\141\240", "\167\232\111\226\158"))) then
 		TABLE_TableIndirection["v846%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\102\33\46\21", "\209\36\68\79\120\123\61\144"));
 		TABLE_TableIndirection["v846%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\109\245\71\58\3\68\236\86\53\20\28", "\96\44\129\51\91")] = TABLE_TableIndirection["v497%0"];
 		TABLE_TableIndirection["v846%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\27\24\167\240\224\254\16\1\24\247", "\147\117\111\108\198\147\136")] = TABLE_TableIndirection["v499%0"];
@@ -1875,13 +1857,12 @@ function createBulletTrace(v489, v490)
 		TABLE_TableIndirection["v973%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\200\82\212\158\238\116\207\146\238\22", "\232\139\39\166")] = 1402 - (832 + 570);
 		TABLE_TableIndirection["v973%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\207\88\84\77\99\231\238\88\64\86\126\205\237", "\162\131\49\51\37\23")] = 0.6;
 		TABLE_TableIndirection["v973%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\111\120\236\47\122\75", "\20\63\25\158\74")] = TABLE_TableIndirection["v491%0"];
-	elseif (((4672 == 4672) and (TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\77\219\74\168", "\217\26\186\60\205\31\176\72"))) or (4048 > 4232)) then
+	elseif ((TABLE_TableIndirection["v501%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\77\219\74\168", "\217\26\186\60\205\31\176\72")) or (2070 == 443)) then
 		TABLE_TableIndirection["v1025%0"] = 0 + 0;
 		TABLE_TableIndirection["v1026%0"] = nil;
 		TABLE_TableIndirection["v1027%0"] = nil;
 		while true do
-			if (TABLE_TableIndirection["v1025%0"] ~= (1 + 0)) then
-			else
+			if (TABLE_TableIndirection["v1025%0"] == (1 + 0)) then
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\247\120\1\228\207\88\8\234\215\100\3\226\216\116", "\140\187\17\102")] = 0 - 0;
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\15\132\168\78\62", "\33\76\235\196")] = ColorSequence.new(TABLE_TableIndirection["v502%0"]);
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\63\227\246\75\164\96", "\229\104\138\146\63\204\80\229")] = 1.1 + 0;
@@ -1896,41 +1877,43 @@ function createBulletTrace(v489, v490)
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\9\232\95\214\249\249\56\222\87\199\233\239", "\139\93\141\39\162\140")] = 1 + 2;
 				TABLE_TableIndirection["v1025%0"] = 3;
 			end
-			if ((TABLE_TableIndirection["v1025%0"] == (2 + 5)) or (3668 < 395) or (1750 >= 3473)) then
+			if (TABLE_TableIndirection["v1025%0"] ~= (2 + 5)) then
+			else
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\0\170\14\223\10\9\174\0\196\13\37\172\7", "\126\76\195\105\183")] = 1;
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\111\73\182\116\87\160", "\212\63\40\196\17\57")] = TABLE_TableIndirection["v491%0"];
 				break;
 			end
-			if ((3166 == 3166) and (TABLE_TableIndirection["v1025%0"] == (9 - 6))) then
+			if (TABLE_TableIndirection["v1025%0"] ~= (9 - 6)) then
+			else
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\154\206\247\247\172\197\228\233", "\154\201\171\144")] = 621 - (316 + 289);
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\174\231\175\197\162\42\178\180\145\253\161\194\184", "\221\226\142\200\173\214\111\223")] = 2 - 1;
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\62\79\173\52\166\26", "\200\110\46\223\81")] = TABLE_TableIndirection["v491%0"];
 				TABLE_TableIndirection["v1027%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\52\66\61\57", "\34\118\39\92\84\66\178"));
 				TABLE_TableIndirection["v1025%0"] = 1 + 3;
 			end
-			if (TABLE_TableIndirection["v1025%0"] ~= (1458 - (666 + 787))) then
-			else
+			if (((1434 < 3106) and (TABLE_TableIndirection["v1025%0"] == (1458 - (666 + 787)))) or (2705 == 1393)) then
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\104\135\61\13\60", "\19\43\232\81\98\78\201\175")] = ColorSequence.new(Color3.fromRGB(250, 250, 680 - (360 + 65)));
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\124\218\252\178\204\189", "\234\43\179\152\198\164\141")] = 1.7 + 0;
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\146\83\120\202\143\226", "\231\197\58\28\190\231\211\173")] = 255.7 - (79 + 175);
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\103\192\63\34\196\156\82\192\59\34\212\149", "\236\51\178\94\76\183")] = NumberSequence.new({NumberSequenceKeypoint.new(0 - 0, 0.35 + 0),NumberSequenceKeypoint.new(2 - 1, 0.7 - 0)});
 				TABLE_TableIndirection["v1025%0"] = 905 - (503 + 396);
 			end
-			if ((TABLE_TableIndirection["v1025%0"] == 6) or (4166 == 455)) then
+			if (TABLE_TableIndirection["v1025%0"] ~= 6) then
+			else
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\222\200\202\87\255\223\215", "\35\138\173\178")] = LUAOBFUSACTOR_DECRYPT_STR_0("\211\1\80\221\65\110\196\23\65\216\8\50\142\87\28\138\3\44\144\81\31\141", "\29\161\99\40\188\50");
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\77\47\184\243\27\40\15\192\124\36\167\243\6", "\140\25\74\192\135\110\90\106")] = 189 - (92 + 89);
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\22\84\92\230\191\176\39\98\84\247\175\166", "\194\66\49\36\146\202")] = 3 - 1;
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\184\52\202\15\192\133\37\222", "\165\235\81\173\98")] = 11 + 9;
 				TABLE_TableIndirection["v1025%0"] = 5 + 2;
 			end
-			if ((1763 < 3724) and (TABLE_TableIndirection["v1025%0"] == 0)) then
+			if ((TABLE_TableIndirection["v1025%0"] == 0) or (4601 < 61)) then
 				TABLE_TableIndirection["v1026%0"] = Instance.new(LUAOBFUSACTOR_DECRYPT_STR_0("\9\128\168\59", "\132\75\229\201\86\217"));
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\163\102\177\164\129\122\168\160\140\102\245", "\197\226\18\197")] = TABLE_TableIndirection["v497%0"];
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\61\197\21\80\31\217\12\84\18\197\80", "\49\124\177\97")] = TABLE_TableIndirection["v499%0"];
 				TABLE_TableIndirection["v1026%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\166\60\195\187\163\60\205\187\146\60", "\222\224\93\160")] = true;
 				TABLE_TableIndirection["v1025%0"] = 3 - 2;
 			end
-			if ((57 <= 2723) and (4 == TABLE_TableIndirection["v1025%0"])) then
+			if ((4 == TABLE_TableIndirection["v1025%0"]) or (1390 >= 4744)) then
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\202\233\102\32\59\227\240\119\47\44\187", "\88\139\157\18\65")] = TABLE_TableIndirection["v497%0"];
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\107\14\6\16\200\66\23\23\31\223\27", "\171\42\122\114\113")] = TABLE_TableIndirection["v499%0"];
 				TABLE_TableIndirection["v1027%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\171\169\207\231\174\169\193\231\159\169", "\130\237\200\172")] = true;
@@ -1943,10 +1926,9 @@ function createBulletTrace(v489, v490)
 	task.spawn(function()
 		TABLE_TableIndirection["v630%0"] = 0;
 		while true do
-			if (TABLE_TableIndirection["v630%0"] ~= (0 - 0)) then
-			else
+			if (((786 < 3023) and (TABLE_TableIndirection["v630%0"] == (0 - 0))) or (2003 > 3834)) then
 				task.wait(TABLE_TableIndirection["v504%0"]);
-				if ((TABLE_TableIndirection["v491%0"] and TABLE_TableIndirection["v491%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\49\218\102\179\174\21", "\192\97\187\20\214")]) or (4449 == 2663)) then
+				if ((TABLE_TableIndirection["v491%0"] and TABLE_TableIndirection["v491%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\49\218\102\179\174\21", "\192\97\187\20\214")]) or (156 > 3913)) then
 					TABLE_TableIndirection["v491%0"]:Destroy();
 				end
 				break;
@@ -1974,66 +1956,66 @@ v113 = hookmetamethod(game, LUAOBFUSACTOR_DECRYPT_STR_0("\157\236\26\246\123\229
 	TABLE_TableIndirection["v512%0"] = getnamecallmethod();
 	TABLE_TableIndirection["v513%0"] = {...};
 	TABLE_TableIndirection["v514%0"] = TABLE_TableIndirection["v513%0"][2 - 1];
-	if (((TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\53\51\26\164\221\39\146", "\230\103\82\99\199\188\84")) and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller()) or (4277 < 2989)) then
+	if (((TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\53\51\26\164\221\39\146", "\230\103\82\99\199\188\84")) and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller()) or (2442 < 74)) then
 		TABLE_TableIndirection["v690%0"] = TABLE_TableIndirection["v513%0"][2];
 		TABLE_TableIndirection["v691%0"] = TABLE_TableIndirection["v513%0"][3];
 		TABLE_TableIndirection["v692%0"] = TABLE_TableIndirection["v113%0"](...);
 		TABLE_TableIndirection["v693%0"] = (TABLE_TableIndirection["v691%0"] and TABLE_TableIndirection["v691%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\145\135\164\166\80\62\169\130\166", "\74\220\230\195\200\57")]) or (0 + 0);
 		TABLE_TableIndirection["v694%0"] = math.floor(TABLE_TableIndirection["v693%0"] + 0.5);
 		TABLE_TableIndirection["v695%0"] = Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\136\139\215\22\8\243\176\134\220\26\31\194", "\177\197\234\176\127\107")] and Toggles[LUAOBFUSACTOR_DECRYPT_STR_0("\94\203\193\65\137\86\74\127\198\195\92\153", "\63\19\170\166\40\234\20")][LUAOBFUSACTOR_DECRYPT_STR_0("\0\9\1\61\37", "\160\86\104\109\72\64\77")] and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\220\125\239\8\18\143\253", "\234\153\19\142\106\126")];
-		if (TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\4\42\188\26\45\33\185", "\120\65\68\221")] and (TABLE_TableIndirection["v694%0"] ~= 0) and (TABLE_TableIndirection["v694%0"] ~= 1) and (TABLE_TableIndirection["v694%0"] ~= 7) and (TABLE_TableIndirection["v694%0"] ~= (13 - 4)) and (TABLE_TableIndirection["v694%0"] ~= (1254 - (485 + 759))) and (TABLE_TableIndirection["v694%0"] ~= (32 - 18)) and (TABLE_TableIndirection["v694%0"] <= 99)) then
+		if ((4535 == 4535) and TABLE_TableIndirection["v19%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\4\42\188\26\45\33\185", "\120\65\68\221")] and (TABLE_TableIndirection["v694%0"] ~= 0) and (TABLE_TableIndirection["v694%0"] ~= 1) and (TABLE_TableIndirection["v694%0"] ~= 7) and (TABLE_TableIndirection["v694%0"] ~= (13 - 4)) and (TABLE_TableIndirection["v694%0"] ~= (1254 - (485 + 759))) and (TABLE_TableIndirection["v694%0"] ~= (32 - 18)) and (TABLE_TableIndirection["v694%0"] <= 99)) then
 			TABLE_TableIndirection["v859%0"] = 0;
 			TABLE_TableIndirection["v860%0"] = nil;
 			while true do
-				if ((TABLE_TableIndirection["v859%0"] == 0) or (870 >= 4149)) then
+				if (TABLE_TableIndirection["v859%0"] ~= 0) then
+				else
 					TABLE_TableIndirection["v860%0"] = getClosestPlayer();
-					if (TABLE_TableIndirection["v695%0"] and TABLE_TableIndirection["v860%0"] and (typeof(TABLE_TableIndirection["v860%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\49\187\246\168\25\187\230\185", "\220\120\213\133")) and (typeof(TABLE_TableIndirection["v860%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\110\43\196\68\37\74\125", "\74\56\78\167\48"))) then
+					if ((195 == 195) and ((TABLE_TableIndirection["v695%0"] and TABLE_TableIndirection["v860%0"] and (typeof(TABLE_TableIndirection["v860%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\49\187\246\168\25\187\230\185", "\220\120\213\133")) and (typeof(TABLE_TableIndirection["v860%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\110\43\196\68\37\74\125", "\74\56\78\167\48"))) or (3009 <= 2105))) then
 						createBulletTrace(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v860%0"].Position);
-					elseif (TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\193\18\42\194\6\15\60", "\88\132\124\75\160\106\106")] and TABLE_TableIndirection["v860%0"] and (typeof(TABLE_TableIndirection["v860%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\61\56\158\83\26\164\51\5", "\96\116\86\237\39\123\202\80")) and (typeof(TABLE_TableIndirection["v860%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\23\17\178\105\141\190\252", "\207\65\116\209\29\226\204"))) then
-						if (((2212 < 3183) and TABLE_TableIndirection["v692%0"] and (typeof(TABLE_TableIndirection["v692%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\164\81\137\2\181", "\110\208\48\235")) and TABLE_TableIndirection["v692%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\149\166\144\132\177\160\140\131", "\237\197\201\227")] and (typeof(TABLE_TableIndirection["v692%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\141\38\28\106\170\33\41", "\26\219\67\127\30\197\83"))) or (2070 == 443)) then
+					elseif ((1830 < 3669) and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\193\18\42\194\6\15\60", "\88\132\124\75\160\106\106")] and TABLE_TableIndirection["v860%0"] and (typeof(TABLE_TableIndirection["v860%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\61\56\158\83\26\164\51\5", "\96\116\86\237\39\123\202\80")) and (typeof(TABLE_TableIndirection["v860%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\23\17\178\105\141\190\252", "\207\65\116\209\29\226\204"))) then
+						if ((3105 >= 1796) and ((TABLE_TableIndirection["v692%0"] and (typeof(TABLE_TableIndirection["v692%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\164\81\137\2\181", "\110\208\48\235")) and TABLE_TableIndirection["v692%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\149\166\144\132\177\160\140\131", "\237\197\201\227")] and (typeof(TABLE_TableIndirection["v692%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\141\38\28\106\170\33\41", "\26\219\67\127\30\197\83"))) or (1430 >= 3612))) then
 							createBulletTrace(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v692%0"].Position);
 						else
 							createBulletTrace(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v860%0"].Position);
 						end
-					elseif ((4646 > 2992) and TABLE_TableIndirection["v692%0"] and (typeof(TABLE_TableIndirection["v692%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\225\25\220\118\21", "\153\149\120\190\26\112")) and TABLE_TableIndirection["v692%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\60\26\217\169\62\249\241\25", "\119\108\117\170\192\74\144\158")] and (typeof(TABLE_TableIndirection["v692%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\209\44\130\53\232\59\210", "\65\135\73\225"))) then
+					elseif (TABLE_TableIndirection["v692%0"] and (typeof(TABLE_TableIndirection["v692%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\225\25\220\118\21", "\153\149\120\190\26\112")) and TABLE_TableIndirection["v692%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\60\26\217\169\62\249\241\25", "\119\108\117\170\192\74\144\158")] and (typeof(TABLE_TableIndirection["v692%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\209\44\130\53\232\59\210", "\65\135\73\225"))) then
 						createBulletTrace(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v692%0"].Position);
-					elseif ((TABLE_TableIndirection["v691%0"] and (typeof(TABLE_TableIndirection["v691%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\41\86\82\180\27\13\0", "\116\127\51\49\192"))) or (2705 == 1393)) then
+					elseif (TABLE_TableIndirection["v691%0"] and (typeof(TABLE_TableIndirection["v691%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\41\86\82\180\27\13\0", "\116\127\51\49\192"))) then
 						createBulletTrace(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v690%0"] + TABLE_TableIndirection["v691%0"]);
 					end
 					break;
 				end
 			end
 		end
-		if (((1434 < 3106) and TABLE_TableIndirection["v695%0"]) or (4601 < 61)) then
+		if ((4379 >= 2131) and (2683 >= 2460) and TABLE_TableIndirection["v695%0"]) then
 			TABLE_TableIndirection["v861%0"] = getClosestPlayer();
-			if ((786 < 3023) and TABLE_TableIndirection["v861%0"] and (typeof(TABLE_TableIndirection["v861%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\50\14\64\233\239\16\1\30", "\98\123\96\51\157\142\126")) and (typeof(TABLE_TableIndirection["v861%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\251\251\165\218\41\223\173", "\70\173\158\198\174")) and (typeof(TABLE_TableIndirection["v690%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\198\58\76\250\255\45\28", "\142\144\95\47"))) then
+			if ((3844 >= 2043) and TABLE_TableIndirection["v861%0"] and (typeof(TABLE_TableIndirection["v861%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\50\14\64\233\239\16\1\30", "\98\123\96\51\157\142\126")) and (typeof(TABLE_TableIndirection["v861%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\251\251\165\218\41\223\173", "\70\173\158\198\174")) and (typeof(TABLE_TableIndirection["v690%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\198\58\76\250\255\45\28", "\142\144\95\47"))) then
 				TABLE_TableIndirection["v986%0"] = 1189 - (442 + 747);
 				TABLE_TableIndirection["v987%0"] = nil;
 				TABLE_TableIndirection["v988%0"] = nil;
 				TABLE_TableIndirection["v989%0"] = nil;
 				TABLE_TableIndirection["v990%0"] = nil;
 				while true do
-					if (TABLE_TableIndirection["v986%0"] ~= (1136 - (832 + 303))) then
-					else
+					if ((TABLE_TableIndirection["v986%0"] == (1136 - (832 + 303))) or (1804 >= 3275) or (3232 <= 2731)) then
 						TABLE_TableIndirection["v988%0"][3] = TABLE_TableIndirection["v987%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\3\34\113\12\24\59\85", "\110\119\77\48")];
 						TABLE_TableIndirection["v989%0"], TABLE_TableIndirection["v990%0"] = pcall(TABLE_TableIndirection["v113%0"], unpack(TABLE_TableIndirection["v988%0"]));
 						TABLE_TableIndirection["v986%0"] = 948 - (88 + 858);
 					end
-					if ((TABLE_TableIndirection["v986%0"] == (1 + 2)) or (1390 >= 4744)) then
-						if (((typeof(TABLE_TableIndirection["v988%0"][1 + 0]) == LUAOBFUSACTOR_DECRYPT_STR_0("\194\49\55\65\229\229\60\33", "\132\139\95\68\53")) and (typeof(TABLE_TableIndirection["v988%0"][1 + 1]) == LUAOBFUSACTOR_DECRYPT_STR_0("\202\45\254\33\243\58\174", "\85\156\72\157")) and (typeof(TABLE_TableIndirection["v988%0"][3]) == LUAOBFUSACTOR_DECRYPT_STR_0("\77\55\126\53\213\58\217", "\234\27\82\29\65\186\72"))) or (2442 < 74)) then
+					if ((4905 == 4905) and (TABLE_TableIndirection["v986%0"] == (1 + 2))) then
+						if (((typeof(TABLE_TableIndirection["v988%0"][1 + 0]) == LUAOBFUSACTOR_DECRYPT_STR_0("\194\49\55\65\229\229\60\33", "\132\139\95\68\53")) and (typeof(TABLE_TableIndirection["v988%0"][1 + 1]) == LUAOBFUSACTOR_DECRYPT_STR_0("\202\45\254\33\243\58\174", "\85\156\72\157")) and (typeof(TABLE_TableIndirection["v988%0"][3]) == LUAOBFUSACTOR_DECRYPT_STR_0("\77\55\126\53\213\58\217", "\234\27\82\29\65\186\72"))) or (1417 > 3629)) then
 							local v1105, v1106 = pcall(TABLE_TableIndirection["v113%0"], unpack(TABLE_TableIndirection["v988%0"]));
-							if (v1105 or (2003 > 3834)) then
+							if (((4795 > 402) and v1105) or (4136 >= 4411)) then
 								return v1106;
 							end
 						end
 						return TABLE_TableIndirection["v692%0"];
 					end
-					if ((4535 == 4535) and (TABLE_TableIndirection["v986%0"] == 2)) then
+					if (((4813 > 3565) and (TABLE_TableIndirection["v986%0"] == 2)) or (2958 == 4017)) then
 						TABLE_TableIndirection["v988%0"][2] = TABLE_TableIndirection["v690%0"] + TABLE_TableIndirection["v987%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\228\192\200\188\12\230\202", "\99\144\175\137\222")];
 						TABLE_TableIndirection["v988%0"][3] = TABLE_TableIndirection["v987%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\68\123\184\0\43\66\180\68", "\209\48\20\236\97\89\37")];
 						TABLE_TableIndirection["v986%0"] = 792 - (766 + 23);
 					end
-					if ((TABLE_TableIndirection["v986%0"] == (0 - 0)) or (3009 <= 2105)) then
+					if ((3912 == 3912) and (TABLE_TableIndirection["v986%0"] == (0 - 0))) then
 						TABLE_TableIndirection["v987%0"] = getMagicBulletDirection(TABLE_TableIndirection["v690%0"], TABLE_TableIndirection["v861%0"].Position);
 						TABLE_TableIndirection["v988%0"] = v112(TABLE_TableIndirection["v513%0"]);
 						TABLE_TableIndirection["v986%0"] = 1 - 0;
@@ -2043,19 +2025,18 @@ v113 = hookmetamethod(game, LUAOBFUSACTOR_DECRYPT_STR_0("\157\236\26\246\123\229
 				return TABLE_TableIndirection["v692%0"];
 			end
 		end
-		if ((TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\217\79\95\43\78\249\69", "\34\156\33\62\73")] and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller() and (TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\58\115\247\82\9\97\250", "\49\104\18\142"))) or (156 > 3913)) then
+		if ((2821 <= 4824) and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\217\79\95\43\78\249\69", "\34\156\33\62\73")] and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller() and (TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\58\115\247\82\9\97\250", "\49\104\18\142"))) then
 			TABLE_TableIndirection["v862%0"] = 0;
 			TABLE_TableIndirection["v863%0"] = nil;
 			while true do
-				if (TABLE_TableIndirection["v862%0"] ~= (0 - 0)) then
-				else
+				if ((1228 >= 813) and (TABLE_TableIndirection["v862%0"] == (0 - 0))) then
 					TABLE_TableIndirection["v863%0"] = getClosestPlayer();
-					if ((195 == 195) and (1830 < 3669) and TABLE_TableIndirection["v863%0"] and (typeof(TABLE_TableIndirection["v863%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\216\235\111\31\240\235\127\14", "\107\145\133\28")) and (typeof(TABLE_TableIndirection["v863%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\244\91\176\170\205\76\224", "\222\162\62\211")) and (typeof(TABLE_TableIndirection["v690%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\149\116\13\15\62\145\153", "\170\195\17\110\123\81\227"))) then
+					if (((1738 <= 2195) and TABLE_TableIndirection["v863%0"] and (typeof(TABLE_TableIndirection["v863%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\216\235\111\31\240\235\127\14", "\107\145\133\28")) and (typeof(TABLE_TableIndirection["v863%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\244\91\176\170\205\76\224", "\222\162\62\211")) and (typeof(TABLE_TableIndirection["v690%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\149\116\13\15\62\145\153", "\170\195\17\110\123\81\227"))) or (3455 > 4050)) then
 						TABLE_TableIndirection["v1054%0"] = v112(TABLE_TableIndirection["v513%0"]);
 						TABLE_TableIndirection["v1054%0"][10 - 7] = TABLE_TableIndirection["v863%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\132\59\243\201\233\189\59\238", "\157\212\84\128\160")] - TABLE_TableIndirection["v690%0"];
-						if ((3105 >= 1796) and (typeof(TABLE_TableIndirection["v1054%0"][1074 - (1036 + 37)]) == LUAOBFUSACTOR_DECRYPT_STR_0("\160\125\243\81\39\134\237\198", "\163\233\19\128\37\70\232\142")) and (typeof(TABLE_TableIndirection["v1054%0"][2 + 0]) == LUAOBFUSACTOR_DECRYPT_STR_0("\213\80\63\13\236\71\111", "\121\131\53\92")) and (typeof(TABLE_TableIndirection["v1054%0"][5 - 2]) == LUAOBFUSACTOR_DECRYPT_STR_0("\72\201\72\148\113\222\24", "\224\30\172\43"))) then
+						if ((typeof(TABLE_TableIndirection["v1054%0"][1074 - (1036 + 37)]) == LUAOBFUSACTOR_DECRYPT_STR_0("\160\125\243\81\39\134\237\198", "\163\233\19\128\37\70\232\142")) and (typeof(TABLE_TableIndirection["v1054%0"][2 + 0]) == LUAOBFUSACTOR_DECRYPT_STR_0("\213\80\63\13\236\71\111", "\121\131\53\92")) and (typeof(TABLE_TableIndirection["v1054%0"][5 - 2]) == LUAOBFUSACTOR_DECRYPT_STR_0("\72\201\72\148\113\222\24", "\224\30\172\43"))) then
 							local v1107, v1108 = pcall(TABLE_TableIndirection["v113%0"], unpack(TABLE_TableIndirection["v1054%0"]));
-							if v1107 then
+							if ((41 <= 3018) and v1107) then
 								return v1108;
 							end
 						end
@@ -2069,25 +2050,26 @@ v113 = hookmetamethod(game, LUAOBFUSACTOR_DECRYPT_STR_0("\157\236\26\246\123\229
 		end
 		return TABLE_TableIndirection["v692%0"];
 	end
-	if ((4379 >= 2131) and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\32\169\126\220\225\0\163", "\141\101\199\31\190")] and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller() and (TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\105\70\26\196\219\170\187", "\207\59\39\99\167\186\217"))) then
+	if ((243 == 243) and TABLE_TableIndirection["v13%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\32\169\126\220\225\0\163", "\141\101\199\31\190")] and (TABLE_TableIndirection["v514%0"] == v11) and not checkcaller() and (TABLE_TableIndirection["v512%0"] == LUAOBFUSACTOR_DECRYPT_STR_0("\105\70\26\196\219\170\187", "\207\59\39\99\167\186\217"))) then
 		TABLE_TableIndirection["v696%0"] = 0;
 		TABLE_TableIndirection["v697%0"] = nil;
 		TABLE_TableIndirection["v698%0"] = nil;
 		while true do
-			if (TABLE_TableIndirection["v696%0"] == (1 + 0)) then
-				if ((3844 >= 2043) and TABLE_TableIndirection["v698%0"] and (typeof(TABLE_TableIndirection["v698%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\46\72\168\70\73\243\163\238", "\139\103\38\219\50\40\157\192")) and (typeof(TABLE_TableIndirection["v698%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\208\189\53\214\233\170\101", "\162\134\216\86")) and (typeof(TABLE_TableIndirection["v697%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\8\234\84\77\63\80\162", "\207\94\143\55\57\80\34\145"))) then
+			if ((2145 <= 4104) and (TABLE_TableIndirection["v696%0"] == (1 + 0))) then
+				if (((2689 < 4845) and TABLE_TableIndirection["v698%0"] and (typeof(TABLE_TableIndirection["v698%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\46\72\168\70\73\243\163\238", "\139\103\38\219\50\40\157\192")) and (typeof(TABLE_TableIndirection["v698%0"].Position) == LUAOBFUSACTOR_DECRYPT_STR_0("\208\189\53\214\233\170\101", "\162\134\216\86")) and (typeof(TABLE_TableIndirection["v697%0"]) == LUAOBFUSACTOR_DECRYPT_STR_0("\8\234\84\77\63\80\162", "\207\94\143\55\57\80\34\145"))) or (271 > 1572)) then
 					TABLE_TableIndirection["v1005%0"] = v112(TABLE_TableIndirection["v513%0"]);
 					TABLE_TableIndirection["v1005%0"][1483 - (641 + 839)] = TABLE_TableIndirection["v698%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\18\222\48\115\164\82\24\183", "\217\66\177\67\26\208\59\119")] - TABLE_TableIndirection["v697%0"];
-					if (((typeof(TABLE_TableIndirection["v1005%0"][1]) == LUAOBFUSACTOR_DECRYPT_STR_0("\10\208\217\190\81\228\251\38", "\152\67\190\170\202\48\138")) and (typeof(TABLE_TableIndirection["v1005%0"][915 - (910 + 3)]) == LUAOBFUSACTOR_DECRYPT_STR_0("\237\44\86\228\212\59\6", "\144\187\73\53")) and (typeof(TABLE_TableIndirection["v1005%0"][3]) == LUAOBFUSACTOR_DECRYPT_STR_0("\32\190\57\195\173\161\69", "\211\118\219\90\183\194"))) or (1430 >= 3612)) then
+					if ((typeof(TABLE_TableIndirection["v1005%0"][1]) == LUAOBFUSACTOR_DECRYPT_STR_0("\10\208\217\190\81\228\251\38", "\152\67\190\170\202\48\138")) and (typeof(TABLE_TableIndirection["v1005%0"][915 - (910 + 3)]) == LUAOBFUSACTOR_DECRYPT_STR_0("\237\44\86\228\212\59\6", "\144\187\73\53")) and (typeof(TABLE_TableIndirection["v1005%0"][3]) == LUAOBFUSACTOR_DECRYPT_STR_0("\32\190\57\195\173\161\69", "\211\118\219\90\183\194"))) then
 						local v1056, v1057 = pcall(TABLE_TableIndirection["v113%0"], unpack(TABLE_TableIndirection["v1005%0"]));
-						if ((2683 >= 2460) and v1056) then
+						if v1056 then
 							return v1057;
 						end
 					end
 				end
 				return TABLE_TableIndirection["v113%0"](...);
 			end
-			if ((TABLE_TableIndirection["v696%0"] == (0 - 0)) or (3232 <= 2731)) then
+			if (TABLE_TableIndirection["v696%0"] ~= (0 - 0)) then
+			else
 				TABLE_TableIndirection["v697%0"] = TABLE_TableIndirection["v513%0"][2];
 				TABLE_TableIndirection["v698%0"] = getClosestPlayer();
 				TABLE_TableIndirection["v696%0"] = 1685 - (1466 + 218);
@@ -2127,14 +2109,14 @@ local function GetCornerBoxLines(esp)
 	return esp[LUAOBFUSACTOR_DECRYPT_STR_0("\199\95", "\71\147\19\39")], esp[LUAOBFUSACTOR_DECRYPT_STR_0("\49\8", "\66\101\90\134\205\211\138\154")], esp[LUAOBFUSACTOR_DECRYPT_STR_0("\62\96", "\71\124\44\25\204\229")], esp[LUAOBFUSACTOR_DECRYPT_STR_0("\48\200", "\217\114\154\73\36\162")];
 end
 local function UpdatePlayerESP(player)
-	if ((4905 == 4905) and ((player == TABLE_TableIndirection["LocalPlayer%2"]) or (1804 >= 3275))) then
+	if ((2739 < 3293) and ((player == TABLE_TableIndirection["LocalPlayer%2"]) or (2322 > 2622))) then
 		return;
 	end
-	if ((ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\8\160\187\160\34\128\5\63\174", "\96\92\197\218\205\97\232")] and (player[LUAOBFUSACTOR_DECRYPT_STR_0("\10\15\189\128", "\159\94\106\220\237")] == TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\31\5\78", "\35\205\122\100")])) or (1417 > 3629) or (4136 >= 4411)) then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\8\160\187\160\34\128\5\63\174", "\96\92\197\218\205\97\232")] and (player[LUAOBFUSACTOR_DECRYPT_STR_0("\10\15\189\128", "\159\94\106\220\237")] == TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\31\5\78", "\35\205\122\100")])) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player];
-		if ((4795 > 402) and TABLE_TableIndirection["esp%0"]) then
+		if (TABLE_TableIndirection["esp%0"] or (4534 == 2082) or (3942 < 1134)) then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if d[LUAOBFUSACTOR_DECRYPT_STR_0("\144\92\10\72\180\92", "\39\194\57\103")] then
+				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\144\92\10\72\180\92", "\39\194\57\103")] or (1571 > 1867) or (2693 == 4973)) then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\148\242\47\88\4\160\203", "\174\194\155\92\49\102\204")] = false;
 				end
 			end
@@ -2142,11 +2124,11 @@ local function UpdatePlayerESP(player)
 		return;
 	end
 	TABLE_TableIndirection["char%0"] = player[LUAOBFUSACTOR_DECRYPT_STR_0("\231\128\88\101\134\201\250\193\154", "\142\164\232\57\23\231\170")];
-	if ((4813 > 3565) and not TABLE_TableIndirection["char%0"]) then
+	if ((2146 == 2146) and not TABLE_TableIndirection["char%0"]) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player];
-		if (TABLE_TableIndirection["esp%0"] or (2958 == 4017)) then
+		if TABLE_TableIndirection["esp%0"] then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if ((3912 == 3912) and d[LUAOBFUSACTOR_DECRYPT_STR_0("\133\175\209\242\4\178", "\114\215\202\188\157")]) then
+				if d[LUAOBFUSACTOR_DECRYPT_STR_0("\133\175\209\242\4\178", "\114\215\202\188\157")] then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\7\172\225\89\176\143\238", "\229\81\197\146\48\210\227\139")] = false;
 				end
 			end
@@ -2155,11 +2137,11 @@ local function UpdatePlayerESP(player)
 	end
 	TABLE_TableIndirection["hum%0"] = TABLE_TableIndirection["char%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\170\71\86\123\221\244\84\82", "\54\226\50\59\26\179\155\61"));
 	TABLE_TableIndirection["root%0"] = TABLE_TableIndirection["char%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\226\43\53\89\17\197\55\60\106\16\197\42\8\89\13\222", "\127\170\94\88\56"));
-	if ((2821 <= 4824) and not (TABLE_TableIndirection["hum%0"] and TABLE_TableIndirection["root%0"] and (TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\200\194\181\206\172\53", "\198\128\167\212\162\216\93\153")] > 0))) then
+	if (not (TABLE_TableIndirection["hum%0"] and TABLE_TableIndirection["root%0"] and (TABLE_TableIndirection["hum%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\200\194\181\206\172\53", "\198\128\167\212\162\216\93\153")] > 0)) or (2244 == 3224)) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player];
 		if TABLE_TableIndirection["esp%0"] then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if ((1228 >= 813) and (1738 <= 2195) and d[LUAOBFUSACTOR_DECRYPT_STR_0("\152\63\233\209\188\63", "\190\202\90\132")]) then
+				if d[LUAOBFUSACTOR_DECRYPT_STR_0("\152\63\233\209\188\63", "\190\202\90\132")] then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\177\208\96\222\160\42\130", "\70\231\185\19\183\194")] = false;
 				end
 			end
@@ -2168,19 +2150,18 @@ local function UpdatePlayerESP(player)
 	end
 	TABLE_TableIndirection["points%0"] = {};
 	for _, part in ipairs(TABLE_TableIndirection["char%0"]:GetChildren()) do
-		if part:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\249\193\247\161\131\218\210\240", "\211\187\160\132\196")) then
+		if (part:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\249\193\247\161\131\218\210\240", "\211\187\160\132\196")) or (4904 <= 1916)) then
 			local pos, onScreen = TABLE_TableIndirection["Camera%0"]:WorldToViewportPoint(part.Position);
-			if (((41 <= 3018) and onScreen and (pos['Z'] > 0)) or (3455 > 4050)) then
+			if (onScreen and (pos['Z'] > 0)) then
 				table.insert(TABLE_TableIndirection["points%0"], Vector2.new(pos.X, pos.Y));
 			end
 		end
 	end
-	if (#TABLE_TableIndirection["points%0"] ~= 0) then
-	else
+	if ((90 <= 1065) and ((#TABLE_TableIndirection["points%0"] == 0) or (2654 >= 2996))) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player];
-		if ((243 == 243) and (2145 <= 4104) and TABLE_TableIndirection["esp%0"]) then
+		if ((4802 == 4802) and (3978 > 2104) and TABLE_TableIndirection["esp%0"]) then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if ((2689 < 4845) and d[LUAOBFUSACTOR_DECRYPT_STR_0("\30\133\226\242\94\185", "\146\76\224\143\157\40\220")]) then
+				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\30\133\226\242\94\185", "\146\76\224\143\157\40\220")] or (2280 <= 511)) then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\109\118\165\123\164\53\251", "\158\59\31\214\18\198\89")] = false;
 				end
 			end
@@ -2200,7 +2181,7 @@ local function UpdatePlayerESP(player)
 	TABLE_TableIndirection["cornerSize%0"] = math.min(TABLE_TableIndirection["width%0"], TABLE_TableIndirection["height%0"]) * ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\105\218\155\183\210\19\249\67\207\140", "\170\42\181\233\217\183\97")];
 	TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player] or {};
 	TABLE_TableIndirection["PlayerESP%0"][player] = TABLE_TableIndirection["esp%0"];
-	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\239\116\253\219\119\89\238\116\247", "\43\172\27\143\181\18")] or (271 > 1572)) then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\239\116\253\219\119\89\238\116\247", "\43\172\27\143\181\18")] or (1676 <= 463)) then
 		local tl, tr, bl, br = GetCornerBoxLines(TABLE_TableIndirection["esp%0"]);
 		TABLE_TableIndirection["trans%0"] = ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\240\38\181\183\120\193\29\181\184\115\192\57\166\171\120\221\42\190", "\29\179\73\199\217")];
 		tl[LUAOBFUSACTOR_DECRYPT_STR_0("\95\179\114\192", "\173\25\193\29")] = Vector2.new(minX, minY);
@@ -2225,25 +2206,25 @@ local function UpdatePlayerESP(player)
 		br[LUAOBFUSACTOR_DECRYPT_STR_0("\235\171\170\214\13\8\189", "\216\189\194\217\191\111\100")] = true;
 	else
 		TABLE_TableIndirection["tl%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\98", "\42\205\46\33\20\80")];
-		if (TABLE_TableIndirection["tl%0"] or (2322 > 2622)) then
+		if ((3869 == 3869) and TABLE_TableIndirection["tl%0"]) then
 			TABLE_TableIndirection["tl%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\103\1\58\190\83\4\44", "\215\49\104\73")] = false;
 		end
 		TABLE_TableIndirection["tr%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\226\38", "\104\182\116\102")];
-		if ((2739 < 3293) and TABLE_TableIndirection["tr%0"]) then
+		if ((1158 <= 2613) and TABLE_TableIndirection["tr%0"]) then
 			TABLE_TableIndirection["tr%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\16\225\239\232\188\52\187", "\222\70\136\156\129\222\88")] = false;
 		end
 		TABLE_TableIndirection["bl%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\224\168", "\217\162\228\228")];
-		if (TABLE_TableIndirection["bl%0"] or (4534 == 2082)) then
+		if ((2995 > 1541) and TABLE_TableIndirection["bl%0"]) then
 			TABLE_TableIndirection["bl%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\152\212\220\209\172\209\202", "\184\206\189\175")] = false;
 		end
 		TABLE_TableIndirection["br%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\126\124", "\188\60\46\153\215\172\57")];
-		if TABLE_TableIndirection["br%0"] then
+		if ((3249 > 953) and TABLE_TableIndirection["br%0"]) then
 			TABLE_TableIndirection["br%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\34\248\46\91\59\40\17", "\68\116\145\93\50\89")] = false;
 		end
 	end
 	TABLE_TableIndirection["centerX%0"] = (minX + maxX) / 2;
 	TABLE_TableIndirection["centerY%0"] = (minY + maxY) / 2;
-	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\129\89\167\166", "\51\207\56\202\195\150")] or (1571 > 1867) or (3942 < 1134)) then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\129\89\167\166", "\51\207\56\202\195\150")] or (3273 > 4573) or (2364 <= 1999)) then
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\147\73\246\70\181\131\230\183", "\195\221\40\155\35\225\230\158")] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\232\124\203\92\204\7\222\105", "\98\166\29\166\57\152")] or CreateText();
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\135\19\140\207\9\172\10\149", "\93\201\114\225\170")][LUAOBFUSACTOR_DECRYPT_STR_0("\216\229\227\252", "\142\140\128\155\136\21\215\165")] = player[LUAOBFUSACTOR_DECRYPT_STR_0("\101\164\21\78\236\42\225\148\64\160\3", "\218\33\205\102\62\128\75\152")] or player[LUAOBFUSACTOR_DECRYPT_STR_0("\218\122\83\193", "\150\148\27\62\164")];
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\12\232\231\197\22\236\242\212", "\160\66\137\138")][LUAOBFUSACTOR_DECRYPT_STR_0("\48\204\49\182\43\227\69\126", "\16\96\163\66\223\95\138\42")] = Vector2.new(TABLE_TableIndirection["centerX%0"], minY - 18);
@@ -2251,13 +2232,13 @@ local function UpdatePlayerESP(player)
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\52\60\167\133\221\9\226\33", "\85\122\93\202\224\137\108\154")][LUAOBFUSACTOR_DECRYPT_STR_0("\178\89\65\162\193\160\129", "\204\228\48\50\203\163")] = true;
 	else
 		TABLE_TableIndirection["txt%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\240\182\68\162\59\74\205\44", "\88\190\215\41\199\111\47\181")];
-		if (TABLE_TableIndirection["txt%0"] or (2654 >= 2996)) then
+		if (TABLE_TableIndirection["txt%0"] or (4922 < 194)) then
 			TABLE_TableIndirection["txt%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\98\62\95\64\114\205\219", "\190\52\87\44\41\16\161")] = false;
 		end
 	end
-	if (((3978 > 2104) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\103\31\20\160\26\47\31\70", "\124\35\118\103\212\123\65")]) or (2693 == 4973)) then
+	if ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\103\31\20\160\26\47\31\70", "\124\35\118\103\212\123\65")] then
 		TABLE_TableIndirection["localRoot%0"] = TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\31\227\173\173\127\95\40\238\190", "\60\92\139\204\223\30")] and TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\5\21\238\159\196\37\9\234\159", "\165\70\125\143\237")]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\156\46\248\69\94\187\50\241\118\95\187\47\197\69\66\160", "\48\212\91\149\36"));
-		if ((2995 > 1541) and TABLE_TableIndirection["localRoot%0"]) then
+		if TABLE_TableIndirection["localRoot%0"] then
 			TABLE_TableIndirection["dist%0"] = (TABLE_TableIndirection["localRoot%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\116\17\41\13\80\23\53\10", "\100\36\126\90")] - TABLE_TableIndirection["root%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\33\203\196\84\2\24\61\60", "\82\113\164\183\61\118\113\82")])[LUAOBFUSACTOR_DECRYPT_STR_0("\214\67\246\185\173\219\255\255\71", "\138\155\34\145\215\196\175")];
 			TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\144\240\29\214\61\62\69\212", "\160\212\153\110\162\105\91\61")] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\132\49\185\203\148\61\178\203", "\191\192\88\202")] or CreateText();
 			TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\85\196\250\10\60\201\105\217", "\172\17\173\137\126\104")][LUAOBFUSACTOR_DECRYPT_STR_0("\233\121\53\35", "\120\189\28\77\87\182\131")] = math.floor(TABLE_TableIndirection["dist%0"]) .. "m";
@@ -2267,11 +2248,11 @@ local function UpdatePlayerESP(player)
 		end
 	else
 		TABLE_TableIndirection["txt%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\33\65\24\105\49\77\19\105", "\29\101\40\107")];
-		if TABLE_TableIndirection["txt%0"] then
+		if (TABLE_TableIndirection["txt%0"] or (3151 < 1284) or (2091 < 31)) then
 			TABLE_TableIndirection["txt%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\243\252\195\186\31\201\240", "\125\165\149\176\211")] = false;
 		end
 	end
-	if ((2146 == 2146) and (3249 > 953) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\126\6\43\241\138\71", "\229\41\99\74\129")]) then
+	if ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\126\6\43\241\138\71", "\229\41\99\74\129")] then
 		TABLE_TableIndirection["tool%0"] = TABLE_TableIndirection["char%0"]:FindFirstChildOfClass(LUAOBFUSACTOR_DECRYPT_STR_0("\7\10\238\39", "\75\83\101\129"));
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\197\78\64\192\253\69\117\213\234\95", "\176\146\43\33")] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\159\216\240\1\161\117\156\216\233\5", "\27\200\189\145\113\206")] or CreateText();
 		TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\151\142\83\187\64\174\191\87\179\91", "\47\192\235\50\203")][LUAOBFUSACTOR_DECRYPT_STR_0("\20\194\2\197", "\233\64\167\122\177\140\188\212")] = (TABLE_TableIndirection["tool%0"] and TABLE_TableIndirection["tool%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\97\117\251\69", "\144\47\20\150\32\139\220")]) or LUAOBFUSACTOR_DECRYPT_STR_0("\30\45\179\252", "\132\80\66\221\153\186\224");
@@ -2286,11 +2267,11 @@ local function UpdatePlayerESP(player)
 	end
 end
 local function UpdateObjectESP(obj, label, color)
-	if (not obj or not obj[LUAOBFUSACTOR_DECRYPT_STR_0("\124\163\250\127\114\88", "\28\44\194\136\26")] or (2244 == 3224)) then
+	if (not obj or not obj[LUAOBFUSACTOR_DECRYPT_STR_0("\124\163\250\127\114\88", "\28\44\194\136\26")]) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["ObjectESP%0"][obj];
-		if (TABLE_TableIndirection["esp%0"] or (3273 > 4573) or (4904 <= 1916)) then
+		if (TABLE_TableIndirection["esp%0"] or (2430 >= 4872)) then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if ((90 <= 1065) and (d[LUAOBFUSACTOR_DECRYPT_STR_0("\78\124\74\9\96\143", "\174\28\25\39\102\22\234\59")] or (3151 < 1284))) then
+				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\78\124\74\9\96\143", "\174\28\25\39\102\22\234\59")] or (1850 == 1529)) then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\255\64\3\209\204\138\204", "\230\169\41\112\184\174")] = false;
 				end
 			end
@@ -2299,15 +2280,15 @@ local function UpdateObjectESP(obj, label, color)
 		return;
 	end
 	TABLE_TableIndirection["pos%0"] = (obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\231\203\113\187\30", "\47\170\164\21\222\114\116\179")) and (obj[LUAOBFUSACTOR_DECRYPT_STR_0("\205\149\132\219\252\149\148\230\252\149\153", "\182\157\231\237")] or obj:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\215\251\31\165\197\251\30\180", "\192\149\154\108"))) and (obj[LUAOBFUSACTOR_DECRYPT_STR_0("\201\235\238\45\60\36\24\201\248\245\52", "\97\153\153\135\64\93\86")] or obj:FindFirstChildWhichIsA(LUAOBFUSACTOR_DECRYPT_STR_0("\36\95\193\45\201\40\153\205", "\185\102\62\178\72\153\73\235")))[LUAOBFUSACTOR_DECRYPT_STR_0("\68\181\56\187\96\179\36\188", "\210\20\218\75")]) or (obj:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\170\252\20\118\108\24\38\156", "\84\232\157\103\19\60\121")) and obj[LUAOBFUSACTOR_DECRYPT_STR_0("\44\124\97\74\8\122\125\77", "\35\124\19\18")]);
-	if ((4802 == 4802) and not TABLE_TableIndirection["pos%0"]) then
+	if not TABLE_TableIndirection["pos%0"] then
 		return;
 	end
 	TABLE_TableIndirection["localRoot%0"] = TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\199\91\21\212\86\231\71\17\212", "\55\132\51\116\166")] and TABLE_TableIndirection["LocalPlayer%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\235\52\188\102\5\61\233\205\46", "\157\168\92\221\20\100\94")]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\224\196\248\30\20\214\127\204\227\250\16\14\233\119\218\197", "\22\168\177\149\127\122\185"));
-	if (not TABLE_TableIndirection["localRoot%0"] or ((TABLE_TableIndirection["localRoot%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\135\168\41\67\235\190\168\52", "\159\215\199\90\42")] - TABLE_TableIndirection["pos%0"])[LUAOBFUSACTOR_DECRYPT_STR_0("\31\206\201\40\250\38\218\202\35", "\147\82\175\174\70")] > ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\56\128\7\57\66\3\166\4\47\85\22\140\14\57", "\33\119\226\109\92")]) or (2280 <= 511)) then
+	if (not TABLE_TableIndirection["localRoot%0"] or ((TABLE_TableIndirection["localRoot%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\135\168\41\67\235\190\168\52", "\159\215\199\90\42")] - TABLE_TableIndirection["pos%0"])[LUAOBFUSACTOR_DECRYPT_STR_0("\31\206\201\40\250\38\218\202\35", "\147\82\175\174\70")] > ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\56\128\7\57\66\3\166\4\47\85\22\140\14\57", "\33\119\226\109\92")])) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["ObjectESP%0"][obj];
-		if (TABLE_TableIndirection["esp%0"] or (1850 == 1529)) then
+		if (((821 < 2123) and TABLE_TableIndirection["esp%0"]) or (4770 < 1735)) then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\136\131\119\246\237\191", "\155\218\230\26\153")] or (1676 <= 463)) then
+				if (((902 < 2325) and d[LUAOBFUSACTOR_DECRYPT_STR_0("\136\131\119\246\237\191", "\155\218\230\26\153")]) or (4439 <= 2350)) then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\32\27\8\202\20\30\30", "\163\118\114\123")] = false;
 				end
 			end
@@ -2315,11 +2296,11 @@ local function UpdateObjectESP(obj, label, color)
 		return;
 	end
 	local screenPos, onScreen = TABLE_TableIndirection["Camera%0"]:WorldToViewportPoint(TABLE_TableIndirection["pos%0"]);
-	if ((3869 == 3869) and (not onScreen or (screenPos['Z'] <= 0))) then
+	if ((858 <= 2962) and (not onScreen or (screenPos['Z'] <= 0))) then
 		TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["ObjectESP%0"][obj];
-		if ((1158 <= 2613) and (821 < 2123) and TABLE_TableIndirection["esp%0"]) then
+		if (TABLE_TableIndirection["esp%0"] or (3946 < 1288)) then
 			for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\208\227\253\191\163\231", "\213\130\134\144\208")] or (2364 <= 1999)) then
+				if d[LUAOBFUSACTOR_DECRYPT_STR_0("\208\227\253\191\163\231", "\213\130\134\144\208")] then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\205\53\14\61\71\117\88", "\73\155\92\125\84\37\25\61")] = false;
 				end
 			end
@@ -2329,7 +2310,7 @@ local function UpdateObjectESP(obj, label, color)
 	TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["ObjectESP%0"][obj] or {};
 	TABLE_TableIndirection["ObjectESP%0"][obj] = TABLE_TableIndirection["esp%0"];
 	TABLE_TableIndirection["boxSize%0"] = 25;
-	if ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\98\205\255\221\75\83\224\226\203", "\46\33\162\141\179")] then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\98\205\255\221\75\83\224\226\203", "\46\33\162\141\179")] or (3242 == 567) or (4479 < 4466)) then
 		local tl, tr, bl, br = GetCornerBoxLines(TABLE_TableIndirection["esp%0"]);
 		TABLE_TableIndirection["corner%0"] = TABLE_TableIndirection["boxSize%0"] * ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\127\163\191\51\45\78\159\164\39\45", "\72\60\204\205\93")];
 		TABLE_TableIndirection["trans%0"] = ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\135\203\208\186\77\60\144\214\195\186\91\62\165\214\199\186\75\55", "\78\196\164\162\212\40")];
@@ -2355,19 +2336,19 @@ local function UpdateObjectESP(obj, label, color)
 		br[LUAOBFUSACTOR_DECRYPT_STR_0("\21\10\218\31\54\47\38", "\67\67\99\169\118\84")] = true;
 	else
 		TABLE_TableIndirection["tl%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\54\6", "\214\98\74\133\47\51\214\153")];
-		if (TABLE_TableIndirection["tl%0"] or (4922 < 194)) then
+		if ((2547 > 1225) and (TABLE_TableIndirection["tl%0"] or (847 >= 1263))) then
 			TABLE_TableIndirection["tl%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\60\71\99\125\113\91\15", "\55\106\46\16\20\19")] = false;
 		end
 		TABLE_TableIndirection["tr%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\125\137", "\115\41\219\210\80\86\94")];
-		if (((902 < 2325) and TABLE_TableIndirection["tr%0"]) or (2091 < 31)) then
+		if (TABLE_TableIndirection["tr%0"] or (2253 == 1851)) then
 			TABLE_TableIndirection["tr%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\150\64\250\19\208\55\165", "\91\192\41\137\122\178")] = false;
 		end
 		TABLE_TableIndirection["bl%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\117\9", "\136\55\69\170")];
-		if (((858 <= 2962) and TABLE_TableIndirection["bl%0"]) or (2430 >= 4872)) then
+		if TABLE_TableIndirection["bl%0"] then
 			TABLE_TableIndirection["bl%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\213\244\3\51\212\255\40", "\173\131\157\112\90\182\147\77")] = false;
 		end
 		TABLE_TableIndirection["br%0"] = TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\56\36", "\103\122\118\64")];
-		if (TABLE_TableIndirection["br%0"] or (3946 < 1288) or (4770 < 1735)) then
+		if (TABLE_TableIndirection["br%0"] or (2087 > 2372)) then
 			TABLE_TableIndirection["br%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\198\225\3\205\242\177\245", "\221\144\136\112\164\144")] = false;
 		end
 	end
@@ -2384,17 +2365,18 @@ local function UpdateObjectESP(obj, label, color)
 	TABLE_TableIndirection["esp%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\153\74\45\177", "\67\221\35\94\197")][LUAOBFUSACTOR_DECRYPT_STR_0("\115\181\51\83\71\176\37", "\58\37\220\64")] = true;
 end
 TABLE_TableIndirection["RunService%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\238\137\250\8\177\190\239\152\241\28\164\169\216", "\204\188\236\148\108\212")]:Connect(function()
-	if not ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\251\210\94\241\248\23\5", "\210\190\188\63\147\148\114\97")] then
+	if ((4671 > 2674) and (not ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\251\210\94\241\248\23\5", "\210\190\188\63\147\148\114\97")] or (4445 < 4149))) then
 		for _, esp in pairs(TABLE_TableIndirection["PlayerESP%0"]) do
 			for _, d in pairs(esp) do
-				if ((d[LUAOBFUSACTOR_DECRYPT_STR_0("\131\207\182\141\19\185\195", "\113\213\166\197\228")] ~= nil) or (3242 == 567)) then
+				if ((d[LUAOBFUSACTOR_DECRYPT_STR_0("\131\207\182\141\19\185\195", "\113\213\166\197\228")] ~= nil) or (1818 == 85) or (3696 < 3327)) then
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\251\55\209\90\72\137\6", "\129\173\94\162\51\42\229\99")] = false;
 				end
 			end
 		end
 		for _, esp in pairs(TABLE_TableIndirection["ObjectESP%0"]) do
 			for _, d in pairs(esp) do
-				if ((d[LUAOBFUSACTOR_DECRYPT_STR_0("\107\61\1\56\180\81\49", "\214\61\84\114\81")] ~= nil) or (847 >= 1263) or (4439 <= 2350)) then
+				if (d[LUAOBFUSACTOR_DECRYPT_STR_0("\107\61\1\56\180\81\49", "\214\61\84\114\81")] == nil) then
+				else
 					d[LUAOBFUSACTOR_DECRYPT_STR_0("\113\234\15\76\207\218\66", "\182\39\131\124\37\173")] = false;
 				end
 			end
@@ -2404,42 +2386,42 @@ TABLE_TableIndirection["RunService%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\238\137\250
 	for _, player in ipairs(TABLE_TableIndirection["Players%2"]:GetPlayers()) do
 		pcall(UpdatePlayerESP, player);
 	end
-	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\18\24\183\4\140\71\10", "\20\90\125\218\116\201")] or (4479 < 4466)) then
+	if (((630 < 2127) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\18\24\183\4\140\71\10", "\20\90\125\218\116\201")]) or (4542 == 2970)) then
 		TABLE_TableIndirection["folder%0"] = TABLE_TableIndirection["Workspace%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\13\12\22\151", "\61\69\105\123\231\74\78"));
-		if (TABLE_TableIndirection["folder%0"] or (2253 == 1851)) then
+		if ((252 <= 1977) and TABLE_TableIndirection["folder%0"]) then
 			for _, obj in ipairs(TABLE_TableIndirection["folder%0"]:GetChildren()) do
 				UpdateObjectESP(obj, LUAOBFUSACTOR_DECRYPT_STR_0("\249\168\183\27", "\183\177\205\218\107"), TABLE_TableIndirection["Colors%0"].Hemp);
 			end
 		end
 	end
 	TABLE_TableIndirection["ores%0"] = TABLE_TableIndirection["Workspace%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\10\34\136\108", "\86\101\80\237\31\172"));
-	if ((2547 > 1225) and (TABLE_TableIndirection["ores%0"] or (2087 > 2372))) then
+	if TABLE_TableIndirection["ores%0"] then
 		for _, ore in ipairs(TABLE_TableIndirection["ores%0"]:GetChildren()) do
 			TABLE_TableIndirection["n%0"] = ore[LUAOBFUSACTOR_DECRYPT_STR_0("\125\57\163\81", "\189\51\88\206\52\26\169")]:lower();
-			if ((4671 > 2674) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\21\215\68\91\35\230\120\101", "\53\70\163\43")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\210\182\168\22\115", "\42\161\194\199\120\22\83"))) then
+			if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\21\215\68\91\35\230\120\101", "\53\70\163\43")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\210\182\168\22\115", "\42\161\194\199\120\22\83"))) then
 				UpdateObjectESP(ore, LUAOBFUSACTOR_DECRYPT_STR_0("\147\232\87\60\119", "\94\192\156\56\82\18"), TABLE_TableIndirection["Colors%0"].Stone);
-			elseif ((ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\112\190\16\76\113\40\177\109", "\226\61\219\100\45\29\109")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\247\166\52\65\246", "\32\154\195\64"))) or (4445 < 4149)) then
+			elseif ((ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\112\190\16\76\113\40\177\109", "\226\61\219\100\45\29\109")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\247\166\52\65\246", "\32\154\195\64"))) or (1938 == 2514)) then
 				UpdateObjectESP(ore, LUAOBFUSACTOR_DECRYPT_STR_0("\220\31\78\222\210", "\65\145\122\58\191\190"), TABLE_TableIndirection["Colors%0"].Metal);
-			elseif ((ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\194\2\232\127\214\227\50\215\73", "\163\145\119\132\25")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\28\20\198\192\77\29", "\56\111\97\170\166"))) or (1818 == 85)) then
+			elseif (((4255 >= 55) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\194\2\232\127\214\227\50\215\73", "\163\145\119\132\25")] and TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\28\20\198\192\77\29", "\56\111\97\170\166"))) or (1436 == 3775)) then
 				UpdateObjectESP(ore, LUAOBFUSACTOR_DECRYPT_STR_0("\184\106\138\63\58\158", "\23\235\31\230\89\79\236\141"), TABLE_TableIndirection["Colors%0"].Sulfur);
 			end
 		end
 	end
-	if (((630 < 2127) and ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\230\127\230\144\254", "\143\178\60\163\195\174\79")]) or (3696 < 3327)) then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\230\127\230\144\254", "\143\178\60\163\195\174\79")] or (1618 < 930)) then
 		TABLE_TableIndirection["builds%0"] = TABLE_TableIndirection["Workspace%0"]:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\48\18\232\203\124\18", "\85\114\103\129\167\24\97"));
-		if TABLE_TableIndirection["builds%0"] then
+		if ((2999 > 1156) and TABLE_TableIndirection["builds%0"]) then
 			for _, build in ipairs(TABLE_TableIndirection["builds%0"]:GetChildren()) do
-				if build:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\15\220\189\128\236\22\23\57\220\179\158\203", "\103\91\179\210\236\175\99")) then
+				if ((4723 > 4153) and (2350 > 1155) and build:FindFirstChild(LUAOBFUSACTOR_DECRYPT_STR_0("\15\220\189\128\236\22\23\57\220\179\158\203", "\103\91\179\210\236\175\99"))) then
 					UpdateObjectESP(build, LUAOBFUSACTOR_DECRYPT_STR_0("\109\214", "\226\57\149\50\152\48\217\192"), TABLE_TableIndirection["Colors%0"].TC);
 				end
 			end
 		end
 	end
-	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\103\190\37\190\235\70\168\3\186\254\78\137\25\158", "\155\35\204\74\206")] or (1938 == 2514)) then
+	if (ESPOptions[LUAOBFUSACTOR_DECRYPT_STR_0("\103\190\37\190\235\70\168\3\186\254\78\137\25\158", "\155\35\204\74\206")] or (3654 >= 4654)) then
 		for _, item in ipairs(TABLE_TableIndirection["Workspace%0"]:GetChildren()) do
-			if (((4255 >= 55) and (item:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\149\195\104\34\247\182\208\111", "\167\215\162\27\71")) or item:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\16\140\207\39\49", "\93\93\227\171\66"))) and (item[LUAOBFUSACTOR_DECRYPT_STR_0("\24\200\222\171\48\51", "\225\72\169\172\206\94\71\174")] == TABLE_TableIndirection["Workspace%0"])) or (4542 == 2970)) then
+			if ((item:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\149\195\104\34\247\182\208\111", "\167\215\162\27\71")) or item:IsA(LUAOBFUSACTOR_DECRYPT_STR_0("\16\140\207\39\49", "\93\93\227\171\66"))) and (item[LUAOBFUSACTOR_DECRYPT_STR_0("\24\200\222\171\48\51", "\225\72\169\172\206\94\71\174")] == TABLE_TableIndirection["Workspace%0"])) then
 				TABLE_TableIndirection["n%0"] = item[LUAOBFUSACTOR_DECRYPT_STR_0("\99\83\89\226", "\40\45\50\52\135\148\80")]:lower();
-				if ((2999 > 1156) and (TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\228\24\242", "\226\130\121\134")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\137\55\202\118\137\53", "\27\232\89\163")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\247\165\207\215\252", "\163\148\201\160")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\73\138\231\226", "\101\62\229\136\134\221")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\97\91\249\225\27", "\126\18\47\150\143")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\185\203\220\125\62", "\127\212\174\168\28\82\17")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\6\165\75\208\24\171\88\210", "\183\106\202\60")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\73\33\224\75\207", "\98\58\66\146\42\191\118")))) then
+				if ((951 <= 1496) and (TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\228\24\242", "\226\130\121\134")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\137\55\202\118\137\53", "\27\232\89\163")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\247\165\207\215\252", "\163\148\201\160")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\73\138\231\226", "\101\62\229\136\134\221")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\97\91\249\225\27", "\126\18\47\150\143")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\185\203\220\125\62", "\127\212\174\168\28\82\17")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\6\165\75\208\24\171\88\210", "\183\106\202\60")) or TABLE_TableIndirection["n%0"]:find(LUAOBFUSACTOR_DECRYPT_STR_0("\73\33\224\75\207", "\98\58\66\146\42\191\118")))) then
 					UpdateObjectESP(item, item[LUAOBFUSACTOR_DECRYPT_STR_0("\170\241\113\221", "\186\228\144\28\184\44\174")]:sub(1, 12), TABLE_TableIndirection["Colors%0"].DroppedItem);
 				end
 			end
@@ -2448,9 +2430,9 @@ TABLE_TableIndirection["RunService%0"][LUAOBFUSACTOR_DECRYPT_STR_0("\238\137\250
 end);
 TABLE_TableIndirection["Players%2"][LUAOBFUSACTOR_DECRYPT_STR_0("\54\18\27\15\3\12\40\19\11\17\12\31\8\25", "\118\102\126\122")]:Connect(function(player)
 	TABLE_TableIndirection["esp%0"] = TABLE_TableIndirection["PlayerESP%0"][player];
-	if ((252 <= 1977) and TABLE_TableIndirection["esp%0"]) then
+	if TABLE_TableIndirection["esp%0"] then
 		for _, d in pairs(TABLE_TableIndirection["esp%0"]) do
-			if ((2350 > 1155) and d[LUAOBFUSACTOR_DECRYPT_STR_0("\238\14\133\232\190\217", "\200\188\107\232\135")]) then
+			if d[LUAOBFUSACTOR_DECRYPT_STR_0("\238\14\133\232\190\217", "\200\188\107\232\135")] then
 				d:Remove();
 			end
 		end
